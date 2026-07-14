@@ -14,9 +14,7 @@ file with the lab's ttdas.py and drop the recordings into ttdas_actions/.
 """
 from __future__ import annotations
 
-from datetime import datetime
-
-_JOBS: list[tuple[datetime, str, object]] = []
+_JOBS: list[tuple[str, object]] = []
 
 
 class Driver:
@@ -38,17 +36,14 @@ driver = Driver()
 def schedule_at(timestr: str, func) -> None:
     """Register ``func`` to run at ``timestr`` (``HH:MM:SS`` today). Mirrors the
     slide-16 signature; this stub does not block -- call ``run`` to execute."""
-    run_time = datetime.strptime(timestr, '%H:%M:%S').replace(
-        year=datetime.now().year,
-        month=datetime.now().month,
-        day=datetime.now().day,
-    )
-    _JOBS.append((run_time, timestr, func))
+    _JOBS.append((timestr, func))
 
 
 def run() -> None:
-    """Execute all registered jobs in chronological order (demo: no real waiting)."""
-    for _, timestr, func in sorted(_JOBS, key=lambda j: j[0]):
+    """Execute all registered jobs in chronological order (demo: no real waiting).
+
+    ``HH:MM:SS`` strings sort lexicographically in chronological order."""
+    for timestr, func in sorted(_JOBS, key=lambda j: j[0]):
         print(f'[{timestr}] {func.__name__}')
         func()
     _JOBS.clear()

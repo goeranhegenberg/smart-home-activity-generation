@@ -19,11 +19,10 @@ from __future__ import annotations
 
 import argparse
 import csv
-import json
 import statistics
 from pathlib import Path
 
-from .io_utils import read_json, write_json
+from .io_utils import load_config, read_json, write_json, write_text
 
 
 def _mean(xs):
@@ -51,16 +50,13 @@ def collect(matrix_dir: Path) -> list[dict]:
             continue  # not a matrix-tagged run
         es = report.get('error_score', {})
         records.append({
-            'name': mpath.parent.name,
             'constellation': m['constellation'],
-            'horizon': m['horizon_days'], 'repeat': m.get('repeat'),
-            'n_days': report.get('n_days', 0),
+            'horizon': m['horizon_days'],
             'pct_valid': report.get('validity', {}).get('pct_valid'),
             'formal_total': es.get('formal_total'),
             'high_total': es.get('high_severity_total'),
             'mean_content_per_day': es.get('mean_content_per_day'),
             'verdict': es.get('acceptance', {}).get('verdict'),
-            'by_code': es.get('by_code', {}),
             'mean_jaccard': report.get('variation', {}).get('mean_jaccard'),
             'actions_per_day': report.get('actions_per_day', {}).get('mean'),
             'coverage': report.get('realism_rulebased', {}).get('device_action_coverage'),
@@ -276,7 +272,7 @@ def main() -> None:
     args = ap.parse_args()
 
     root = Path(__file__).resolve().parents[1]
-    config = json.loads((root / 'config.json').read_text(encoding='utf-8'))
+    config = load_config(root)
     matrix_dir = root / config['paths']['outputs_dir'] / args.subdir
     if not matrix_dir.exists():
         raise SystemExit(f'Matrix dir not found: {matrix_dir}')
@@ -293,7 +289,7 @@ def main() -> None:
         for g in agg:
             w.writerow(g)
     md = render_markdown(agg)
-    (matrix_dir / 'SUMMARY.md').write_text(md, encoding='utf-8')
+    write_text(matrix_dir / 'SUMMARY.md', md)
     print(f'{len(records)} runs -> {len(agg)} cells.')
     print(f'Wrote: {matrix_dir / "aggregate.json"}')
     print(f'       {matrix_dir / "aggregate.csv"}')
@@ -301,7 +297,7 @@ def main() -> None:
 
     judge_md = render_judge_markdown(records)
     if judge_md:
-        (matrix_dir / 'JUDGE_SUMMARY.md').write_text(judge_md, encoding='utf-8')
+        write_text(matrix_dir / 'JUDGE_SUMMARY.md', judge_md)
         print(f'       {matrix_dir / "JUDGE_SUMMARY.md"}')
 
     print()

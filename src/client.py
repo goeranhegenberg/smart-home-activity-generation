@@ -67,12 +67,15 @@ def call_model(
     temperature: float | None = None,
     max_tokens: int | None = None,
     cache_prefix: str | None = None,
+    fallback_plain: bool = False,
 ) -> str:
     """Single chat-completions call (OpenRouter-compatible).
 
     Pass response_format (e.g. a json_schema spec) to enforce structured output,
     and temperature (e.g. 0 for the deterministic judge) to control sampling.
     max_tokens defaults to DEFAULT_MAX_TOKENS (env OPENROUTER_MAX_TOKENS).
+    fallback_plain retries once without response_format if the provider rejects
+    the json_schema spec (downstream validation then recovers non-conformance).
 
     cache_prefix, if given, is sent as a separate leading system block marked with
     Anthropic ``cache_control`` (ephemeral). It must be byte-identical across the
@@ -80,6 +83,15 @@ def call_model(
     later call within the TTL reads it at ~0.1x. The stage-specific system_prompt
     follows it as an uncached block, so only the shared prefix is cached.
     """
+    if fallback_plain and response_format is not None:
+        try:
+            return call_model(client, model, system_prompt, user_prompt,
+                              response_format=response_format, temperature=temperature,
+                              max_tokens=max_tokens, cache_prefix=cache_prefix)
+        except Exception:
+            return call_model(client, model, system_prompt, user_prompt,
+                              temperature=temperature, max_tokens=max_tokens,
+                              cache_prefix=cache_prefix)
     if cache_prefix:
         system_content: list | str = [
             {'type': 'text', 'text': cache_prefix, 'cache_control': {'type': 'ephemeral'}},

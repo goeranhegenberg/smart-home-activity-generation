@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 import argparse
-import json
 from pathlib import Path
 
 from .client import build_client
+from .io_utils import load_config
 from .pipeline import run_pipeline
 
 
@@ -16,7 +16,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
-    config = json.loads((root / 'config.json').read_text(encoding='utf-8'))
+    config = load_config(root)
     client = build_client()
     run_name = args.run_name or f'run_{args.days}d'
     run_pipeline(

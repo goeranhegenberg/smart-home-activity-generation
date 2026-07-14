@@ -19,11 +19,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
 
 from .client import build_client, call_model
-from .io_utils import read_text, write_json
+from .context import resolve_data_dir
+from .io_utils import day_number, iter_day_dirs, load_config, read_text, write_json
 
 DEFAULT_JUDGE_MODEL = 'openai/gpt-5.4'
 
@@ -117,20 +117,13 @@ def _extract_json(text: str) -> dict:
     return json.loads(t[start:end + 1])
 
 
-def _day_number(name: str) -> int:
-    m = re.search(r'(\d+)', name)
-    return int(m.group(1)) if m else 0
-
-
 def _one_vote(client, model: str, user: str) -> dict | None:
     """One judge call (temperature 0, schema-enforced); None on parse/transport failure."""
     try:
-        raw = call_model(client, model, SYSTEM, user, response_format=JUDGE_SCHEMA, temperature=0)
-    except Exception:  # provider may reject json_schema -> retry as plain text
-        try:
-            raw = call_model(client, model, SYSTEM, user, temperature=0)
-        except Exception:
-            return None
+        raw = call_model(client, model, SYSTEM, user, response_format=JUDGE_SCHEMA,
+                         temperature=0, fallback_plain=True)
+    except Exception:
+        return None
     try:
         return _extract_json(raw)
     except (ValueError, json.JSONDecodeError):
@@ -163,8 +156,9 @@ def _aggregate(votes: list[dict]) -> dict:
             'votes': len(votes)}
 
 
-def judge_run(run_dir: Path, data_dir: Path, files: dict, model: str, votes: int = 3) -> dict:
-    client = build_client()
+def judge_run(run_dir: Path, data_dir: Path, files: dict, model: str, votes: int = 3,
+              client=None) -> dict:
+    client = client or build_client()
     environment = read_text(data_dir / files['environment'])
     residents = read_text(data_dir / files['residents'])
     rooms = read_text(data_dir / files['rooms'])
@@ -172,7 +166,7 @@ def judge_run(run_dir: Path, data_dir: Path, files: dict, model: str, votes: int
     cards_path = run_dir / 'stage1_persona_cards.txt'
     cards = read_text(cards_path) if cards_path.exists() else '(not available)'
 
-    day_dirs = sorted((d for d in run_dir.glob('day_*') if d.is_dir()), key=lambda p: _day_number(p.name))
+    day_dirs = iter_day_dirs(run_dir)
     per_day = []
     previous = 'NONE'
     total_days = len(day_dirs)
@@ -181,7 +175,7 @@ def judge_run(run_dir: Path, data_dir: Path, files: dict, model: str, votes: int
         narr_path = dd / 'stage2_narrative.txt'
         if not narr_path.exists():
             continue
-        day_num = _day_number(dd.name)
+        day_num = day_number(dd.name)
         narrative = read_text(narr_path)
         user = USER_TEMPLATE.format(
             environment=environment, residents=residents, rooms=rooms, timeframe=timeframe,
@@ -189,7 +183,7 @@ def judge_run(run_dir: Path, data_dir: Path, files: dict, model: str, votes: int
             narrative=narrative,
         )
         raw_votes = [v for v in (_one_vote(client, model, user) for _ in range(max(1, votes))) if v is not None]
-        verdict = _aggregate(raw_votes) if raw_votes else _aggregate([])
+        verdict = _aggregate(raw_votes)
         verdict['day'] = day_num
         per_day.append(verdict)
         env_ok = (verdict.get('env') or {}).get('consistent')
@@ -212,11 +206,9 @@ def main() -> None:
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
-    config = json.loads((root / 'config.json').read_text(encoding='utf-8'))
+    config = load_config(root)
     files = config['files']
-    data_dir = Path(args.data_dir) if args.data_dir else root / config['paths']['data_dir']
-    if not data_dir.is_absolute():
-        data_dir = root / data_dir
+    data_dir = resolve_data_dir(root, config, args.data_dir)
     model = args.judge_model or config.get('judge_model') or DEFAULT_JUDGE_MODEL
 
     run_dir = root / config['paths']['outputs_dir'] / args.run

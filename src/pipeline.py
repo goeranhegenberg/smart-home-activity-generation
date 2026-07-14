@@ -6,14 +6,13 @@ from pathlib import Path
 
 from .client import call_model
 from .errors import make_error
-from .io_utils import read_json, read_text, write_json, write_text
+from .io_utils import read_json, read_text, unwrap_actions, write_json, write_text
 from .prompt_loader import fill_template, load_prompt
 from .rooms import build_access
 from .validator import error_messages, extract_resident_names, parse_window, validate_actions
 
 
 WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-MAX_REPAIRS = 3
 
 
 def _dedup_continuity(actions: list[dict]) -> list[dict]:
@@ -31,17 +30,6 @@ def _dedup_continuity(actions: list[dict]) -> list[dict]:
         last[key] = val
         out.append(a)
     return out
-
-
-def _call_structured(client, model, system_prompt, user_prompt, schema, cache_prefix=None):
-    """Stage-3 call with structured output; fall back to plain text if the provider
-    rejects the json_schema response_format (the validator + self-repair then
-    recover from any non-conformance). Keeps the pipeline model-agnostic."""
-    try:
-        return call_model(client, model, system_prompt, user_prompt, response_format=schema,
-                          cache_prefix=cache_prefix)
-    except Exception:
-        return call_model(client, model, system_prompt, user_prompt, cache_prefix=cache_prefix)
 
 
 def build_shared_reference(residents, environment, devices_text, device_descriptions, rooms) -> str:
@@ -77,8 +65,7 @@ def _parse_and_validate(raw, devices, resident_names, window=None, access=None):
         data = json.loads(_strip_fences(raw))
     except json.JSONDecodeError as exc:
         return None, [make_error('INVALID_JSON', f'Invalid JSON: {exc}')]
-    # Structured output wraps the list as {"actions": [...]}; accept a bare list too.
-    actions = data['actions'] if isinstance(data, dict) and 'actions' in data else data
+    actions = unwrap_actions(data)
     return actions, validate_actions(actions, devices, resident_names, window=window, access=access)
 
 
@@ -142,22 +129,14 @@ def run_pipeline(
     window = parse_window(timeframe)
     access = build_access(rooms, residents, resident_names)
 
-    # Run-fixed context, sent once as a cached system prefix on every call.
+    # Run-fixed context, sent once as a cached system prefix on every call. The
+    # user templates deliberately carry no fixed-data placeholders -- they refer
+    # to this cached block instead, so the context is never sent twice.
     shared_reference = build_shared_reference(residents, environment, devices_text, device_descriptions, rooms)
-    max_repairs = int(config.get('max_repairs', MAX_REPAIRS))
+    max_repairs = int(config.get('max_repairs', 3))
 
     s1_system = load_prompt(prompts_dir / files['stage1_system'])
-    s1_user_template = load_prompt(prompts_dir / files['stage1_user'])
-    s1_user = fill_template(
-        s1_user_template,
-        {
-            'RESIDENTS': residents,
-            'ENVIRONMENT': environment,
-            'DEVICES': devices_text,
-            'DEVICE_DESCRIPTIONS': device_descriptions,
-            'ROOMS': rooms,
-        },
-    )
+    s1_user = load_prompt(prompts_dir / files['stage1_user'])
     current_cards = call_model(client, model, s1_system, s1_user, cache_prefix=shared_reference)
     write_text(outputs_dir / 'stage1_persona_cards.txt', current_cards)
 
@@ -181,9 +160,6 @@ def run_pipeline(
             {
                 'TIMEFRAME': timeframe,
                 'PERSONA_CARDS': current_cards,
-                'DEVICES': devices_text,
-                'DEVICE_DESCRIPTIONS': device_descriptions,
-                'ROOMS': rooms,
                 'DAY_CONTEXT': day_context,
             },
         )
@@ -192,11 +168,9 @@ def run_pipeline(
 
         # Stage 3 (structured output) + self-repair loop: re-prompt with the
         # validation errors until clean or until MAX_REPAIRS is reached.
-        s3_user = fill_template(
-            s3_user_template,
-            {'DEVICES': devices_text, 'NARRATIVE': stage2_text},
-        )
-        stage3_raw = _call_structured(client, model, s3_system, s3_user, s3_schema, cache_prefix=shared_reference)
+        s3_user = fill_template(s3_user_template, {'NARRATIVE': stage2_text})
+        stage3_raw = call_model(client, model, s3_system, s3_user, response_format=s3_schema,
+                                cache_prefix=shared_reference, fallback_plain=True)
         write_text(day_dir / 'stage3_raw.json', stage3_raw)
         actions, errors = _parse_and_validate(stage3_raw, devices, resident_names, window, access)
 
@@ -206,13 +180,13 @@ def run_pipeline(
             repair_user = fill_template(
                 s3_repair_template,
                 {
-                    'DEVICES': devices_text,
                     'NARRATIVE': stage2_text,
                     'PREVIOUS_JSON': stage3_raw,
                     'ERRORS': '\n'.join(error_messages(errors)) if errors else 'Output was not valid JSON.',
                 },
             )
-            stage3_raw = _call_structured(client, model, s3_system, repair_user, s3_schema, cache_prefix=shared_reference)
+            stage3_raw = call_model(client, model, s3_system, repair_user, response_format=s3_schema,
+                                    cache_prefix=shared_reference, fallback_plain=True)
             write_text(day_dir / f'stage3_repair_{repairs}.json', stage3_raw)
             actions, errors = _parse_and_validate(stage3_raw, devices, resident_names, window, access)
 
@@ -223,16 +197,21 @@ def run_pipeline(
 
         # Final safety net: if continuity re-assertions survived repair, drop the
         # provably-redundant rows deterministically and re-validate.
+        deduped = False
         if errors and any(e['code'] == 'CONTINUITY' for e in errors):
             actions = _dedup_continuity(actions)
             errors = validate_actions(actions, devices, resident_names, window=window, access=access)
             suffix += ' [continuity auto-deduped]'
+            deduped = True
 
         write_json(day_dir / 'stage3_actions.json', actions)
         write_text(
             day_dir / 'stage3_validation.txt',
             ('\n'.join(error_messages(errors)) if errors else 'Validation passed.') + suffix,
         )
+        # Machine-readable day facts; the evaluator reads these instead of scraping
+        # the human-facing validation prose (which stays a legacy fallback).
+        write_json(day_dir / 'day_meta.json', {'repairs': repairs, 'continuity_deduped': deduped})
 
         s4_user = fill_template(
             s4_user_template,

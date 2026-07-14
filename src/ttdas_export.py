@@ -27,10 +27,10 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 from pathlib import Path
 
-from .io_utils import read_json, write_text
+from .context import resolve_data_dir
+from .io_utils import load_config, read_json, unwrap_actions, write_text
 from .validator import parse_window, validate_actions, error_messages
 
 
@@ -41,8 +41,7 @@ def _load_actions(path: Path) -> list[dict]:
         if not cand.exists():
             cand = path / 'day_01' / 'stage3_actions.json'
         path = cand
-    data = read_json(path)
-    return data['actions'] if isinstance(data, dict) and 'actions' in data else data
+    return unwrap_actions(read_json(path))
 
 
 def _minute(ts: str) -> int | None:
@@ -52,17 +51,13 @@ def _minute(ts: str) -> int | None:
     return None
 
 
-def _func_name(action: str, rec: str) -> str:
-    return f'{action}_{rec}'
-
-
 def build_script(actions: list[dict], device_map: dict, rel_to_root: str,
                  source: str, map_path: str, strict: bool) -> tuple[str, dict]:
     """Return (script_text, stats). Raises ValueError on unmapped device when strict."""
     # chronological order; stable for equal timestamps
     ordered = sorted(
         [a for a in actions if _minute(a.get('timestamp', '')) is not None],
-        key=lambda a: (_minute(a['timestamp']),),
+        key=lambda a: _minute(a['timestamp']),
     )
 
     funcs: dict[str, tuple[str, str]] = {}   # func_name -> (app, recording)
@@ -85,7 +80,7 @@ def build_script(actions: list[dict], device_map: dict, rel_to_root: str,
         if not rec:
             skipped.append(f"{ts} {device}.{action}: no click recording (skipped)")
             continue
-        name = _func_name(action, rec)
+        name = f'{action}_{rec}'
         funcs.setdefault(name, (entry['app'], rec))
         mod = _minute(ts)
         idx = sec_counter.get(mod, 0)
@@ -131,8 +126,7 @@ def build_script(actions: list[dict], device_map: dict, rel_to_root: str,
     lines.append('    run()')
     lines.append('')
 
-    stats = {'scheduled': len(scheduled), 'skipped': len(skipped),
-             'funcs': len(funcs), 'skipped_detail': skipped}
+    stats = {'scheduled': len(scheduled), 'skipped': len(skipped), 'funcs': len(funcs)}
     return '\n'.join(lines), stats
 
 
@@ -148,11 +142,9 @@ def main() -> None:
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
-    config = json.loads((root / 'config.json').read_text(encoding='utf-8'))
+    config = load_config(root)
     files = config['files']
-    data_dir = Path(args.data_dir) if args.data_dir else root / config['paths']['data_dir']
-    if not data_dir.is_absolute():
-        data_dir = root / data_dir
+    data_dir = resolve_data_dir(root, config, args.data_dir)
     map_path = Path(args.map_path) if args.map_path else root / 'data' / 'ttdas_device_map.json'
     if not map_path.is_absolute():
         map_path = root / map_path

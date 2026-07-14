@@ -61,10 +61,6 @@ def severity_of(code: str) -> str:
     return CODES.get(code, ('mittel', code))[0]
 
 
-def label_of(code: str) -> str:
-    return CODES.get(code, ('mittel', code))[1]
-
-
 def make_error(code: str, detail: str = '', day: int | None = None, weight: int | None = None) -> dict:
     """Build a normalized error record.
 

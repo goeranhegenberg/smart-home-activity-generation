@@ -332,5 +332,11 @@
       "n_active_events": 0,
       "card_len": 3181
     }
-  ]
+  ],
+  "matrix": {
+    "constellation": "fullday",
+    "horizon_days": 7,
+    "repeat": 1,
+    "judged": true
+  }
 }

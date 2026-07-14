@@ -17,15 +17,14 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import re
 import statistics
 from pathlib import Path
 
-from .errors import SEVERITY_WEIGHT, make_error, summarize_errors
-from .io_utils import read_json, read_text, write_json
-from .rooms import build_access
-from .validator import extract_resident_names, parse_window, validate_actions
+from .context import load_context, resolve_data_dir
+from .errors import DEFAULT_THRESHOLDS, SEVERITY_WEIGHT, make_error, summarize_errors
+from .io_utils import day_number, iter_day_dirs, load_config, read_json, read_text, write_json
+from .validator import validate_actions
 
 VARIATION_JACCARD_THRESHOLD = 0.95  # >= this between consecutive days => "nearly identical"
 ACCUMULATION_MIN_STREAK = 3         # a device on for >= this many consecutive days
@@ -74,20 +73,13 @@ def parse_sections(card_text: str) -> tuple[dict[str, str], list[str], int]:
     return world, events, body_len
 
 
-def allowed_pairs(devices: list[dict]) -> tuple[set, set]:
-    pairs, triples = set(), set()
+def allowed_pairs(devices: list[dict]) -> set:
+    pairs = set()
     for d in devices:
         name = d.get('device')
-        for action, values in (d.get('allowed_values') or {}).items():
+        for action in (d.get('allowed_values') or {}):
             pairs.add((name, action))
-            for v in values:
-                triples.add((name, action, str(v)))
-    return pairs, triples
-
-
-def _day_number(name: str) -> int:
-    m = re.search(r'(\d+)', name)
-    return int(m.group(1)) if m else 0
+    return pairs
 
 
 def _is_on(state: str) -> bool:
@@ -207,8 +199,8 @@ def evaluate_run(
     resident_names: list[str] | None = None,
     thresholds: dict | None = None,
 ) -> dict:
-    a_pairs, _ = allowed_pairs(devices)
-    day_dirs = sorted((d for d in run_dir.glob('day_*') if d.is_dir()), key=lambda p: _day_number(p.name))
+    a_pairs = allowed_pairs(devices)
+    day_dirs = iter_day_dirs(run_dir)
 
     days = []
     used_pairs_all: set = set()
@@ -220,15 +212,19 @@ def evaluate_run(
         if not actions_path.exists():
             continue
         actions = read_json(actions_path)
-        day_num = _day_number(dd.name)
-        validation = read_text(dd / 'stage3_validation.txt') if (dd / 'stage3_validation.txt').exists() else ''
+        day_num = day_number(dd.name)
         cards = read_text(dd / 'stage4_persona_cards.txt') if (dd / 'stage4_persona_cards.txt').exists() else ''
         world, events, card_len = parse_sections(cards)
 
-        repairs = 0
-        m = re.search(r'after (\d+) repair', validation)
-        if m:
-            repairs = int(m.group(1))
+        # Repair count: day_meta.json is the machine-readable source; scraping the
+        # validation prose remains as fallback for runs generated before it existed.
+        meta_path = dd / 'day_meta.json'
+        if meta_path.exists():
+            repairs = int((read_json(meta_path) or {}).get('repairs') or 0)
+        else:
+            validation = read_text(dd / 'stage3_validation.txt') if (dd / 'stage3_validation.txt').exists() else ''
+            m = re.search(r'after (\d+) repair', validation)
+            repairs = int(m.group(1)) if m else 0
 
         # Re-validation against the full (extended) rule set is the authoritative
         # pass/fail signal; the prose 'Validation passed' string is only advisory.
@@ -295,7 +291,8 @@ def evaluate_run(
     # --- per-day quality curve (D3: Fehler-/Drift-Entwicklung über die Tage) and
     # breakpoint (D5: ab welchem Tag bricht die Qualität ein) ---
     es_per_day = error_score.get('per_day', {})
-    max_content_day_th = error_score.get('thresholds', {}).get('max_content_per_day', 2)
+    max_content_day_th = error_score.get('thresholds', {}).get(
+        'max_content_per_day', DEFAULT_THRESHOLDS['max_content_per_day'])
     sim_by_later = {days[i + 1]['day_num']: round(s, 3) for i, s in enumerate(sims)}
     quality_curve = []
     cum_content = 0
@@ -410,28 +407,24 @@ def main() -> None:
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
-    config = json.loads((root / 'config.json').read_text(encoding='utf-8'))
-    files = config['files']
-    data_dir = Path(args.data_dir) if args.data_dir else root / config['paths']['data_dir']
-    if not data_dir.is_absolute():
-        data_dir = root / data_dir
-
-    devices = read_json(data_dir / files['devices'])
-    residents = read_text(data_dir / files['residents'])
-    rooms = read_text(data_dir / files['rooms'])
-    timeframe = read_text(data_dir / files['timeframe'])
-    resident_names = extract_resident_names(residents)
-    window = parse_window(timeframe)
-    access = build_access(rooms, residents, resident_names)
+    config = load_config(root)
+    ctx = load_context(resolve_data_dir(root, config, args.data_dir), config['files'])
     thresholds = config.get('acceptance')
 
     run_dir = root / config['paths']['outputs_dir'] / args.run
     if not run_dir.exists():
         raise SystemExit(f'Run not found: {run_dir}')
 
-    report = evaluate_run(run_dir, devices, window=window, access=access,
-                          resident_names=resident_names, thresholds=thresholds)
-    write_json(run_dir / 'metrics.json', report)
+    report = evaluate_run(run_dir, ctx['devices'], window=ctx['window'], access=ctx['access'],
+                          resident_names=ctx['resident_names'], thresholds=thresholds)
+    # Preserve the matrix tag of a run_matrix.py cell: a manual re-evaluation must
+    # not silently untag it, or the aggregate would drop the run.
+    metrics_path = run_dir / 'metrics.json'
+    if metrics_path.exists():
+        old_tag = (read_json(metrics_path) or {}).get('matrix')
+        if old_tag:
+            report['matrix'] = old_tag
+    write_json(metrics_path, report)
     _print_summary(report)
     print(f'\nMetrics written to: {run_dir / "metrics.json"}')
 

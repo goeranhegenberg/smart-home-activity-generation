@@ -28,18 +28,16 @@ Usage
 from __future__ import annotations
 
 import argparse
-import json
 import time
 import traceback
 from pathlib import Path
 
 from src.client import USAGE, build_client, reset_usage
+from src.context import load_context
 from src.evaluate import evaluate_run
-from src.io_utils import read_json, read_text, write_json
+from src.io_utils import load_config, write_json
 from src.judge import judge_run
 from src.pipeline import run_pipeline
-from src.rooms import build_access
-from src.validator import extract_resident_names, parse_window
 
 # label -> data dir name
 CONSTELLATIONS = {
@@ -50,21 +48,17 @@ CONSTELLATIONS = {
 }
 
 
-def load_constellation(root: Path, files: dict, data_name: str) -> dict:
-    """Read the per-constellation context needed to evaluate a run."""
-    data_dir = root / data_name
-    devices = read_json(data_dir / files['devices'])
-    residents = read_text(data_dir / files['residents'])
-    rooms = read_text(data_dir / files['rooms'])
-    timeframe = read_text(data_dir / files['timeframe'])
-    resident_names = extract_resident_names(residents)
-    return {
-        'data_dir': data_dir,
-        'devices': devices,
-        'window': parse_window(timeframe),
-        'access': build_access(rooms, residents, resident_names),
-        'resident_names': resident_names,
+def score_run(run_dir: Path, const: dict, spec: dict, judged: bool, thresholds: dict | None) -> dict:
+    """Evaluate a generated cell and write its matrix-tagged metrics.json."""
+    report = evaluate_run(
+        run_dir, const['devices'], window=const['window'], access=const['access'],
+        resident_names=const['resident_names'], thresholds=thresholds)
+    report['matrix'] = {
+        'constellation': spec['constellation'], 'horizon_days': spec['horizon'],
+        'repeat': spec['repeat'], 'judged': judged,
     }
+    write_json(run_dir / 'metrics.json', report)
+    return report
 
 
 def make_blocks(plan: str, k: int) -> list[dict]:
@@ -84,20 +78,15 @@ def make_blocks(plan: str, k: int) -> list[dict]:
 
 
 def expand(blocks: list[dict]) -> list[dict]:
-    """Expand blocks into a flat, de-duplicated list of run specs."""
+    """Expand blocks into a flat list of run specs (block grids are disjoint)."""
     runs: list[dict] = []
-    seen: set[str] = set()
     for b in blocks:
         for const in b['constellations']:
             for h in b['horizons']:
                 for r in range(1, b['repeats'] + 1):
                     # 'champ_' prefix kept for continuity with the existing run dirs.
-                    name = f'champ_{const}_h{h}_r{r}'
-                    if name in seen:
-                        continue
-                    seen.add(name)
-                    runs.append({'name': name, 'constellation': const,
-                                 'horizon': h, 'repeat': r})
+                    runs.append({'name': f'champ_{const}_h{h}_r{r}',
+                                 'constellation': const, 'horizon': h, 'repeat': r})
     return runs
 
 
@@ -129,7 +118,7 @@ def main() -> None:
     args = ap.parse_args()
 
     root = Path(__file__).resolve().parent
-    config = json.loads((root / 'config.json').read_text(encoding='utf-8'))
+    config = load_config(root)
     files = config['files']
     model = config['model']
     judge_model = config.get('judge_model')
@@ -190,20 +179,13 @@ def main() -> None:
                 done += 1
                 continue
             const = const_cache.setdefault(
-                r['constellation'], load_constellation(root, files, CONSTELLATIONS[r['constellation']]))
+                r['constellation'], load_context(root / CONSTELLATIONS[r['constellation']], files))
             rt0 = time.time()
             try:
                 judge_result = judge_run(run_dir, const['data_dir'], files, judge_model,
-                                         votes=args.judge_votes)
+                                         votes=args.judge_votes, client=client)
                 write_json(judge_path, judge_result)
-                report = evaluate_run(
-                    run_dir, const['devices'], window=const['window'], access=const['access'],
-                    resident_names=const['resident_names'], thresholds=thresholds)
-                report['matrix'] = {
-                    'constellation': r['constellation'], 'horizon_days': r['horizon'],
-                    'repeat': r['repeat'], 'judged': True,
-                }
-                write_json(metrics_path, report)
+                report = score_run(run_dir, const, r, judged=True, thresholds=thresholds)
                 acc = report['error_score']['acceptance']
                 print(f"{tag}: judged ({time.time() - rt0:.0f}s) verdict {acc['verdict']}")
                 done += 1
@@ -219,8 +201,7 @@ def main() -> None:
             continue
 
         const = const_cache.setdefault(
-            r['constellation'], load_constellation(root, files, CONSTELLATIONS[r['constellation']]))
-        data_name = CONSTELLATIONS[r['constellation']]
+            r['constellation'], load_context(root / CONSTELLATIONS[r['constellation']], files))
 
         rt0 = time.time()
         status = 'ok'
@@ -229,21 +210,14 @@ def main() -> None:
             run_pipeline(
                 client=client, project_root=root, config=config,
                 days=r['horizon'], run_name=run_name,
-                data_dir=root / data_name,
+                data_dir=const['data_dir'],
             )
             if args.judge and judge_model:
                 judge_result = judge_run(run_dir, const['data_dir'], files, judge_model,
-                                         votes=args.judge_votes)
+                                         votes=args.judge_votes, client=client)
                 write_json(run_dir / 'judge.json', judge_result)
 
-            report = evaluate_run(
-                run_dir, const['devices'], window=const['window'], access=const['access'],
-                resident_names=const['resident_names'], thresholds=thresholds)
-            report['matrix'] = {
-                'constellation': r['constellation'], 'horizon_days': r['horizon'],
-                'repeat': r['repeat'], 'judged': bool(args.judge),
-            }
-            write_json(metrics_path, report)
+            report = score_run(run_dir, const, r, judged=bool(args.judge), thresholds=thresholds)
             acc = report['error_score']['acceptance']
             v = report['validity']
             print(f"{tag}: {status} ({time.time() - rt0:.0f}s) "
