@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "06:37",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Wake up in the dark cold bedroom"
+  },
+  {
+    "timestamp": "06:37",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Full light to get dressed and shake off grogginess"
+  },
+  {
+    "timestamp": "06:37",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool light to wake up alert"
+  },
+  {
+    "timestamp": "06:41",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Start warming the living area before breakfast"
+  },
+  {
+    "timestamp": "06:49",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leave bedroom dark and empty after dressing"
+  },
+  {
+    "timestamp": "06:52",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "General illumination for the dark living area"
+  },
+  {
+    "timestamp": "06:52",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong light since sunrise is late"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Cozy lighting for breakfast nook"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim ambient light for the reading corner"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm cozy light for breakfast"
+  },
+  {
+    "timestamp": "07:03",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Brew coffee"
+  },
+  {
+    "timestamp": "07:07",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee is ready, cut power"
+  },
+  {
+    "timestamp": "07:39",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Dawn light arriving, no need for main light"
+  },
+  {
+    "timestamp": "07:53",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "No point heating an empty flat before commute"
+  },
+  {
+    "timestamp": "07:56",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turn off reading lamp before leaving"
+  }
+]

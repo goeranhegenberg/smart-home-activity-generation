@@ -1,0 +1,35 @@
+At 06:02, Bob wakes in the dark bedroom and switches on the `aidot_lamp`, setting its brightness to low and its light_temp to warm so the dim, cozy glow does not disturb Alice, who is still sleeping.
+
+At 06:09, having pulled on his clothes, Bob switches the `aidot_lamp` off again to leave the bedroom dark for Alice, and steps out.
+
+At 06:13, Bob walks into the kitchen and turns the `tapo_socket` on, starting the kettle and coffee machine for his early breakfast.
+
+At 06:18, while the coffee brews, Bob crosses into the living area and switches the `shelly_relais` on so the radiator can start warming the chilly room well ahead of the family's morning.
+
+At 06:21, he turns the `tuya_lamp` on at low brightness, giving himself just enough light to eat by without flooding the open-plan space.
+
+At 06:33, Bob finishes his coffee and toast.
+
+At 06:47, Bob goes into Charlie's room and switches the `tapo_lamp` on, keeping it warm and low at first to wake Charlie gently in the dark.
+
+At 06:52, with Charlie stirring, Bob raises the `tapo_lamp` brightness to high so Charlie can see to climb out of bed.
+
+At 07:04, Alice wakes in the bedroom and turns the `aidot_lamp` on, choosing low brightness and warm light to ease into the morning.
+
+At 07:13, now more awake, Alice raises the `aidot_lamp` to high so she can dress properly.
+
+At 07:16, Charlie and Bob settle in the living area for breakfast together; Bob brings up the `tuya_lamp` brightness to high so they can eat in good light.
+
+At 07:24, Alice finishes dressing and switches the bedroom `aidot_lamp` off, leaving the room dark and empty as she heads out.
+
+At 07:31, Alice joins the others briefly, then goes with Charlie into his room to help him get dressed; the `tapo_lamp` is already on high, which suits the task.
+
+At 07:48, Charlie is dressed; Alice and Charlie leave his room and Alice switches the `tapo_lamp` off behind them, leaving the empty room dark.
+
+At 08:09, Bob clears away the breakfast things and switches the kitchen `tapo_socket` off, cutting power to the kettle and coffee machine now that breakfast is done.
+
+At 08:28, Bob and Charlie head into the hallway to leave for the commute and school drop-off. The living area `tuya_lamp` stays on high because Alice remains there, and the `shelly_relais` radiator stays on to keep the room warm for her workday.
+
+At 08:33, with the apartment quieter, Alice begins her indoor exercise in the warmed living area, leaving the `tuya_lamp` on for visibility.
+
+At 08:52, Alice settles at her desk to start work, keeping the `tuya_lamp` on high for bright, clear task light and leaving the `shelly_relais` running to hold the room at a comfortable winter temperature.

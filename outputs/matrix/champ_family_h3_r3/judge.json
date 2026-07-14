@@ -1,0 +1,45 @@
+{
+  "run": "champ_family_h3_r3",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "The narrative says the living-area `tuya_lamp` is 'already on at high brightness from the night before' at 06:13, but the previous day explicitly left it on for Alice and there is no event in the allowed 06:00–09:00 simulation window that could account for it still being on overnight into the next morning."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Bob finding the living-area `tuya_lamp` already on from the night before is a changed carry-over state from the previous day with no in-narrative explanation."
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 3
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "run": "champ_fullday_h7_r1",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "At 18:23 Lena 'raises the kitchen_lamp to high' even though the kitchen_lamp was last turned off at 18:03 and not turned on again beforehand.",
+          "Tom and Mia are both described as using the bathroom at overlapping times (Tom 06:57-07:05, Mia 07:14-07:22 is fine), but Mia is said to return from school at 15:30 with no hallway_lamp use despite the room map requiring passing through the hallway/entrance; however this is not a contradiction because device use is optional, so no clear environment violation should be inferred."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

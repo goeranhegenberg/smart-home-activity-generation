@@ -1,0 +1,35 @@
+At 06:02 Bob wakes in the dark bedroom and switches the bedside `aidot_lamp` on at low brightness with a warm light temperature, just enough to find his clothes without waking Alice.
+
+At 06:09 Bob finishes dressing and switches the bedroom `aidot_lamp` off, leaving Alice to sleep on in the dark.
+
+At 06:14 Bob steps into the kitchen and powers the `tapo_socket` on to start the kettle and coffee machine for his morning coffee.
+
+At 06:18 he turns the living area `tuya_lamp` on at low brightness, a gentle level for the still-dark room.
+
+At 06:21 Bob switches the `shelly_relais` on to start the living-area radiator, knowing the flat needs a good while to warm against the winter chill.
+
+At 06:33 Bob sits with his coffee and a quick breakfast in the warming living area.
+
+At 06:47 he goes into Charlie's room and turns the `tapo_lamp` on at low brightness, warm temperature, to wake the boy gently.
+
+At 06:53 once Charlie is stirring, Bob raises the `tapo_lamp` to high brightness so Charlie can see to climb out of bed.
+
+At 07:04 Alice wakes and switches the bedroom `aidot_lamp` on at low brightness, warm, to ease into the morning.
+
+At 07:12 Alice raises the bedroom `aidot_lamp` to high brightness to dress for the day.
+
+At 07:16 Bob and Charlie settle at the kitchen-living table for breakfast together; Bob raises the `tuya_lamp` to high brightness for the meal.
+
+At 07:23 Alice finishes dressing and switches the bedroom `aidot_lamp` off as she leaves the empty bedroom.
+
+At 07:41 Bob, done with breakfast, switches the kitchen `tapo_socket` off to cut power to the kettle and coffee machine.
+
+At 07:52 Alice takes Charlie into his room to help him get dressed; the `tapo_lamp` is already on at high brightness for the task.
+
+At 08:11 with Charlie dressed, Alice switches Charlie's `tapo_lamp` off as they leave the room empty.
+
+At 08:29 Bob and Charlie head out through the hallway for the commute and school drop-off.
+
+At 08:34 Alice does a short indoor exercise session in the warm living area, the `tuya_lamp` staying on at high brightness.
+
+At 08:58 Alice settles at her desk to start work, leaving the `tuya_lamp` on at high brightness for clear desk light and the `shelly_relais` radiator running to keep the living area warm through her morning.

@@ -1,0 +1,47 @@
+# Persona Memory Card — Nils
+
+**Role:** Graduate student, works from home (no commute), shares the flat with Jana.
+
+**Daily Schedule (morning):**
+- Wakes around 07:30, no rush.
+- Eases into the day with coffee.
+- Studies at his desk later in the morning.
+
+**Smart-Home Habits:**
+- Operates all devices himself.
+- On waking, turns on the `aidot_lamp` in his room — starts dim/warm to ease into the morning.
+- Switches the `aidot_lamp` to brighter, cooler light when settling in to study at his desk.
+- Uses the kitchen `tapo_socket` to power the coffee machine/kettle for his morning coffee; switches it off when done.
+- May turn on the `shelly_relais` radiator in the shared living area to take the chill off on grey mornings.
+
+**Preferences:**
+- Warm, low light for the slow start; cool, high brightness for focused study.
+- Mild October mornings need only light heating — radiator on briefly, off once comfortable.
+- Relaxed, gradual morning routine.
+
+---
+
+# Persona Memory Card — Jana
+
+**Role:** Freelance designer, works from home, shares the flat with Nils.
+
+**Daily Schedule (morning):**
+- Wakes around 08:00, flexible start.
+- Makes breakfast.
+- Begins client work mid-morning.
+
+**Smart-Home Habits:**
+- Operates all devices herself.
+- On waking, turns on the `tapo_lamp` in her room to light up and wake.
+- Uses the kitchen `tapo_socket` for coffee/breakfast appliance; turns it off when finished.
+- Turns on the shared-area `tuya_lamp` when moving through the living area for breakfast.
+- May adjust or switch off the `shelly_relais` radiator once the living area feels comfortable.
+
+**Preferences:**
+- Bright light to wake up and for design work clarity.
+- Comfortable but not overheated shared space — mindful of the mild October weather.
+- Loosely overlapping routine with Nils; shares kitchen and living-area devices cooperatively.
+
+---
+
+*Note: Devices are room-bound — each resident controls only the devices in the room they currently occupy (or pass through). Shared devices (`tuya_lamp`, `shelly_relais`, `tapo_socket`) are used cooperatively.*

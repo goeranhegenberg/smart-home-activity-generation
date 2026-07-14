@@ -1,0 +1,19 @@
+At 07:33, Nils stirs awake in his room. Reaching over, he turns on the `aidot_lamp` to status on, brightness low, light_temp warm, letting the soft orange glow ease him into the grey morning rather than jolting him awake.
+
+He lingers in bed for a few minutes, then gets up and pulls on something comfortable. At 07:49, on his way out, he leaves the `aidot_lamp` on at low warm — he plans to come back and study at the desk shortly, so the room stays lit.
+
+At 07:52, passing into the shared living area, Nils flips on the `tuya_lamp` to status on, brightness low, giving the common room a gentle ambient light. The room carries a chill on this damp October morning, so at 07:54 he switches the `shelly_relais` to status on to let the radiator take the edge off.
+
+Continuing into the kitchen, at 07:58 he powers the `tapo_socket` to status on to start his coffee. He waits while the machine brews, and at 08:02 he switches the `tapo_socket` back to status off once his cup is filled.
+
+Meanwhile, Jana wakes a little after eight. At 08:09, still in bed, she turns on the `tapo_lamp` to status on, brightness low, light_temp warm. She lies under the warm light a while, then at 08:21 raises the `tapo_lamp` to brightness high to properly get going as she gets dressed.
+
+At 08:34, ready to start her day, Jana leaves her room and switches the `tapo_lamp` to status off behind her, the room now empty.
+
+She heads to the kitchen, and at 08:38 she switches the `tapo_socket` to status on to boil the kettle for tea with her breakfast. At 08:43 she switches the `tapo_socket` back to status off once the kettle is done.
+
+By now the living area has warmed up nicely from the radiator and the mild day. At 08:47, settling in with her breakfast, Jana switches the `shelly_relais` to status off — the room feels comfortable enough and there is no need to keep heating.
+
+Coffee in hand, Nils returns to his room to begin studying. At 08:58, sitting down at his desk, he switches the `aidot_lamp` to brightness high, light_temp cool to give himself the bright, alert light he prefers for focused work.
+
+The `tuya_lamp` in the shared living area remains on at low brightness, where Jana is having her relaxed breakfast.

@@ -1,0 +1,96 @@
+{
+  "run": "champ_family_h7_r2",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "Alice starts working at 08:33, whereas the fixed schedule says she starts working at 08:30.",
+          "The narrative gives the `aidot_lamp` and `tapo_lamp` color-temperature changes ('warm light temperature', 'cool temperature'), but the fixed context only specifies brightness control for `tuya_lamp` and does not establish color-temperature capability for these lamps."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Bob turns the bedroom lamp off at 06:12 instead of leaving it on for Alice as on the previous day, and no in-narrative reason is given for that routine change."
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "The narrative introduces unexplained carry-over states from the night before (the living-area lamp already on high and radiator already running) instead of the previously established morning routine where Bob switches these on himself."
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "The narrative says 'It being Saturday, there is no school run and no office commute,' but the fixed context defines the simulation residents and schedules as a weekday morning where Bob leaves for his commute by 08:30 and drops Charlie at school on the way."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

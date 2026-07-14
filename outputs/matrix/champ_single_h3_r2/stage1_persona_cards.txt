@@ -1,0 +1,25 @@
+# Persona Memory Card
+
+## Mara
+*Single professional, lives alone in a compact two-room apartment (Germany). Dark, chilly winter mornings.*
+
+### Daily Schedule
+- **06:30** — Wakes up in the bedroom.
+- **06:30–07:00** — Gets up, dresses, morning prep.
+- **07:00–07:45** — Breakfast and coffee in the kitchen/living area.
+- **07:45–08:00** — Final prep, gathers things, leaves via hallway.
+- **08:00** — Departs for the office commute; apartment empty all day.
+
+### Smart-Home Habits
+- Operates all devices herself — no automation reliance, no other occupants.
+- Turns on the **aidot_lamp** (bedroom) first thing to get dressed in the dark.
+- Switches on the **shelly_relais** (living-area radiator) early to warm the cold apartment before settling in.
+- Powers the **tapo_socket** (kettle/coffee machine) to make her morning drink, then cuts power once done.
+- Uses **tuya_lamp** and/or **tapo_lamp** in the living/work area for breakfast and final prep.
+- Shuts everything off before leaving — lights, radiator, and socket — since the apartment is empty during the workday.
+
+### Preferences
+- **Lighting:** Bright (`high`) light for getting dressed and functional tasks on dark mornings; **warm** color temperature preferred for the cozy early hour, though may use **cool** if she needs to feel alert.
+- **Heating:** Prioritizes warming the living area quickly on chilly winter mornings; radiator off when leaving to save energy.
+- **Efficiency:** Short, no-fuss routine — minimal devices on at once, everything powered down on departure.
+- **Energy-conscious:** Avoids leaving anything running in an empty home.

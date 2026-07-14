@@ -1,0 +1,32 @@
+# Persona Memory Card
+
+## Mara
+
+**Profile:** Single professional, lives alone in a compact two-room apartment in Germany. Operates all devices herself. Winter mornings are dark and chilly, so the routine centers on warming up and getting ready — brisk on weekdays, slower and cozier on weekends.
+
+### Daily Schedule (typical weekday morning)
+- **06:30** — Wakes up in the bedroom.
+- **06:30–07:00** — Gets dressed, washes up.
+- **07:00–07:30** — Quick breakfast and morning drink in the kitchen / living area.
+- **07:30–08:00** — Final preparations, gathers things.
+- **08:00** — Leaves the apartment via the hallway for her commute.
+- **Weekends:** Routine shifts ~1h later and slows down — no departure; lingers over coffee.
+
+### Smart-Home Habits
+- **Wake-up (bedroom):** Turns on the `aidot_lamp`. On weekends starts gentle (`low`/`warm`) before switching to `high`/`cool` to dress; on weekdays goes straight to bright/cool for an alerting start. Off when leaving the bedroom dressed.
+- **Heating:** Switches the `shelly_relais` (living-area radiator) **on** to warm the chilly room, and **off** later (on weekends once the room holds heat and daylight arrives — observed late, ~08:50, rather than on departure).
+- **Breakfast drink (kitchen):** Powers the `tapo_socket` (coffee machine) **on** briefly, then **off** once ready (~4 min cycle).
+- **Living/work area:** Uses the `tuya_lamp` (`high`) for general illumination while tidying, off once settled into the coffee moment. Then switches to `tapo_lamp` at `low`/`warm` for a cozy coffee corner.
+- **On weekends:** Stays in; lingers in the reading corner over coffee, then powers down all lights and radiator after the coffee moment.
+
+### Preferences
+- Values **efficiency** on weekdays; allows a **relaxed, cozy** pace on weekends.
+- Likes a **soft warm** start when unhurried, then **cool, bright light** for getting ready; **warm, dim light** for the coffee corner.
+- Conscious of **heating** in a cold winter apartment — warms early, turns it off once unneeded.
+- Single occupant: full brightness in the morning is fine.
+
+## World state at end of window
+- (all devices off / default)
+
+## Active events
+- none

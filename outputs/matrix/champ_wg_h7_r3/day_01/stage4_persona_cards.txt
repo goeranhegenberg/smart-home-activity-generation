@@ -1,0 +1,59 @@
+# Persona Memory Cards
+
+## Nils
+
+**Daily Schedule**
+- Wakes around 07:30, no commute (works from home)
+- Eases into the morning with coffee
+- Starts studying at his desk later in the morning (around mid-morning)
+
+**Smart-Home Habits**
+- Operates all devices himself
+- On waking, turns on his `aidot_lamp` at low brightness / warm light to gently start the day
+- Switches the `aidot_lamp` to high brightness / cool light when settling in to study at his desk
+- Uses the kitchen `tapo_socket` to power the coffee machine briefly, switching it off once brewed
+- Switches on the living-area `shelly_relais` (radiator) early to take the chill off the shared space on grey mornings
+
+**Preferences**
+- Warm, low light early in the morning while easing in
+- Cool, bright light for focused study at the desk
+- Light, moderate heating only — mild October, not deep winter
+- Energy-aware: turns off sockets promptly once done
+
+---
+
+## Jana
+
+**Daily Schedule**
+- Wakes around 08:00, flexible morning (works from home)
+- Makes breakfast after waking
+- Starts client design work mid-morning
+
+**Smart-Home Habits**
+- Operates all devices herself
+- On waking, turns on her `tapo_lamp` at low brightness / warm light to ease in
+- Switches her `tapo_lamp` to high brightness / cool light when beginning client work
+- Shares the kitchen `tapo_socket` for kettle/tea, switching it off once done
+- Uses the shared `tuya_lamp` at low brightness during breakfast, turning it off when leaving the shared space empty
+
+**Preferences**
+- Comfortable, warm, low light while waking and during breakfast
+- Brighter, cooler light for focused design work
+- Relaxed, unhurried morning with overlapping routines
+- Keeps shared-space lighting modest and turns it off when unused
+
+---
+
+**Shared Notes**
+- Both work from home; mornings overlap loosely between ~07:30 and mid-morning
+- Kitchen `tapo_socket` and living-area devices (`tuya_lamp`, `shelly_relais`) are shared
+- Each resident only controls private-room lamps in their own room
+- Mild grey October day → only light heating needed
+
+## World state at end of window
+- aidot_lamp (Nils's Room): on, brightness high, light_temp cool
+- tapo_lamp (Jana's Room): on, brightness high, light_temp cool
+- shelly_relais (Living Area): on (radiator)
+
+## Active events
+- none

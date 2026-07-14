@@ -1,0 +1,93 @@
+{
+  "run": "champ_family_h7_r1",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "The narrative says the living-area `tuya_lamp` was left on from the previous evening/day, which conflicts with the established prior-day ending where it was the only device still running for Alice's workday and no reason is given for this changed carry-over state."
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "The narrative says 'It is Saturday' and has Bob not leaving for work or Charlie for school, which contradicts the fixed resident schedules that specify Bob commutes to his 9-to-5 job and leaves with Charlie for school at 08:30 within this simulation context."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

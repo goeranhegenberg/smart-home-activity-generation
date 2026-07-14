@@ -1,0 +1,146 @@
+[
+  {
+    "timestamp": "07:22",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Turn on bedroom lamp to dress quietly"
+  },
+  {
+    "timestamp": "07:22",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Keep light dim to avoid disturbing Alice"
+  },
+  {
+    "timestamp": "07:22",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy warm light for early morning"
+  },
+  {
+    "timestamp": "07:31",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leave bedroom dark for sleeping Alice"
+  },
+  {
+    "timestamp": "07:34",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim living area for a slow Saturday morning"
+  },
+  {
+    "timestamp": "07:38",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Brew coffee"
+  },
+  {
+    "timestamp": "07:42",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee done, cut power"
+  },
+  {
+    "timestamp": "07:53",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Turn on bedroom lamp to dress"
+  },
+  {
+    "timestamp": "07:53",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Full brightness to get dressed in the dark"
+  },
+  {
+    "timestamp": "08:04",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leave empty bedroom dark"
+  },
+  {
+    "timestamp": "08:11",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Gently wake Charlie"
+  },
+  {
+    "timestamp": "08:11",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim light to wake Charlie gently"
+  },
+  {
+    "timestamp": "08:11",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm light for waking Charlie"
+  },
+  {
+    "timestamp": "08:15",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Brighter light so Charlie can find clothes"
+  },
+  {
+    "timestamp": "08:24",
+    "resident": "Alice",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Charlie dressed, leaving the room"
+  },
+  {
+    "timestamp": "08:33",
+    "resident": "Alice",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Heat water for tea and warm milk for Charlie"
+  },
+  {
+    "timestamp": "08:37",
+    "resident": "Alice",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Kettle done, cut power"
+  },
+  {
+    "timestamp": "08:46",
+    "resident": "Alice",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Brighten living area for shared space on a gray morning"
+  }
+]

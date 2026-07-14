@@ -1,0 +1,97 @@
+{
+  "run": "champ_family_h7_r3",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "The timeline is out of order with Bob's 07:09 kitchen action appearing after Alice's 07:12 action, and Bob/Charlie leave at 08:29 instead of the previously established 08:31 without any stated reason."
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "Alice is stated to start working at her desk by 08:30, but the narrative places her still doing indoor exercise at 08:34.",
+          "The timeline is internally inconsistent around 08:30: it says '08:34 — Alice does her indoor exercise' and then '08:31 onward — With work about to begin...' which implies a state earlier than 08:34 after a later event."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "It states the living-area radiator is 'still running from a chilly overnight,' but the fixed setup says the `shelly_relais` radiator is switched on in the morning and the previous day left it on because Alice was present at her desk, not overnight.",
+          "The narrative says 'It being a Saturday' and later 'no commute, no drop-off,' which contradicts the fixed resident schedules stating Bob departs with Charlie for commute and school drop-off at 08:30 and Alice starts work at 08:30 within this simulation context."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "The school/work morning routine is replaced by a Saturday sleep-in and no drop-off/work start without any in-narrative reason grounded in the established simulation context."
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

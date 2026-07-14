@@ -1,0 +1,35 @@
+06:00 — Bob's alarm pulls him out of sleep in the dark bedroom. To avoid waking Alice, he switches the bedroom aidot_lamp on at low brightness with a warm light_temp, just enough to find his clothes.
+
+06:09 — Dressed in the dim glow, Bob switches the aidot_lamp off and slips out of the bedroom, leaving Alice asleep in the dark.
+
+06:13 — Passing into the Living Area, Bob turns on the shelly_relais to start the radiator and take the chill off the room before everyone is up.
+
+06:15 — He sets the Living Area tuya_lamp to on at low brightness, a soft level for the still-early hour.
+
+06:21 — In the kitchen, Bob switches the tapo_socket on to boil the kettle for his coffee.
+
+06:31 — With his coffee poured, Bob eats a quick breakfast at the counter. He leaves the tapo_socket on, knowing Charlie will want a warm drink shortly.
+
+06:46 — Bob steps into Charlie's room and turns the tapo_lamp on at low brightness, warm light_temp, easing his son awake gently in the dark.
+
+06:52 — Charlie is groggy and asks for more light, so Bob raises the tapo_lamp brightness to high, keeping the warm tone.
+
+07:01 — Alice wakes in the bedroom and switches the aidot_lamp on at high brightness with a warm light_temp to get dressed.
+
+07:14 — Bob and Charlie sit down together for breakfast in the kitchen; Bob reheats water on the still-powered tapo_socket for Charlie's cocoa.
+
+07:18 — Dressed, Alice switches the bedroom aidot_lamp off and leaves the room empty.
+
+07:22 — Alice joins the others and, with everyone now up and active, raises the Living Area tuya_lamp brightness to high.
+
+07:38 — Breakfast finished and drinks done, Bob switches the kitchen tapo_socket off.
+
+07:46 — Alice takes Charlie into his room to help him get dressed; the tapo_lamp is already on high and warm, which suits the task.
+
+08:02 — Charlie is dressed and ready. Alice switches Charlie's tapo_lamp off as they leave the empty room.
+
+08:29 — Bob and Charlie head out through the hallway for the school drop-off and Bob's commute.
+
+08:37 — Alice does her indoor exercise in the warm, bright Living Area, the radiator on the shelly_relais keeping the room comfortable.
+
+08:54 — Settling at her desk to start work, Alice leaves the tuya_lamp on at high brightness for a well-lit workspace and keeps the shelly_relais running to hold the room warm through the morning.

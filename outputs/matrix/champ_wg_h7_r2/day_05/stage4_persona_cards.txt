@@ -1,0 +1,51 @@
+# Persona Memory Cards
+
+## Nils
+
+**Daily Schedule**
+- Wakes around 07:30, no commute (works from home as a graduate student)
+- Eases into the morning with coffee
+- Starts studying at his desk later in the morning (around 08:45)
+
+**Smart-Home Habits**
+- Operates all devices himself
+- On waking, turns on his `aidot_lamp` at low brightness/warm, then switches it off when leaving the room
+- Returns it to high brightness/cool when settling in to study at his desk
+- Lights the shared `tuya_lamp` (low) when passing through, switches on the `shelly_relais` radiator against the morning chill, then off once the room is comfortable (around 08:40)
+- Briefly powers the kitchen `tapo_socket` for the coffee machine, off once brewed
+
+**Preferences**
+- Prefers low, warm light when easing into the day; cool, high brightness for focused desk study
+- Comfortable with light heating only (mild October morning), not deep-winter levels
+- Relaxed, gradual start to the day
+
+---
+
+## Jana
+
+**Daily Schedule**
+- Wakes around 08:00, no commute (freelance designer working from home)
+- Flexible morning: makes breakfast/tea, settles in
+- Starts client work mid-morning (around 09:00)
+
+**Smart-Home Habits**
+- Operates all devices herself
+- On waking, turns her `tapo_lamp` on low/warm, off when leaving; later sets it high/cool for focused design work
+- Uses the kitchen `tapo_socket` briefly for tea/breakfast, off afterward
+- Tends to switch the shared `tuya_lamp` off once daylight is sufficient in the living area
+
+**Preferences**
+- Likes a warm, low light while waking; brighter/cooler light once doing focused design work
+- Keeps heating modest on a mild grey morning; relies on daylight as it brightens
+- Flexible, unhurried morning routine that loosely overlaps with Nils's
+
+---
+
+*Shared note:* Both flatmates share the kitchen `tapo_socket`, living-area `tuya_lamp`, and `shelly_relais` radiator — coordinated loosely, switched off when the shared space is empty or comfortable.
+
+## World state at end of window
+- aidot_lamp: on, brightness high, light_temp cool
+- tapo_lamp: on, brightness high, light_temp cool
+
+## Active events
+- none

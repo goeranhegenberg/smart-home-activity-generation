@@ -1,0 +1,31 @@
+06:00 — Bob wakes in the dark bedroom and switches on the `aidot_lamp` at low brightness with a warm light temperature, keeping it dim so Alice can keep sleeping.
+
+06:08 — Dressed quietly, Bob heads to the kitchen and powers on the `tapo_socket` to start the kettle and coffee machine for his early breakfast.
+
+06:14 — On his way past the living area, Bob switches on the `shelly_relais` to start warming the shared space before everyone gathers for breakfast.
+
+06:16 — Bob turns on the Living Area `tuya_lamp` at low brightness so he can sit and eat without the room being dark.
+
+06:43 — Bob steps into Charlie's room and switches on the `tapo_lamp` at low brightness, warm light, to wake him gently in the dark winter morning.
+
+06:48 — At Charlie's request for a bit more light to get his bearings, Bob raises the `tapo_lamp` to high brightness.
+
+07:01 — Alice wakes; she brightens the bedroom `aidot_lamp` to high and switches it to a cool temperature to wake herself up properly.
+
+07:13 — Bob returns to the kitchen and switches the `tapo_socket` back on to brew fresh coffee for breakfast with Charlie.
+
+07:17 — Bob raises the Living Area `tuya_lamp` to high brightness so he and Charlie can see properly at the breakfast table.
+
+07:34 — Breakfast finished, Bob switches the kitchen `tapo_socket` off.
+
+07:41 — Alice finishes getting ready and switches off the bedroom `aidot_lamp` as she leaves the empty room.
+
+07:44 — Alice goes to Charlie's room to help him get dressed; the `tapo_lamp` stays on at high brightness for the task.
+
+07:58 — Charlie is dressed; Alice switches off Charlie's Room `tapo_lamp` as they leave the room empty.
+
+08:29 — Bob and Charlie head for the hallway to leave for the commute and school drop-off. Bob lowers the Living Area `tuya_lamp` back to low brightness, leaving it on for Alice, and leaves the `shelly_relais` radiator running since Alice stays home.
+
+08:33 — With the apartment quiet, Alice turns the Living Area `tuya_lamp` up to high brightness for focused desk work and settles in at her work corner.
+
+08:36 — Alice confirms the `shelly_relais` radiator stays on to keep the room warm through her working day.

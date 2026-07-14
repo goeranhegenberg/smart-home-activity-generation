@@ -1,0 +1,17 @@
+It being a Saturday, the household sleeps in past the usual workday alarms. The apartment is quiet and dark, with the living-area radiator still running from a chilly overnight — a small comfort that nobody minds on a cold winter morning.
+
+At 07:38, Bob is the first to stir. He keeps the bedroom dim for Alice's sake, switching the bedroom `aidot_lamp` on at low brightness and warm light temperature so he can find his clothes without flooding the room. At 07:42 he switches the `aidot_lamp` off again and slips out, leaving the bedroom dark.
+
+At 07:46, Bob heads into the kitchen for his first coffee of the weekend. He powers the kitchen `tapo_socket` on to run the coffee machine. While it brews, at 07:48 he turns on the living-area `tuya_lamp` at low brightness — enough soft light for a slow Saturday start without harshness. At 07:51, with his coffee poured, he switches the `tapo_socket` off.
+
+Bob enjoys the unhurried pace. At 08:09, since there is no school rush, he goes to wake Charlie gently: he turns Charlie's `tapo_lamp` on at low brightness and warm light temperature for a soft start.
+
+At 08:23, Alice wakes naturally. She switches the bedroom `aidot_lamp` on at low brightness and warm light temperature for a gentle start to her morning. At 08:41, dressed and ready to join the others, she turns the `aidot_lamp` off as she leaves the empty bedroom.
+
+At 08:33, Charlie is properly awake and ready to get up, so Bob brightens the `tapo_lamp` to high (still warm) so Charlie can see to dress. At 08:47, with the family gathering for a relaxed weekend breakfast, Bob raises the living-area `tuya_lamp` to high brightness to light the shared table.
+
+At 08:52, Bob returns to the kitchen and powers the `tapo_socket` on again to boil water for the breakfast table. At 08:55 he switches the `tapo_socket` off once the water is ready.
+
+Alice helps Charlie finish dressing in his room. At 08:58, with Charlie ready, she switches off Charlie's `tapo_lamp`, leaving his room dark and empty as everyone moves to the living area.
+
+By 09:00 the family is settled in the warm, brightly lit living area for a leisurely Saturday breakfast — no commute, no drop-off. The living-area `tuya_lamp` remains on at high brightness and the `shelly_relais` radiator continues to run, keeping the shared space comfortable for the day ahead.

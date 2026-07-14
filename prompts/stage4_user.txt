@@ -1,0 +1,34 @@
+Stage 4: Update persona memory cards and carry-over state after one observed time window.
+
+Context of the window that just finished:
+- Timeframe: {{TIMEFRAME}}
+- Day: {{DAY_CONTEXT}}
+
+Current persona memory cards and carry-over state (before this window):
+{{CURRENT_CARDS}}
+
+Observed device actions during this window (valid JSON):
+{{ACTIONS}}
+
+Task: produce the updated cards and carry-over state in EXACTLY this structure and order.
+
+1. One memory card per resident (same format as the input cards).
+   - Keep stable identity fields unchanged: name, role, age, fixed schedule anchors (wake time, departure time).
+   - Update habits / preferences / notes ONLY when the observed actions provide concrete, repeated evidence (e.g. consistently sets the bedroom lamp to brightness=low on waking -> habit: "prefers low brightness when first waking").
+   - Do NOT enumerate individual actions. Summarize patterns.
+   - Keep each card within +/-20% of its previous length. If nothing new was learned for a resident, repeat their card unchanged.
+
+2. A section headed exactly "## World state at end of window".
+   - Determine the end-of-window state of every device: start from the previous "World state at end of window" section (if present, otherwise assume all devices off/default), then apply the observed actions in chronological order (the last action on a device wins).
+   - A device that is in the previous world state stays in that state unless an observed action explicitly changes it. NEVER drop a left-on device just because there were no new actions for it this window: "no action" means "unchanged", not "turned off". Only a turn-off / off-value action removes a device from this list.
+   - List ONLY devices that are NOT in their default/off state (e.g. a lamp left on, heating still running, a plug still powering an appliance). One line per device: "- <Device>: <state/value>".
+   - If every device is off/default, write a single line: "- (all devices off / default)".
+   - Purpose: make devices that were left on visible to the next day, so they are neither silently forgotten (state accumulation) nor magically reset.
+
+3. A section headed exactly "## Active events".
+   - Carry forward every multi-day situation from the previous "Active events" section: decrement its remaining duration by one day and drop events whose remaining duration reaches zero.
+   - Add a new event only if the observed actions or the day context clearly indicate one.
+   - One line per event: "- <event>: <short description>, remaining: <N days>".
+   - If there are none, write a single line: "- none".
+
+Return only this text (resident cards, then the two sections). No preamble, no commentary.

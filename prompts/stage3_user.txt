@@ -1,0 +1,24 @@
+Stage 3: Create activity JSON
+
+Extract all smart-home device interactions from the narrative below into a JSON object with an "actions" array (i.e. {"actions": [ ... ]}).
+
+Each object must have the following fields:
+- timestamp: string in HH:MM format
+- resident: string — the name of EXACTLY ONE resident (e.g. "Alice"). Never a list, never combined names like "Alice and Bob", never "everyone" or "family". If the narrative mentions multiple residents doing something together, pick the single person who physically operated the device and attribute the action to them. If a device is physically operated on behalf of another resident (e.g. a parent switches a lamp on for a child), set `resident` to the person who operated the device and explain the beneficiary in `intent`.
+- device: string
+- action: string, exact match from schema
+- action_value: string or null depending on the schema requirements
+- intent: string
+
+Use only the devices, actions and allowed values from the schema in the fixed reference context above.
+
+CRITICAL CONSTRAINTS:
+- Do not invent devices, actions, or parameters outside this schema.
+- Separate the action from its parameter.
+- If an action does not take a parameter, set action_value to null.
+- Extract the exact timestamps from the narrative.
+- Output a single JSON object with an "actions" array only.
+- Use atomic actions only.
+
+Narrative:
+{{NARRATIVE}}

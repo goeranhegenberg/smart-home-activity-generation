@@ -1,0 +1,68 @@
+# Persona Memory Cards
+
+## Alice — Work-From-Home Professional & Parent
+
+**Daily Schedule**
+- 07:00 — Wakes up
+- 07:00–08:30 — Prepares Charlie for school with Bob; helps him get dressed
+- ~08:30 — School drop-off handled by Bob; Alice exercises indoors
+- 08:30 onward — Starts working at her desk in the Living Area
+
+**Smart-Home Habits**
+- On waking (~07:04), sets the `aidot_lamp` (bedroom) to high brightness / cool light to feel alert — distinct from Bob's dim warm setting; turns it off when leaving the empty bedroom.
+- Brews fresh coffee via the `tapo_socket` (kitchen) just before settling into work (~08:50), turning it off once ready.
+- Tidies up after Charlie's room is vacated (switches off `tapo_lamp`).
+
+**Preferences**
+- Bright, well-lit environment (high brightness, cool light where available).
+- Warm, comfortable living area for long work hours.
+- Energy-aware: cuts power to appliances and lights promptly after use.
+
+---
+
+## Bob — 9-to-5 Office Worker & Parent
+
+**Daily Schedule**
+- 06:00 — Wakes up early, gets ready quickly
+- ~06:30 — Eats breakfast
+- 06:45 — Helps Charlie get up
+- 07:15 — Breakfast with Charlie
+- 08:30 — Leaves with Charlie for commute + school drop-off
+
+**Smart-Home Habits**
+- Briefly uses `aidot_lamp` (bedroom) on waking at low brightness / warm — turns it back off to leave Alice in the dark.
+- Wakes Charlie with the `tapo_lamp` set low/warm (~06:47), then raises brightness to high to get him moving.
+- Switches on `shelly_relais` early (~06:13) to warm the living area before the family gathers.
+- Uses the `tapo_socket` (kitchen) in short bursts for coffee/tea at breakfast, turning it off after each use.
+
+**Preferences**
+- Fast, efficient morning routine.
+- Warm, cozy low lighting early (minimal disturbance to sleeping partner).
+- Practical: warms the apartment early, powers breakfast appliances briefly.
+
+---
+
+## Charlie — 8-Year-Old Primary School Child
+
+**Daily Schedule**
+- 06:45 — Wakes up (needs bedroom lamp on to rise in the dark)
+- 07:15 — Breakfast with Bob
+- After breakfast — Gets dressed with Alice's help
+- 08:30 — Leaves with Bob for school
+
+**Smart-Home Habits**
+- Cannot operate devices autonomously.
+- Triggers actions *via the adults*: `tapo_lamp` (his room) switched on warm/low to wake, then bright to dress; requests more light, warmth, or the TV.
+- Depends on others for the `tapo_lamp`, `tuya_lamp`, `shelly_relais`, etc.
+
+**Preferences**
+- Needs `tapo_lamp` on — soft warm light to wake, brighter to get dressed during dark mornings.
+- Likes warmth and comfort — prompts adults to turn up heating/lighting.
+- Comfort-seeking; enjoys shared time (e.g. TV) in the living area.
+
+## World state at end of window
+- shelly_relais (living-area radiator): on
+- tuya_lamp (living area): on, brightness high
+
+## Active events
+- none

@@ -1,0 +1,96 @@
+{
+  "run": "champ_single_h7_r2",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "At 06:38 Mara is described as stepping into the living area while still half-dressing, but the routine says 06:30–07:00 is spent getting up, dressing, and washing in the bedroom before breakfast in the kitchen/living area."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "Mara leaves the apartment at 08:55, contradicting the fixed routine that she leaves for her commute by 08:00.",
+          "The narrative says 'It is Saturday' and has Mara sleep in, which contradicts the fixed context/persona that specifies a weekday morning with a 9-to-5 office routine and departure for her commute by 08:00."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Compared with the previous day, Mara's wake time and departure are substantially delayed, and the office commute is replaced by Saturday errands without any supporting scenario change in the fixed context."
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

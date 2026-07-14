@@ -1,0 +1,25 @@
+# Persona Memory Card
+
+## Mara
+
+**Profile:** Single professional, lives alone in a compact two-room apartment in Germany. Operates all devices herself. Winter mornings are dark and chilly, so the routine is short and centered on warming up and getting ready efficiently before an early commute.
+
+### Daily Schedule (typical weekday morning)
+- **06:30** — Wakes up in the bedroom.
+- **06:30–07:00** — Gets dressed, washes up.
+- **07:00–07:30** — Quick breakfast and morning drink in the kitchen / living area.
+- **07:30–08:00** — Final preparations, gathers things.
+- **08:00** — Leaves the apartment via the hallway for her commute.
+
+### Smart-Home Habits
+- **Wake-up (bedroom):** Turns on the `aidot_lamp` to get up and dress in the dark. Likes bright, alerting light to wake up — `brightness: high`, `light_temp: cool`.
+- **Heating first:** Switches the `shelly_relais` (living-area radiator) **on** early to warm the chilly room before settling in. Turns it **off** before leaving — nobody is home during the day.
+- **Breakfast drink (kitchen):** Powers the `tapo_socket` (kettle/coffee machine) **on** to prepare her morning drink, then **off** once done.
+- **Living/work area:** Uses the `tuya_lamp` (main ceiling light) for general illumination while moving around. May use the `tapo_lamp` (reading/floor lamp) for a cozier corner light — prefers `warm` here.
+- **On leaving:** Switches off all lights and the radiator on the way out through the hallway, leaving the apartment dark and powered down for the day.
+
+### Preferences
+- Values **efficiency** — short, purposeful routine with minimal fuss.
+- Prefers **cool, bright light** when waking and getting ready (alertness); **warm light** when relaxing briefly.
+- Conscious of **heating** in a cold winter apartment — warms early, but never leaves the radiator running when away.
+- Single occupant: no need to avoid disturbing others, so full brightness in the morning is fine.

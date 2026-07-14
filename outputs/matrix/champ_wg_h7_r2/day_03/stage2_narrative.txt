@@ -1,0 +1,19 @@
+At 07:33 Nils stirs and reaches for his bedside switch, turning his `aidot_lamp` on at low brightness with a warm light_temp, easing into the grey morning without a harsh glare.
+
+He lies in bed a while, then gets up and dresses. At 07:48, on his way out of his room, he switches the `aidot_lamp` off, leaving his room dark and empty.
+
+Passing into the shared living area at 07:50, he turns the `tuya_lamp` on at low brightness to take the gloom off the room. A moment later, at 07:52, feeling the chill in the older flat, he switches on the `shelly_relais` to start the living-area radiator against the mild October cold.
+
+He continues into the kitchen, and at 07:55 powers the `tapo_socket` on so the coffee machine can brew. While it runs he leans in the doorway between kitchen and living area. At 07:59, with his coffee poured, he switches the `tapo_socket` off again.
+
+Nils settles in the living area with his coffee, easing into the day. By 08:21 the radiator has warmed the room comfortably, so he switches the `shelly_relais` off, content with the modest warmth.
+
+Around 08:04 Jana wakes in her room and turns her `tapo_lamp` on at low brightness, warm light_temp, for a gentle start. She gets up unhurriedly, and at 08:19 switches the `tapo_lamp` off as she leaves her room to find breakfast.
+
+At 08:23 Jana comes through to the kitchen and turns the `tapo_socket` on to boil water for tea. At 08:27 she switches it off once the water is hot, then makes her breakfast and joins the slowly brightening living area, where the `tuya_lamp` is still glowing low.
+
+At 08:43 Nils heads back to his room to start studying. He turns his `aidot_lamp` on at high brightness with a cool light_temp for focused desk work.
+
+By 08:52 the grey daylight has filled the shared space enough that Jana switches the `tuya_lamp` off, no longer needing the ceiling light.
+
+At 08:58 Jana returns to her room to begin her client work and turns her `tapo_lamp` on at high brightness, cool light_temp, for focused design tasks at her workspace.

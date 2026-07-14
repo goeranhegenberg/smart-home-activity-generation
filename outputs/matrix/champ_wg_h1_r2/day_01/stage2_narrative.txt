@@ -1,0 +1,19 @@
+At 07:34, Nils wakes in his room and reaches for his desk light, switching the aidot_lamp to status on with brightness low and light_temp warm, easing into the grey October morning with a soft glow rather than a harsh one.
+
+At 07:48, still in pajamas, Nils heads out toward the kitchen. Passing through the shared living area and feeling the chill, at 07:50 he switches the shelly_relais to status on to take the edge off the room. At 07:52, since the morning is still dim, he turns on the tuya_lamp at brightness low for a bit of ambient light in the shared space.
+
+At 07:54, Nils reaches the kitchen and switches the tapo_socket to status on to power the coffee machine. He waits while it brews. At 07:58, with his coffee poured, he switches the tapo_socket to status off.
+
+At 08:03, Nils carries his coffee back to his room to drink it and read for a while; the tuya_lamp and shelly_relais stay on in the now-empty living area because Jana is about to be up.
+
+At 08:11, Jana wakes in her room and turns on her tapo_lamp at status on, brightness low, light_temp warm to gently light the room.
+
+At 08:24, Jana gets up properly and brightens the tapo_lamp to brightness high, light_temp cool to wake herself up fully and light her small workspace.
+
+At 08:33, Jana heads to the kitchen for breakfast, leaving her room, so at 08:32 she turns the tapo_lamp off behind her. Crossing the living area at 08:35, she notices the tuya_lamp is on low and bumps it to brightness high since the grey sky outside leaves the room dim.
+
+At 08:37, in the kitchen, Jana switches the tapo_socket to status on to boil the kettle for tea and toast. At 08:41, finished with the kettle, she switches the tapo_socket to status off.
+
+At 08:46, Jana settles at the table in the living area with breakfast. The room has warmed up comfortably by now, so at 08:52 she switches the shelly_relais to status off.
+
+At 09:00, back in his room and settling in for focused study, Nils switches his aidot_lamp to brightness high, light_temp cool for a bright, alert workspace at his desk.

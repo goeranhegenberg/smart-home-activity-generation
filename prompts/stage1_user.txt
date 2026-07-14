@@ -1,0 +1,11 @@
+Stage 1: Persona & Context Initialisieren
+
+You are simulating a smart home occupied by the residents in the fixed reference context above. Use only the devices, device descriptions and room placement given there.
+
+Task:
+For each resident, produce a concise persona memory card summarizing:
+- daily schedule
+- smart-home habits
+- relevant preferences
+
+Do not reference any device or action outside the list above.

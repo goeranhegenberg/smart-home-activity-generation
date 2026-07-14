@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "06:33",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Wake up in the dark bedroom"
+  },
+  {
+    "timestamp": "06:33",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong light to wake up alert"
+  },
+  {
+    "timestamp": "06:33",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool daylight to feel alert in the cold"
+  },
+  {
+    "timestamp": "06:44",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Bedroom now empty as she leaves"
+  },
+  {
+    "timestamp": "06:46",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Start the radiator to warm the room"
+  },
+  {
+    "timestamp": "06:48",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Light the living area while still dark"
+  },
+  {
+    "timestamp": "06:48",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong illumination for the open-plan space"
+  },
+  {
+    "timestamp": "06:51",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Start the coffee machine"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Cozy reading corner for breakfast"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Ambient cozy level"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm cozy spot for breakfast"
+  },
+  {
+    "timestamp": "06:57",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee is ready"
+  },
+  {
+    "timestamp": "07:41",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "No longer needs bright ceiling light"
+  },
+  {
+    "timestamp": "07:53",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Preparing to leave"
+  },
+  {
+    "timestamp": "07:54",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Not leaving radiator running in empty flat"
+  }
+]

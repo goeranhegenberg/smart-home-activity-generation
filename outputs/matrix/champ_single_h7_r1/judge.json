@@ -1,0 +1,95 @@
+{
+  "run": "champ_single_h7_r1",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "At 06:37 Mara operates the `shelly_relais` from the bedroom via her phone, but the fixed context says she can only interact with a device when she is in the corresponding room (or passing through on the way out)."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "She turns the `tuya_lamp` off much earlier than the previous day while still remaining in the living area for the final stretch, with no in-narrative reason given for changing that lighting routine."
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "The narrative says 'It being Saturday' and 'there's no office commute to rush for,' which contradicts the fixed context that Mara is a single professional following a typical weekday morning with a 9-to-5 office commute and leaving by 08:00."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

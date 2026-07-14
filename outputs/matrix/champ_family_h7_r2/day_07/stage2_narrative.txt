@@ -1,0 +1,21 @@
+It is Sunday, and the apartment is quiet through the early hours. The living-area radiator (`shelly_relais`) has been left running overnight to keep the chill of the German winter morning at bay, and the living-area ceiling light (`tuya_lamp`) is still on at high brightness from the evening before. Charlie's bedside `tapo_lamp` is also still glowing on high, warm — overlooked at last night's bedtime. There is no school and no office commute today, so everyone sleeps in.
+
+At 07:48 Bob stirs first, waking a little later than on weekdays. He keeps things quiet in the bedroom so Alice can keep sleeping. He nudges the bedroom `aidot_lamp` on at low brightness, warm light, just enough to find his clothes in the dark.
+
+At 07:59 Bob finishes dressing and switches the bedroom `aidot_lamp` off again so Alice stays undisturbed in the dark room.
+
+At 08:04 Bob shuffles into the living area. He notices the `tuya_lamp` is still blazing at high brightness from the night before — far too harsh for a slow weekend start — so he dims it to low for a gentler ambient glow.
+
+At 08:09 Bob steps into the kitchen and switches the `tapo_socket` on to power the kettle and coffee machine for his first coffee of the morning.
+
+At 08:13 the coffee is ready and Bob switches the `tapo_socket` off again while he drinks it at the counter.
+
+At 08:36 Alice wakes naturally at her relaxed weekend hour. She brightens the bedroom `aidot_lamp` to high and sets it to cool light to shake off sleep and feel alert.
+
+At 08:47 Alice, now dressed, leaves the bedroom and switches the `aidot_lamp` off behind her so the empty room is dark.
+
+At 08:51 Bob goes in to gently wake Charlie. He brings Charlie's `tapo_lamp` down to low brightness, warm — softening the light that had been left on high overnight — so the room eases Charlie awake rather than jolting him.
+
+At 08:55 once Charlie is blinking awake and asking for more light to get his bearings, Bob raises the `tapo_lamp` back to high brightness, still warm.
+
+At 09:00, with the family fully up, Bob raises the living-area `tuya_lamp` back to high brightness for the bright shared weekend morning ahead. The kitchen `tapo_socket` remains off, the bedroom `aidot_lamp` stays off in the empty bedroom, Charlie's `tapo_lamp` stays on at high/warm while he gets ready, and the living-area `shelly_relais` radiator keeps running to hold the room warm through the day.

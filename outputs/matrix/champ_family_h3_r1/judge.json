@@ -1,0 +1,46 @@
+{
+  "run": "champ_family_h3_r1",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "Alice is stated to start working at her desk by 08:30, but the narrative says 'At 09:00 she settles at her desk to start work.'",
+          "At 06:15 Bob 'dims' the living-area `tuya_lamp` and says it was 'still on at high brightness from the night before', but the previous day explicitly left `tuya_lamp` on at high at 08:58 while the time window and day framing do not support carrying that exact state overnight without explanation."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Compared with the previous day, Bob no longer turns the living-area lamp on in the morning but instead finds it inexplicably already on from the night before, and Alice's work start shifts from about 08:58 to 09:00 with no stated reason."
+      },
+      "votes": 1,
+      "day": 3
+    }
+  ]
+}

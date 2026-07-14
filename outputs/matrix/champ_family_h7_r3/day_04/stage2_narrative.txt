@@ -1,0 +1,35 @@
+06:02 — Bob wakes in the dark bedroom and switches the bedside `aidot_lamp` on at **low** brightness, **warm** light temperature, enough to find his clothes without disturbing Alice.
+
+06:11 — Dressed quietly, Bob switches the bedroom `aidot_lamp` off, leaving the room dark for Alice.
+
+06:14 — Passing through the Living Area, Bob turns the `shelly_relais` on to start the radiator and take the chill off the room early.
+
+06:16 — Still in the dim living space, Bob sets the `tuya_lamp` on at **low** brightness for his quiet solo breakfast.
+
+06:19 — In the Kitchen, Bob switches the `tapo_socket` on to brew his first coffee.
+
+06:23 — Coffee made, Bob switches the `tapo_socket` off.
+
+06:47 — Bob steps into Charlie's Room and switches the `tapo_lamp` on at **low** brightness, **warm** temperature, gently waking him.
+
+06:53 — As Charlie stirs and gets going, Bob raises the `tapo_lamp` to **high** brightness so the room is bright enough to move around in.
+
+07:03 — Alice wakes; she switches the bedroom `aidot_lamp` on at **low** brightness, **warm** temperature for a soft start.
+
+07:12 — Bob returns to the Kitchen and switches the `tapo_socket` on to boil water for the shared breakfast table.
+
+07:14 — Back in the Living Area, Bob raises the `tuya_lamp` to **high** brightness for the breakfast he and Charlie share.
+
+07:16 — Water boiled, Bob switches the `tapo_socket` off.
+
+07:24 — Alice gets up; she switches the bedroom `aidot_lamp` off as she leaves the empty bedroom.
+
+07:41 — Breakfast finished, Alice takes Charlie into his room to dress him; the `tapo_lamp` is already at **high**, which suits the task.
+
+07:54 — Charlie is dressed; Alice switches the `tapo_lamp` off as they leave his room empty.
+
+08:29 — Bob and Charlie head out through the Hallway for the commute and school drop-off; no devices there to manage.
+
+08:34 — Alice does her indoor exercise in the warm Living Area, the radiator still running on the `shelly_relais` and the `tuya_lamp` at **high**.
+
+08:31 onward — With work about to begin, Alice keeps the `shelly_relais` on for warmth at her desk and leaves the `tuya_lamp` on at **high** brightness to light her work corner through the dark morning.

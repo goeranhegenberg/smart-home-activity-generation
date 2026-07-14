@@ -1,0 +1,15 @@
+At 06:02 Bob wakes in the dark bedroom and switches the `aidot_lamp` on at low brightness and warm light, just enough to find his clothes without disturbing Alice. By 06:11, dressed, he switches the `aidot_lamp` off and leaves the bedroom dark for her.
+
+At 06:14 Bob walks into the living area and turns on the `shelly_relais` to start the radiator heating the chilly room. At 06:16 he lights the `tuya_lamp` at low brightness — a gentle level for his early solo breakfast. At 06:18 he steps into the kitchen and switches the `tapo_socket` on to brew his coffee. At 06:22, coffee in hand, he turns the `tapo_socket` off again.
+
+Bob eats quietly until 06:47, when he goes into Charlie's room and switches the `tapo_lamp` on at low brightness and warm light to wake him gently. At 06:53, once Charlie is stirring, Bob raises the `tapo_lamp` to high brightness so the room is properly lit, though Charlie stays in bed a little longer this morning.
+
+At 07:09 Bob returns to the kitchen and switches the `tapo_socket` on again to heat water for the shared breakfast drinks, switching it off at 07:13 once done. At 07:14 he raises the living-area `tuya_lamp` to high brightness for the breakfast table, and he and Charlie sit down to eat.
+
+Alice wakes at 07:04. At 07:06 she switches the bedroom `aidot_lamp` on at low brightness and warm light for a soft start. At 07:19, ready to leave the room, she switches the `aidot_lamp` off so the empty bedroom stays dark.
+
+By 07:48 breakfast is finished. Charlie heads to his room with Alice to get dressed; the `tapo_lamp` is already on at high brightness from earlier, so it lights the dressing perfectly. At 08:09, once Charlie is dressed, Alice switches the `tapo_lamp` off and they move to the hallway.
+
+At 08:31 Bob and Charlie leave through the hallway for the commute and school drop-off.
+
+With the apartment to herself, Alice settles into her work corner. The `tuya_lamp` is already on at high brightness over her desk and the `shelly_relais` radiator is still running, keeping the living area warm — she leaves both as they are for her workday. After a short indoor exercise break, she is at her desk working by 08:47, the room well-lit and warm.

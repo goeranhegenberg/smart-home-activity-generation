@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "06:35",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Turn on bedroom lamp to wake up on a dark winter morning"
+  },
+  {
+    "timestamp": "06:35",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Full brightness to shake off grogginess"
+  },
+  {
+    "timestamp": "06:35",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Crisp blue-white light to wake up alert"
+  },
+  {
+    "timestamp": "06:38",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Start the radiator to warm the flat early"
+  },
+  {
+    "timestamp": "06:39",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Light the pitch-black living area"
+  },
+  {
+    "timestamp": "06:39",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong illumination for the dark room"
+  },
+  {
+    "timestamp": "06:41",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Set up cozy reading-corner light for breakfast"
+  },
+  {
+    "timestamp": "06:41",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim ambient breakfast glow"
+  },
+  {
+    "timestamp": "06:41",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy warm glow for breakfast"
+  },
+  {
+    "timestamp": "06:47",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turn off bedroom lamp when leaving the empty room"
+  },
+  {
+    "timestamp": "07:04",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Power coffee machine to brew coffee"
+  },
+  {
+    "timestamp": "07:08",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Cut power once coffee is done"
+  },
+  {
+    "timestamp": "07:39",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turn off ceiling light as dawn lightens the room"
+  },
+  {
+    "timestamp": "07:53",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turn off radiator now that room is warm and she is leaving"
+  },
+  {
+    "timestamp": "07:55",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turn off reading lamp leaving the living area dark before leaving"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "run": "champ_single_h1_r3",
+  "n_days": 1,
+  "validity": {
+    "days_passed": 1,
+    "days_with_repair": 0,
+    "total_repairs": 0,
+    "pct_valid": 100.0
+  },
+  "actions_per_day": {
+    "values": [
+      16
+    ],
+    "mean": 16,
+    "stdev": 0.0,
+    "min": 16,
+    "max": 16
+  },
+  "drift": {
+    "world_state_churn_per_transition": [],
+    "mean_churn": 0.0,
+    "card_len_first": 1588,
+    "card_len_last": 1588,
+    "card_len_growth_pct": 0.0
+  },
+  "variation": {
+    "consecutive_jaccard": [],
+    "mean_jaccard": 0.0
+  },
+  "realism_rulebased": {
+    "device_action_coverage": 1.0,
+    "used_device_action_pairs": 10,
+    "allowed_device_action_pairs": 10
+  },
+  "judge_layer": {
+    "judge_model": "openai/gpt-5.4",
+    "votes_per_day": 1,
+    "days_judged": 1,
+    "env_inconsistent_days": 0,
+    "routine_drift_days": 0,
+    "unparseable_days": 0,
+    "per_day": [
+      {
+        "day": 1,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      }
+    ],
+    "note": "Separate semantische Ebene (unkalibriert); nicht in error_score/acceptance eingerechnet."
+  },
+  "error_score": {
+    "weights": {
+      "hoch": 3,
+      "mittel": 2
+    },
+    "thresholds": {
+      "max_formal": 0,
+      "max_high": 0,
+      "max_content_per_day": 2,
+      "max_mean_content_per_day": 1.0
+    },
+    "formal_total": 0,
+    "content_weight_total": 0,
+    "high_severity_total": 0,
+    "mean_content_per_day": 0.0,
+    "max_content_per_day": 0,
+    "by_code": {},
+    "by_severity": {},
+    "per_day": {},
+    "acceptance": {
+      "formal_ok": true,
+      "high_ok": true,
+      "per_day_ok": true,
+      "mean_ok": true,
+      "verdict": "PASS",
+      "reasons": [
+        "alle Schranken eingehalten"
+      ]
+    },
+    "errors": []
+  },
+  "quality_curve": [
+    {
+      "day_num": 1,
+      "n_actions": 16,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": null
+    }
+  ],
+  "breakpoint": {
+    "first_invalid_day": null,
+    "first_content_exceed_day": null,
+    "first_identical_day": null,
+    "breaks_at_day": null,
+    "note": "breaks_at_day = erster Tag mit formalem Fehler, Überschreitung der Inhalts-Score-Schranke/Tag oder nahezu identischer Wiederholung; null = über den ganzen Lauf stabil."
+  },
+  "per_day": [
+    {
+      "day": "day_01",
+      "day_num": 1,
+      "n_actions": 16,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1588
+    }
+  ],
+  "matrix": {
+    "constellation": "single",
+    "horizon_days": 1,
+    "repeat": 3,
+    "judged": true
+  }
+}

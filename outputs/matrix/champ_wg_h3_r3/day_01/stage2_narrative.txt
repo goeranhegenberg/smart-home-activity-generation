@@ -1,0 +1,21 @@
+At 07:34, Nils stirs awake in his room. The grey October light outside is dim, so he reaches over and switches on his `aidot_lamp`, setting it to `on` with `brightness` low and `light_temp` warm — a gentle, cozy start to the day.
+
+At 07:46, having eased up and pulled on some clothes, Nils leaves his room. Since he is heading to the kitchen and his room will sit empty, he turns the `aidot_lamp` off.
+
+At 07:49, passing into the shared living area, Nils notices the chill in the room. He switches the `shelly_relais` to `on` to take the edge off, knowing only light warmth is needed this morning. The living area is still gloomy, so at 07:51 he turns the `tuya_lamp` on at `brightness` low for ambient light.
+
+At 07:54, in the kitchen, Nils flips the `tapo_socket` to `on` to power the coffee machine. By 07:58 the coffee is brewed, and he switches the `tapo_socket` back to `off`.
+
+At 08:06, Nils carries his coffee back into the living area and settles for a quiet few minutes. The radiator has begun to warm the room.
+
+At 08:13, Jana wakes in her room. She turns on her `tapo_lamp`, setting it to `on` with `brightness` low and `light_temp` warm for a soft wake-up.
+
+At 08:27, Jana gets up and leaves her room to make breakfast. She turns the `tapo_lamp` off behind her.
+
+At 08:31, Jana joins Nils in the living area. The `tuya_lamp` is already on low and the radiator is running, so she leaves both as they are.
+
+At 08:33, in the kitchen, Jana switches the `tapo_socket` to `on` to boil the kettle and start her breakfast. By 08:38 she's done with the kettle and turns the `tapo_socket` back to `off`.
+
+At 08:49, the living area now feels comfortably warm. Nils switches the `shelly_relais` to `off`, content with the light heating.
+
+At 09:00, ready to begin studying, Nils returns to his room. He turns the `tuya_lamp` off as he leaves the living area, since Jana has taken her breakfast back toward the kitchen counter and the daylight has brightened a little. In his room he switches the `aidot_lamp` to `on` with `brightness` high and `light_temp` cool for focused work at his desk.

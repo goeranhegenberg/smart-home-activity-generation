@@ -1,0 +1,19 @@
+At 07:34, Nils stirred awake in his room. The grey October light barely reached the window, so he reached over and switched on his `aidot_lamp`, setting it to low brightness and warm light to ease gently into the day.
+
+At 07:41, still in pyjamas, Nils padded out toward the shared living area. The room was dim and held a slight chill, so at 07:43 he turned on the `tuya_lamp` at low brightness for soft general light. Noticing the radiator was already running from the previous evening, he left the `shelly_relais` on — the room needed taking the edge off the morning cold anyway.
+
+At 07:47, Nils continued into the kitchen and switched the `tapo_socket` on to power the coffee machine. He stood by while it brewed, and at 07:51 he switched the `tapo_socket` off again once his cup was full, keeping to his energy-conscious habit.
+
+At 07:58, coffee in hand, Nils returned to his room to drink it slowly at his desk, leaving the `tuya_lamp` on low in the living area since the space wasn't empty for long and Jana would soon be up.
+
+At 08:06, Jana woke in her own room. She switched on her `tapo_lamp` at low brightness and warm light to wake up gently and let the morning settle around her.
+
+At 08:19, Jana wandered into the kitchen to make breakfast. She switched the `tapo_socket` on at 08:21 to boil the kettle for tea, and at 08:25 she switched it off once the water had boiled.
+
+At 08:33, Jana carried her tea and breakfast into the living area, where the soft `tuya_lamp` glow was still on. She ate unhurriedly, glad of the radiator warmth from the `shelly_relais`.
+
+At 08:52, having finished breakfast, Jana cleared up and headed back toward her room to start client work. As she left the living area empty — Nils still settled in his own room — she turned off the `tuya_lamp` at 08:54 to keep the shared space lighting modest.
+
+At 08:57, Jana settled at her small workspace and switched her `tapo_lamp` to high brightness and cool light, ready for focused design work.
+
+At 09:00, Nils finished his coffee and settled in to study, switching his `aidot_lamp` to high brightness and cool light for the desk.

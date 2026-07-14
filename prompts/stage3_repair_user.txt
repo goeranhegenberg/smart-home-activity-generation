@@ -1,0 +1,15 @@
+The JSON below was extracted from the narrative but FAILED validation.
+Return a corrected JSON array that fixes ONLY the listed problems while staying faithful to the narrative. Keep the same fields (timestamp, resident, device, action, action_value, intent). Output valid JSON only, no commentary, no code fences.
+
+Use only the devices, actions and allowed values from the schema in the fixed reference context above.
+
+Narrative (ground truth):
+{{NARRATIVE}}
+
+Previous JSON (to be corrected):
+{{PREVIOUS_JSON}}
+
+Validation errors to fix:
+{{ERRORS}}
+
+Return the corrected JSON array only.

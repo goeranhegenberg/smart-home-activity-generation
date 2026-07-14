@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": "07:28",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Ease gently into the grey morning"
+  },
+  {
+    "timestamp": "07:28",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Soft cozy light to wake without a jolt"
+  },
+  {
+    "timestamp": "07:28",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim light to ease into the morning"
+  },
+  {
+    "timestamp": "07:37",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Room would sit empty while making coffee"
+  },
+  {
+    "timestamp": "07:41",
+    "resident": "Nils",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Power the coffee machine"
+  },
+  {
+    "timestamp": "07:44",
+    "resident": "Nils",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Light the living area against dull daylight"
+  },
+  {
+    "timestamp": "07:44",
+    "resident": "Nils",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Ambient light against the dull daylight"
+  },
+  {
+    "timestamp": "07:46",
+    "resident": "Nils",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Take the chill off the cool October air"
+  },
+  {
+    "timestamp": "07:49",
+    "resident": "Nils",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee is ready"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Slow comfortable start to the morning"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy waking light"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim light for a slow start"
+  },
+  {
+    "timestamp": "08:20",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Room would be empty"
+  },
+  {
+    "timestamp": "08:23",
+    "resident": "Jana",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Boil water for coffee and breakfast"
+  },
+  {
+    "timestamp": "08:31",
+    "resident": "Nils",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Living area is comfortably warm now"
+  },
+  {
+    "timestamp": "08:38",
+    "resident": "Jana",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished with the kettle"
+  },
+  {
+    "timestamp": "08:47",
+    "resident": "Jana",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Better visibility while eating and planning"
+  },
+  {
+    "timestamp": "08:52",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Start studying at the desk"
+  },
+  {
+    "timestamp": "08:52",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Focused desk work"
+  },
+  {
+    "timestamp": "08:52",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Full output for focused desk work"
+  },
+  {
+    "timestamp": "09:00",
+    "resident": "Jana",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Last to leave the now-empty living area"
+  }
+]

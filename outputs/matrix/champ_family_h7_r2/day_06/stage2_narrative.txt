@@ -1,0 +1,17 @@
+It being Saturday, there is no school run and no office commute, so the whole household sleeps in well past the usual weekday alarms.
+
+At 07:52 Bob is the first to stir. The bedroom is pitch dark, so he switches the bedroom aidot_lamp on at low brightness and warm light, just enough to find his clothes without rousing Alice. He dresses quietly, and at 08:03, having gathered what he needs, he turns the aidot_lamp off again to let Alice sleep on.
+
+At 08:09 Bob walks into the living area and switches the tuya_lamp on at low brightness — a gentle ambient level for a slow weekend start. He notices the shelly_relais radiator is already running from overnight, which suits the chilly morning, so he leaves it on to warm the room.
+
+At 08:16 Bob steps into the kitchen and powers the tapo_socket on to boil the kettle for his first coffee. At 08:19 the coffee is brewed and he switches the tapo_socket off.
+
+By 08:31, fully awake and settling in with his coffee, Bob raises the living area tuya_lamp to high brightness so he can read at the table.
+
+At 08:34 Alice wakes. She brightens the bedroom aidot_lamp to high and sets it to cool light to come round properly. After a slow stretch and getting up, at 08:46 she leaves the bedroom and turns the aidot_lamp off behind her so it isn't burning in an empty room.
+
+At 08:48 Charlie, hearing the others up, calls out from his room. Bob goes in and at 08:50 switches Charlie's tapo_lamp on at low brightness and warm light to wake him gently. At 08:53, once Charlie is sitting up and wants to see properly, Bob raises the tapo_lamp to high brightness.
+
+At 08:57 Bob heads back to the kitchen and switches the tapo_socket on again to make Charlie a cocoa and a second coffee for himself. At 09:00 the drinks are ready and he switches the tapo_socket off.
+
+The living area tuya_lamp remains on at high brightness for the family's relaxed weekend breakfast, and the shelly_relais radiator stays on, keeping the room warm while everyone is home.

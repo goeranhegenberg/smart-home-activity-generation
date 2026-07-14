@@ -1,0 +1,43 @@
+{
+  "run": "champ_family_h3_r2",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Compared with the previous day, Bob and Charlie shift their ~07:15 breakfast from the living area to the kitchen without any stated reason."
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "The narrative introduces the unexplained change that the living-area tuya_lamp was already on at 06:15 despite the previous day ending with Alice still home and no mention of it being left on overnight."
+      },
+      "votes": 1,
+      "day": 3
+    }
+  ]
+}

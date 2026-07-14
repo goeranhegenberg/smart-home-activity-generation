@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": "06:02",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Get dim light to find clothes without disturbing sleeping Alice"
+  },
+  {
+    "timestamp": "06:02",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Keep light dim to avoid waking Alice"
+  },
+  {
+    "timestamp": "06:02",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy light suitable for early morning"
+  },
+  {
+    "timestamp": "06:13",
+    "resident": "Bob",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Start radiator to warm the chilly living area"
+  },
+  {
+    "timestamp": "06:14",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Gentle ambient glow while still dark"
+  },
+  {
+    "timestamp": "06:14",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Soft ambient lighting"
+  },
+  {
+    "timestamp": "06:17",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Boil kettle for coffee"
+  },
+  {
+    "timestamp": "06:38",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee done, switch off kettle"
+  },
+  {
+    "timestamp": "06:46",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Wake Charlie gently in the dark"
+  },
+  {
+    "timestamp": "06:46",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim light to gently rouse Charlie"
+  },
+  {
+    "timestamp": "06:46",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy waking light for Charlie"
+  },
+  {
+    "timestamp": "06:52",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Charlie asked for more light to see"
+  },
+  {
+    "timestamp": "07:02",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Brighten room to wake up fully"
+  },
+  {
+    "timestamp": "07:02",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool light to feel alert"
+  },
+  {
+    "timestamp": "07:08",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Reheat water for Charlie's cocoa and second coffee"
+  },
+  {
+    "timestamp": "07:13",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Brighter light to see breakfast clearly"
+  },
+  {
+    "timestamp": "07:19",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving empty bedroom"
+  },
+  {
+    "timestamp": "07:33",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Breakfast drinks finished, power down for the day"
+  },
+  {
+    "timestamp": "08:04",
+    "resident": "Alice",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving empty Charlie's room after dressing"
+  },
+  {
+    "timestamp": "08:29",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Lower light but leave on for Alice while leaving"
+  },
+  {
+    "timestamp": "08:33",
+    "resident": "Alice",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Well-lit workspace to begin work"
+  }
+]

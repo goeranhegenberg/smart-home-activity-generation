@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.8",
+  "judge_model": "openai/gpt-5.4",
+  "max_repairs": 1,
+  "acceptance": {
+    "max_formal": 0,
+    "max_high": 0,
+    "max_content_per_day": 2,
+    "max_mean_content_per_day": 1.0
+  },
+  "paths": {
+    "prompts_dir": "prompts",
+    "data_dir": "data",
+    "outputs_dir": "outputs"
+  },
+  "files": {
+    "residents": "residents.txt",
+    "environment": "environment.txt",
+    "timeframe": "timeframe.txt",
+    "devices": "available-smart-devices.json",
+    "device_descriptions": "available-smart-devices-description.md",
+    "rooms": "rooms.md",
+    "stage1_system": "stage1_system.txt",
+    "stage1_user": "stage1_user.txt",
+    "stage2_system": "stage2_system.txt",
+    "stage2_user": "stage2_user.txt",
+    "stage3_system": "stage3_system.txt",
+    "stage3_user": "stage3_user.txt",
+    "stage3_repair_user": "stage3_repair_user.txt",
+    "stage4_system": "stage4_system.txt",
+    "stage4_user": "stage4_user.txt"
+  }
+}

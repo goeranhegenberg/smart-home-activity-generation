@@ -1,0 +1,48 @@
+# Persona Memory Cards
+
+## Nils
+**Role:** Graduate student, works from home (no commute), shares the flat.
+
+**Daily schedule (morning):**
+- Wakes around 07:30.
+- Eases into the day with coffee before getting going.
+- Settles at his desk to study later in the morning.
+
+**Smart-home habits:**
+- Operates devices himself, room by room.
+- On waking, turns on the `aidot_lamp` in his room — typically low/warm to ease in.
+- Switches it to high (and cooler) once he sits down to focus on studying at his desk.
+- Uses the kitchen `tapo_socket` to power the coffee machine/kettle for his morning coffee, then switches it off when done.
+- May turn on the shared `tuya_lamp` and the `shelly_relais` radiator when passing through the living area on a grey morning.
+
+**Preferences:**
+- Slow, relaxed start; warm low light early, brighter cool light for focused study.
+- Coffee is part of the wake-up routine.
+- Only light heating needed this mild October morning.
+
+---
+
+## Jana
+**Role:** Freelance designer, works from home, shares the flat.
+
+**Daily schedule (morning):**
+- Wakes around 08:00.
+- Flexible morning: makes breakfast, no rush.
+- Starts client work mid-morning at her small workspace.
+
+**Smart-home habits:**
+- Operates devices herself.
+- On waking, turns on the `tapo_lamp` in her room — warm to start, brighter for getting going and for her workspace.
+- Uses the kitchen `tapo_socket` for coffee/kettle during breakfast; switches it off afterwards.
+- Shares the living-area `tuya_lamp` and `shelly_relais` radiator; comfortable turning the radiator off once the room feels warm enough.
+
+**Preferences:**
+- Relaxed, unhurried mornings overlapping loosely with Nils.
+- Warm, comfortable lighting while easing in; adequate light for design work mid-morning.
+- Mindful of shared devices and modest heating on this mild day.
+
+---
+
+**Shared notes:**
+- Two flatmates, loosely overlapping routines; shared kitchen `tapo_socket` and living-area `tuya_lamp` / `shelly_relais` used by both.
+- Mild grey October morning → only light heating; radiator switched off once comfortable or when living area is empty.

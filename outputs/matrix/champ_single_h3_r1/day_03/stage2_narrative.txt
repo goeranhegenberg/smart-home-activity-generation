@@ -1,0 +1,25 @@
+At 06:34, Mara stirs awake in the bedroom and reaches for the bedside switch, turning on the `aidot_lamp` at `high` brightness with a `cool` light_temp to jolt herself alert in the dark winter gloom.
+
+At 06:39, now sitting upright, she softens the `aidot_lamp` to a `warm` light_temp, keeping the brightness at `high` while she gathers her bearings.
+
+At 06:43, she steps briefly into the living area and switches on the `shelly_relais` to start the radiator, wanting the cold open-plan room warmed by the time she sits down for breakfast. She returns to the bedroom to dress and wash.
+
+At 06:58, washed and dressed, Mara leaves the bedroom and turns off the `aidot_lamp` behind her, leaving the empty room dark.
+
+At 07:01, in the still-dim living area, she turns on the `tuya_lamp` at `high` brightness for general light.
+
+At 07:03, she switches on the `tapo_lamp` in the reading corner at `low` brightness and a `warm` light_temp to create a cozy spot for her breakfast.
+
+At 07:06, in the galley kitchen she powers on the `tapo_socket` to run the coffee machine.
+
+At 07:10, with the coffee brewed, she switches the `tapo_socket` back off.
+
+At 07:13, she settles into the reading corner with her coffee and a quick breakfast, the radiator now taking the chill off the room.
+
+At 07:44, finishing up, she switches off the `tapo_lamp` in the reading corner.
+
+At 07:52, gathering her things to leave, she turns off the `tuya_lamp`, leaving the living area dark.
+
+At 07:54, on her way through to the hallway, she switches off the `shelly_relais` so the radiator is not running in the empty apartment.
+
+At 07:58, Mara leaves the apartment for her commute, all devices off behind her.

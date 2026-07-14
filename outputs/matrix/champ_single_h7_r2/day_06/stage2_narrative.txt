@@ -1,0 +1,15 @@
+It is Saturday, so Mara sleeps in past her usual workday wake-up. The apartment stays dark and quiet through the early hours, every device off.
+
+At 07:48 Mara stirs and reaches for the bedside switch, turning on the `aidot_lamp` in the bedroom at `high` brightness and `cool` light temperature to push back against the dark, chilly winter morning and wake herself up properly.
+
+At 07:53, still in the bedroom but thinking ahead to the cold living area, she pads through and flips on the `shelly_relais` to start the living-area radiator warming the flat. Since there is no commute today, she lets the morning unfold more slowly than on a workday.
+
+At 07:56 she switches on the `tuya_lamp` ceiling light in the living area to `high` brightness, since dawn has not yet broken the gloom, and at 07:58 she also turns on the `tapo_lamp` in the reading corner at `low` brightness and `warm` light temperature for a cozy weekend feel.
+
+Back in the bedroom, having dressed and washed, at 08:09 she turns the `aidot_lamp` off, leaving the empty bedroom dark.
+
+At 08:14 she heads into the kitchen and powers the `tapo_socket` on to brew her coffee. She lingers over it a little, the unhurried Saturday pace, and at 08:18 switches the `tapo_socket` off once the machine has finished.
+
+She settles into the warm reading corner with her coffee for a relaxed breakfast. By 08:46 the late winter dawn has finally brightened the living area enough that the bright ceiling light is no longer needed, so she turns the `tuya_lamp` off, keeping only the low warm `tapo_lamp` for atmosphere.
+
+With no office to rush to, Mara takes her time, but eventually decides to head out for Saturday errands. At 08:53 she switches the `tapo_lamp` off in the reading corner, and at 08:55 she turns the `shelly_relais` off so the radiator is not heating an empty flat. She then leaves through the hallway, the apartment dark and every device off behind her.

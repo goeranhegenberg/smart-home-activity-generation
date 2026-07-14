@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "06:34",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Turning on bedside lamp to wake up in the dark winter morning"
+  },
+  {
+    "timestamp": "06:34",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright light to shake off morning grogginess"
+  },
+  {
+    "timestamp": "06:34",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool light to feel alert"
+  },
+  {
+    "timestamp": "06:37",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Turning on radiator to warm the room while getting ready"
+  },
+  {
+    "timestamp": "06:49",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turning off bedroom lamp after dressing, leaving room empty"
+  },
+  {
+    "timestamp": "06:52",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "General illumination in living area"
+  },
+  {
+    "timestamp": "06:52",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong illumination while sorting out her morning"
+  },
+  {
+    "timestamp": "07:04",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Powering coffee machine for morning drink"
+  },
+  {
+    "timestamp": "07:08",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee brewed, turning off socket"
+  },
+  {
+    "timestamp": "07:11",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Cozy reading lamp for coffee corner"
+  },
+  {
+    "timestamp": "07:11",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim ambient light for sitting with coffee"
+  },
+  {
+    "timestamp": "07:11",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy warm light for relaxing corner"
+  },
+  {
+    "timestamp": "07:13",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turning off main light, leaving just the soft reading lamp"
+  },
+  {
+    "timestamp": "07:41",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finishing drink and gathering things"
+  },
+  {
+    "timestamp": "07:48",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turning off radiator so it isn't running in an empty apartment"
+  }
+]

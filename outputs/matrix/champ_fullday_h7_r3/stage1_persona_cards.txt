@@ -1,0 +1,63 @@
+# Persona Memory Cards
+
+## Lena — 38, Hospital Nurse (Rotating Shifts)
+
+**Daily Schedule (varies strongly by day):**
+- **Mon/Tue (early):** leaves ~05:40, home ~14:30
+- **Wed (day off):** at home — errands, rest, daytime leisure
+- **Thu/Fri (late):** leaves ~13:00, home ~22:15
+- **Sat (night):** sleeps late, afternoon nap, leaves ~20:30, works overnight
+- **Sun:** returns ~07:15, sleeps much of morning/early afternoon
+
+**Smart-Home Habits:**
+- Energy-conscious: switches lights off when leaving a room
+- Early-shift mornings: uses `bedroom_lamp` and `bathroom_lamp` in the dark; brief `hallway_lamp` on exit
+- Turns off `heating` when leaving / room empty
+- Operates her own devices
+
+**Preferences:**
+- `bedroom_lamp`: cool/alert for waking, warm/low for winding down
+- Minimal waste; dark, quiet home overnight
+- Schedule unpredictable day-to-day — light/heating use shifts with her rota
+
+---
+
+## Tom — 41, Office Worker (Mon–Fri, 9–5)
+
+**Daily Schedule:**
+- **Workdays:** leaves ~08:00, home ~18:10
+- Morning: makes coffee; Evening: watches living-room TV; bed ~23:00
+- **Weekends:** sleeps in, household chores, relaxes
+
+**Smart-Home Habits:**
+- Makes morning coffee → `coffee_socket` on then off
+- Evening TV → `tv_socket` on, off before bed
+- Uses `kitchen_lamp` while in kitchen
+- Often starts `robot_vacuum` on weekends
+- Uses `living_lamp` and `heating` in evenings on cold days
+- Operates devices himself
+
+**Preferences:**
+- Routine, predictable weekday rhythm
+- Living-area comfort in the evening (light + heating + TV)
+- Weekend chores centered on vacuuming
+
+---
+
+## Mia — 14, Secondary-School Student
+
+**Daily Schedule:**
+- **School days (Mon–Fri):** up ~06:45, leaves ~07:40, home ~15:30
+- Afternoon: homework in her room; Evening: living-room TV; bed ~22:00
+- **Weekends:** sleeps in until late morning; time in her room and living area
+
+**Smart-Home Habits:**
+- Morning: `mia_lamp` on (dark winter mornings); `bathroom_lamp` for washing
+- Afternoon homework: `mia_lamp` cool/high
+- Winding down: `mia_lamp` warm/low
+- Evening: watches living-room TV (`tv_socket`, `living_lamp`)
+- Operates devices in her own room plus shared devices
+
+**Preferences:**
+- `mia_lamp`: cool/high for focus, warm/low to relax
+- Shares living-area devices with family in the evening

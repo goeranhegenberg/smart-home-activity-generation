@@ -1,0 +1,138 @@
+[
+  {
+    "timestamp": "07:34",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Easing gently into the grey October morning without jolting himself awake"
+  },
+  {
+    "timestamp": "07:34",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Soft dim light to wake up gently"
+  },
+  {
+    "timestamp": "07:34",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy warm tone for a relaxed wake-up"
+  },
+  {
+    "timestamp": "07:49",
+    "resident": "Nils",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Properly lighting the shared living area"
+  },
+  {
+    "timestamp": "07:49",
+    "resident": "Nils",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Properly lighting the common room"
+  },
+  {
+    "timestamp": "07:51",
+    "resident": "Nils",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Taking the chill off the living-area radiator"
+  },
+  {
+    "timestamp": "07:58",
+    "resident": "Nils",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Running the coffee machine"
+  },
+  {
+    "timestamp": "08:02",
+    "resident": "Nils",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Cutting power once his cup is filled"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Waking up and feeling alert"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong light to shake off sleep"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool tone to feel alert"
+  },
+  {
+    "timestamp": "08:13",
+    "resident": "Nils",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Living area warmed comfortably, only a short burst of heating needed"
+  },
+  {
+    "timestamp": "08:21",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Not leaving the lamp burning in an unoccupied room"
+  },
+  {
+    "timestamp": "08:26",
+    "resident": "Jana",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Boiling water with the kettle"
+  },
+  {
+    "timestamp": "08:31",
+    "resident": "Jana",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Cutting power once the water boiled"
+  },
+  {
+    "timestamp": "08:44",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Sharpening the desk light for focused study"
+  },
+  {
+    "timestamp": "08:44",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool tone for focused work"
+  }
+]

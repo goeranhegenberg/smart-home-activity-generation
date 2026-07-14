@@ -1,0 +1,37 @@
+The house is dark and silent as Friday begins, every device off and the family asleep.
+
+At 06:31 Tom stirs and switches the `bedroom_lamp` on at low brightness, warm temperature, for a gentle start. At 06:39 he heads to the bathroom and turns the `bathroom_lamp` on. At 06:46 he finishes washing up and switches the `bathroom_lamp` off. At 06:48 he turns the `bedroom_lamp` off as he leaves the bedroom and goes downstairs.
+
+At 06:51 Tom enters the kitchen and turns the `kitchen_lamp` on at high brightness against the early dark. At 06:53 he switches the `coffee_socket` on to brew his morning coffee. While it runs, at 06:55 he steps into the living area and turns the `heating` on to take the chill off the room.
+
+Meanwhile, at 06:53 Mia wakes and turns her `mia_lamp` on at high brightness, cool temperature, to get going in the dark. At 07:04 she crosses to the bathroom and switches the `bathroom_lamp` on, then off again at 07:11 when she's done.
+
+At 06:58 Tom's coffee finishes and he switches the `coffee_socket` off, pouring a cup. He drinks it in the warming living area while skimming the news.
+
+At 07:33 Mia, dressed and ready, turns her `mia_lamp` off as she leaves her room. At 07:37 she switches the `hallway_lamp` on, then off at 07:39 as she steps out the door for school.
+
+At 07:52 Tom carries his empty cup back to the kitchen and switches the `kitchen_lamp` off. At 07:55 he turns the `heating` off in the now-quiet living area. At 07:58 he flicks the `hallway_lamp` on, and at 08:01 off as he leaves for the office.
+
+The house sits empty and dark through mid-morning. At 09:43 Lena wakes ahead of her late shift and turns the `bedroom_lamp` on, cool and high, to come fully awake. At 09:51 she goes to the bathroom and switches the `bathroom_lamp` on, then off at 09:58. At 10:01 she turns the `bedroom_lamp` off and heads downstairs.
+
+At 10:04 Lena turns the `kitchen_lamp` on at high brightness for a late breakfast, and at 10:06 switches the `coffee_socket` on. At 10:08 she steps into the living area and turns the `heating` on against the grey chill. At 10:11 the coffee is ready and she switches the `coffee_socket` off. She eats and relaxes in the warm living room.
+
+At 11:46 Lena clears up and switches the `kitchen_lamp` off. At 12:18 she turns the `heating` off as she prepares to leave. At 12:33 she switches the `hallway_lamp` on, and at 12:36 off as she heads out the door for her late shift.
+
+The house is empty again until Mia returns from school. At 15:28 she switches the `hallway_lamp` on as she comes in, and at 15:31 off. At 15:36 she goes up to her room and turns her `mia_lamp` on at high brightness, cool temperature, settling in for homework.
+
+As the daylight fades, at 16:37 Mia comes down to the living area and turns the `living_lamp` on at high brightness, then at 16:39 switches the `heating` on to warm the room. At 16:44 she fetches a snack, turning the `kitchen_lamp` on at low brightness, and off again at 16:51. She returns upstairs to finish homework with her `mia_lamp` still on.
+
+At 18:09 Tom arrives home from work, switching the `hallway_lamp` on at 18:09 and off at 18:12. At 18:21 he turns the `kitchen_lamp` on at high brightness and starts on dinner.
+
+At 18:34 Mia finishes her homework and turns her `mia_lamp` off, coming down to the living area. They eat together, and at 19:18 Tom switches the `kitchen_lamp` off.
+
+At 19:24 Tom turns the `tv_socket` on and settles in front of the living-room TV with Mia. They watch together in the warm, lamp-lit room.
+
+At 21:48 Mia heads up to wind down. At 21:51 she turns her `mia_lamp` on at low brightness, warm temperature. At 21:56 she steps into the bathroom, switching the `bathroom_lamp` on, then off at 22:04. At 22:13 she turns her `mia_lamp` off and goes to sleep.
+
+Tom keeps watching TV alone. At 22:14 Lena returns from her late shift, switching the `hallway_lamp` on at 22:14 and off at 22:17. She passes through the living area and joins Tom briefly, then at 22:41 goes up to wind down: at 22:43 she turns the `bedroom_lamp` on at low brightness, warm temperature. At 22:48 she uses the bathroom, switching the `bathroom_lamp` on, then off at 22:55.
+
+At 23:02 Tom does his nightly shutdown of the shared devices: he switches the `tv_socket` off, then at 23:04 turns the `heating` off, and at 23:06 switches the `living_lamp` off. At 23:08 he uses the bathroom, turning the `bathroom_lamp` on and off at 23:14.
+
+At 23:17 Tom comes into the bedroom; the `bedroom_lamp` is still on low and warm, and he reads briefly beside Lena. At 23:34 he turns the `bedroom_lamp` off, and the house falls dark and quiet with every device off for the night.

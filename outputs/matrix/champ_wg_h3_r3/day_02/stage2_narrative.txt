@@ -1,0 +1,25 @@
+At 07:34 Nils wakes in his room and switches on the `aidot_lamp` at warm, low brightness to ease into the grey morning without a harsh start.
+
+At 07:46, dressed and ready to head out for coffee, he turns the `aidot_lamp` off, leaving his room dark and empty.
+
+At 07:49 Nils passes through the living area and switches the `tuya_lamp` on at low for soft ambient light, the October daylight still thin and grey. At 07:51 he flips the `shelly_relais` on to take the chill off the shared room.
+
+At 07:54 he steps into the kitchen and switches the `tapo_socket` on to power the coffee machine.
+
+At 07:58 the coffee is brewed, and he cuts power to the machine by switching the `tapo_socket` off.
+
+At 08:07 Jana wakes in her room and turns the `tapo_lamp` on at warm, low brightness for a gentle start.
+
+At 08:19, getting up to make breakfast, Jana switches the `tapo_lamp` off as she leaves her room.
+
+At 08:22 Jana joins the living area, where the `tuya_lamp` is already glowing low and the radiator is warming the space.
+
+At 08:24 she goes into the kitchen and switches the `tapo_socket` on to boil the kettle for tea.
+
+At 08:31, breakfast made, she turns the `tapo_socket` off again.
+
+At 08:38, finding the living area comfortably warm now, Nils switches the `shelly_relais` off.
+
+At 08:44, with the daylight growing brighter through the windows, Nils turns the `tuya_lamp` off, no longer needing the ambient light.
+
+At 08:56 Nils settles at his desk to begin studying and switches the `aidot_lamp` on, setting it to high brightness and cool light for focused work.

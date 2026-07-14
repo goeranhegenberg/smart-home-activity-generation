@@ -1,0 +1,15 @@
+It is Sunday, the last day of the week, and the family sleeps in. The apartment is dark and chilly, and the living-area radiator has been left running overnight.
+
+At 07:42 Bob stirs first, later than on a workday. He reaches for the bedside `aidot_lamp` in the bedroom and switches it on at **low** brightness, **warm** light temperature, keeping the start gentle so Alice can keep sleeping. At 07:46 he pads out of the bedroom, switching the `aidot_lamp` off behind him to leave the room dark for Alice.
+
+At 07:49 Bob steps into the living area and turns on the `tuya_lamp` at **low** brightness for a soft, slow weekend start. He notes the radiator is already warming the room nicely and leaves the `shelly_relais` on. At 07:54 he moves into the kitchen and switches the `tapo_socket` on to heat water for his coffee. The machine runs for a few minutes; at 07:58 he switches the `tapo_socket` off once his coffee is poured.
+
+Bob enjoys a relaxed coffee at the table. At 08:11 he goes into Charlie's room to wake him gently, turning on the `tapo_lamp` at **low** brightness, **warm** light temperature. At 08:14, once Charlie is blinking awake, Bob raises the `tapo_lamp` to **high** brightness so the boy can find his clothes laid out for a lazy Sunday.
+
+At 08:23 Alice wakes naturally. She switches on the bedroom `aidot_lamp` at **low** brightness, **warm** light temperature for a soft start. At 08:31, dressed and ready, she leaves the bedroom and turns the `aidot_lamp` off so the empty room stays dark.
+
+At 08:34 Alice joins the others in the living area and brightens the `tuya_lamp` to **high** for the shared breakfast table. At 08:37 Bob steps into the kitchen and powers the `tapo_socket` on again to boil water for Charlie's warm breakfast drink. At 08:41 he switches the `tapo_socket` off once the water is done, finished with the kitchen appliance for the morning.
+
+While Bob and Charlie settle at the table, Alice heads into Charlie's room to help finish dressing him for the day. At 08:53, with Charlie dressed and the room no longer needed, Alice switches the `tapo_lamp` off, leaving his room dark and empty.
+
+With no school or office to rush to, the morning stays unhurried. The family lingers over breakfast in the warm, brightly lit living area. By 09:00 the `tuya_lamp` remains on at **high** brightness and the `shelly_relais` radiator stays on to keep the shared space comfortable, while the bedroom `aidot_lamp`, Charlie's `tapo_lamp`, and the kitchen `tapo_socket` are all off.

@@ -1,0 +1,47 @@
+# Persona Memory Cards
+
+## Nils — Graduate Student (works from home)
+
+**Daily Schedule**
+- Wakes ~07:30, no commute.
+- Eases into the day with coffee first.
+- Starts studying at his desk around 09:00.
+- Relaxed, unhurried mornings that loosely overlap with Jana's.
+
+**Smart-Home Habits**
+- Operates all devices himself.
+- On waking, briefly uses the `aidot_lamp` warm/low, then off when leaving his room for coffee.
+- Brews coffee via the kitchen `tapo_socket`, cutting power once done.
+- Switches on the living-area `shelly_relais` radiator to take the chill off, then off once comfortable; uses the `tuya_lamp` at low for ambient light, off as daylight brightens.
+
+**Preferences**
+- Warm, low light when easing into the day; switches the `aidot_lamp` to high/cool for focused study at the desk.
+- Comfortable with only brief, light heating on mild grey mornings.
+- Mindful of shared spaces, switching lights/heating off when leaving or as daylight grows.
+
+---
+
+## Jana — Freelance Designer (works from home)
+
+**Daily Schedule**
+- Wakes ~08:00, flexible morning.
+- Makes breakfast after getting up.
+- Starts client work mid-morning.
+- Casual, overlapping routine with Nils.
+
+**Smart-Home Habits**
+- Operates all devices herself.
+- On waking, uses the `tapo_lamp` at low/warm, then off when leaving her room for breakfast.
+- Uses the kitchen `tapo_socket` for the kettle/breakfast appliances, switching it off when done.
+- Uses shared living-area devices loosely, coordinating with Nils.
+
+**Preferences**
+- Warm, gentle low light on waking; brighter light for her workspace once working.
+- Values a comfortable but not overheated shared area (light heating only).
+- Easygoing about shared kitchen/living devices, coordinating loosely with Nils.
+
+## World state at end of window
+- aidot_lamp: on, brightness high, light_temp cool
+
+## Active events
+- none

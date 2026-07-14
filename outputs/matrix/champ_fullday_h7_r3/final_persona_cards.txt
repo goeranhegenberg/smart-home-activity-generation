@@ -1,0 +1,71 @@
+# Persona Memory Cards
+
+## Lena — 38, Hospital Nurse (Rotating Shifts)
+
+**Daily Schedule (varies strongly by day):**
+- **Mon/Tue (early):** leaves ~05:40, home ~14:30
+- **Wed (day off):** at home — errands, rest, daytime leisure
+- **Thu/Fri (late):** leaves ~13:00, home ~22:15
+- **Sat (night):** sleeps late, afternoon nap, leaves ~20:30, works overnight
+- **Sun:** returns ~07:15, sleeps much of morning/early afternoon
+
+**Smart-Home Habits:**
+- Energy-conscious: switches lights off when leaving a room
+- Sun return from night shift: brief `hallway_lamp` to set down bag; gentle `kitchen_lamp` (low) + single `coffee_socket` brew; quick `bathroom_lamp`; warm/low `bedroom_lamp` for short reading before sleeping through morning/early afternoon
+- Waking from daytime sleep: `bedroom_lamp` cool/high to feel alert, then off coming downstairs; brief `bathroom_lamp`
+- Afternoon: `living_lamp` (low) as daylight fades; cooks family dinner with `kitchen_lamp`; turns `heating` on as room cools toward dusk
+- Turns off `heating` / lights when leaving / room empty
+- Heads to bed early on Sun after night-shift week; brief `bedroom_lamp` before sleep
+
+**Preferences:**
+- `bedroom_lamp`: cool/high for waking, warm/low for winding down
+- Minimal waste; dark, quiet home overnight
+- Schedule unpredictable day-to-day — light/heating use shifts with her rota
+
+---
+
+## Tom — 41, Office Worker (Mon–Fri, 9–5)
+
+**Daily Schedule:**
+- **Workdays:** leaves ~08:00, home ~18:10
+- Morning: makes coffee; Evening: watches living-room TV; bed ~23:00
+- **Weekends:** sleeps in (up ~08:45), household chores, relaxes
+
+**Smart-Home Habits:**
+- Wakes later on weekends, brief `bedroom_lamp` (warm/low) before heading down; off so as not to disturb Lena
+- Makes morning coffee → `coffee_socket` on then off; `kitchen_lamp` high, off once daylight suffices; brief `kitchen_lamp` again for midday lunch
+- `heating` on to warm chilly living area, off when warm
+- Often starts `robot_vacuum` on weekend mornings for a ground-floor clean
+- Evening: `tv_socket` on for long evening viewing; raises `living_lamp` to high as dusk deepens
+- Handles overnight shut-down: `tv_socket`, `heating`, `living_lamp` off; quick `kitchen_lamp` for a glass of water before bed; brief warm/low `bedroom_lamp` before sleep
+
+**Preferences:**
+- Routine, predictable weekday rhythm
+- `bedroom_lamp`: warm/low to ease into morning and again briefly before bed
+- Living-area comfort in the evening; reliable overnight shut-down
+
+---
+
+## Mia — 14, Secondary-School Student
+
+**Daily Schedule:**
+- **School days (Mon–Fri):** up ~06:45, leaves ~07:40, home ~15:30
+- Afternoon: homework in her room; Evening: living-room TV; bed ~22:00
+- **Weekends:** sleeps in until late morning (up ~11:15); time in her room and living area
+
+**Smart-Home Habits:**
+- Waking late on weekends: `mia_lamp` warm/low; `bathroom_lamp` for washing
+- Does weekend homework in her room: `mia_lamp` cool/high for focus, switching to warm/low when done
+- Winding down: `mia_lamp` warm/low, off at bed ~22:00
+- Often stays in her room evenings rather than living-room TV
+- Operates devices in her own room plus shared devices
+
+**Preferences:**
+- `mia_lamp`: warm/low for waking and relaxing, cool/high for focus
+- Shares living-area devices with family in the evening
+
+## World state at end of window
+- (all devices off / default)
+
+## Active events
+- none

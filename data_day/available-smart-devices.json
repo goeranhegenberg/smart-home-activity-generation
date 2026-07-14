@@ -1,0 +1,68 @@
+[
+  {
+    "device": "bedroom_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"],
+      "light_temp": ["warm", "cool"]
+    }
+  },
+  {
+    "device": "mia_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"],
+      "light_temp": ["warm", "cool"]
+    }
+  },
+  {
+    "device": "living_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"]
+    }
+  },
+  {
+    "device": "kitchen_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"]
+    }
+  },
+  {
+    "device": "bathroom_lamp",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  },
+  {
+    "device": "hallway_lamp",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  },
+  {
+    "device": "coffee_socket",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  },
+  {
+    "device": "tv_socket",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  },
+  {
+    "device": "robot_vacuum",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  },
+  {
+    "device": "heating",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  }
+]

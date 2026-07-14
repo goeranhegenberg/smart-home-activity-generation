@@ -1,0 +1,8 @@
+[
+  {"timestamp": "06:00", "resident": "Bob", "device": "aidot_lamp", "action": "status", "action_value": "on", "intent": "turn on bedroom lamp to get up"},
+  {"timestamp": "06:00", "resident": "Bob", "device": "aidot_lamp", "action": "brightness", "action_value": "high", "intent": "brighten for dressing"},
+  {"timestamp": "06:01", "resident": "Bob", "device": "shelly_relais", "action": "status", "action_value": "on", "intent": "switch on the radiator"},
+  {"timestamp": "06:03", "resident": "Bob", "device": "tapo_socket", "action": "status", "action_value": "on", "intent": "start the coffee machine"},
+  {"timestamp": "06:03", "resident": "Bob", "device": "tuya_lamp", "action": "status", "action_value": "on", "intent": "light the living area"},
+  {"timestamp": "06:05", "resident": "Bob", "device": "shelly_relais", "action": "status", "action_value": "off", "intent": "room warm enough, switch radiator off"}
+]

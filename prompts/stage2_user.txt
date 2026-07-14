@@ -1,0 +1,28 @@
+Stage 2: Create activities for a timeframe
+
+Given the persona memory cards below, generate a realistic natural-language narrative of what the residents do between {{TIMEFRAME}}.
+Describe which devices they interact with, why, and in what order.
+Account for who is at home and any relevant social constraints.
+
+Day context: {{DAY_CONTEXT}}
+Use this to decide weekday vs weekend behavior (e.g. no school/office commute on Saturday or Sunday) and to let routines plausibly evolve across days.
+
+Persona memory cards:
+{{PERSONA_CARDS}}
+
+Use only the device names, allowed actions/values, device descriptions and room placement from the fixed reference context above.
+
+CRITICAL CONSTRAINTS:
+1. Precede every specific device interaction with an exact timestamp.
+2. Whenever a resident leaves a room or finishes a task, explicitly state what happens to each device they used. An energy-conscious resident turns off that room's light when leaving the room empty; do NOT leave a room's light on in an empty room (and never write "forgot/left the light on" lapses) unless a persona trait or an active event explicitly motivates it. Heating or a device that is deliberately left running may stay on if that is sensible and stated. Never leave a state change implicit.
+3. Write definitively. Do not use words like might, may, or if.
+4. When a device state is changed, state the exact value used based on the schema.
+5. Use only the exact device names provided in the schema.
+6. Timestamps must reflect realistic human behavior and must NOT cluster on round 5-minute marks. Deliberately vary the minute value (e.g. 06:03, 06:17, 06:42, 07:09, 07:23, 07:51) — avoid patterns like every action landing on :00, :05, :15, :30, or :45. Two consecutive actions in the same room should usually be 1–4 minutes apart, not 5 or 10. Think in terms of how long the actual physical action takes (flipping a switch is seconds; brewing coffee is ~3 min; getting dressed is ~8–12 min) and let that drive the minute value, not round numbers.
+7. Carried device state: if the persona memory cards contain a section "## World state at end of window", those devices are already in the listed state at the START of this window (e.g. left on overnight). Do not turn on a device that is already on. Have the residents deal with such devices plausibly (for example, switch off a lamp left on overnight when they get up, or leave the heating running if that is sensible). Never silently reset a device's state without a resident action. Treat this as the real physical state of the home and do NOT mention the carried state, the world-state section, or any simulation mechanism in the narrative text.
+8. Active events: if the cards contain a section "## Active events" with a remaining duration greater than zero, continue that situation consistently throughout this day's narrative (e.g. a guest still present, an ongoing illness, an ongoing holiday).
+9. Day-to-day variation: this is one day within a longer sequence; do NOT reproduce an identical routine every day. Introduce realistic variation driven by plausible factors (weekday vs weekend, weather, mood/energy, minor life noise): vary exact timings, vary value choices (e.g. brightness or light temperature), and occasionally add or skip an optional device interaction. On weekends shift the routine clearly (later wake-up, no school or office commute). Keep all variation consistent with the personas, the device schema, and the carried world state.
+10. Full-day arc: if the timeframe spans a full day (e.g. 00:00-24:00), cover the natural daily arc. Overnight the residents are asleep and the home is dark with all devices off, so there are essentially no interactions between going to bed and the first wake-up. Then play out the morning routine, the daytime (at work/school or at home, depending on each persona and the weekday), the late afternoon and evening, and finally switching devices off before sleep. Keep the number of device interactions realistic for this household over a day (do not pad with unnecessary actions); only emit an event when a device's state actually changes.
+11. State-ledger & timeline consistency (important): track each device's current state as you write. Only switch a device OFF if it is currently ON (turned on earlier in THIS narrative, or carried on in the world state); only switch a device ON if it is currently OFF. Never describe an action that contradicts an earlier line (e.g. turning off a lamp that was never turned on, or re-opening a task that was finished). Keep all timeline and room-occupancy statements internally consistent: do not have two people use the same single-occupancy room at overlapping times, and do not reference a person or device before they are introduced/awake. At the end of the day every device a resident left should have an explicit final state.
+
+Return only the narrative text.

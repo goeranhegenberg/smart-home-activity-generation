@@ -1,0 +1,25 @@
+At 07:34, Nils stirred awake in his room. The grey October light barely crept past the curtains, so he reached for his bedside control and switched on the `aidot_lamp` at low brightness with a warm light_temp, easing himself into the day rather than jolting awake.
+
+At 07:48, after a slow stretch and a few minutes scrolling on his phone, Nils got up and padded out toward the kitchen. Since his room would sit empty while he made coffee, at 07:49 he turned the `aidot_lamp` off.
+
+At 07:53, passing into the kitchen, he switched on the `tapo_socket` to power the coffee machine. While it warmed up he stepped into the adjoining living area.
+
+At 07:55, feeling the morning chill in the shared space, Nils switched on the `shelly_relais` to take the edge off with the living-area radiator. At 07:57 he also turned on the `tuya_lamp` at low brightness for a soft ambient glow over the still-dim room.
+
+At 08:01, the coffee machine had finished its cycle, so Nils returned to the kitchen and switched the `tapo_socket` off. He poured his cup and lingered in the living area with it.
+
+At 08:12, Jana woke in her own room. She turned on the `tapo_lamp` at low brightness and warm light_temp, giving herself a cozy few minutes to come around before getting up.
+
+At 08:24, dressed and ready to start her day, Jana left her room for the kitchen; on her way out, at 08:25, she switched the `tapo_lamp` off so it wouldn't burn in the empty room.
+
+At 08:29, in the kitchen, Jana switched the `tapo_socket` on to boil the kettle for her breakfast tea. She and Nils exchanged a few words across the open kitchen-living space while the radiator hummed.
+
+At 08:36, her tea made and breakfast underway, Jana turned the `tapo_socket` off again.
+
+At 08:44, the grey daylight had brightened enough that the ambient lamp was redundant, so Nils switched the `tuya_lamp` off, finishing his coffee in the natural light.
+
+At 08:51, the living area felt comfortably warm and Jana judged the radiator no longer necessary on such a mild morning, so she switched the `shelly_relais` off.
+
+At 08:55, Nils returned to his room to settle in for studying. He turned the `aidot_lamp` back on, this time at high brightness with a cool light_temp, the crisp daylight tone he prefers for focused work at his desk.
+
+At 09:00, Jana stepped into her own room to begin her client work and re-brightened the `tapo_lamp` to high brightness with a cool light_temp at her small workspace.

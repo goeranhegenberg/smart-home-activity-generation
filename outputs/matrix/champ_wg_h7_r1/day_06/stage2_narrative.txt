@@ -1,0 +1,19 @@
+It is a grey, mild Saturday morning, and the apartment is quiet at 06:00. Two private lamps were left burning overnight: Nils's aidot_lamp glows high and cool in his empty-of-activity room, and Jana's tapo_lamp likewise sits on high and cool — both left on from the night before.
+
+At 07:34, Nils stirs and reaches over to fix the harsh light that woke him through the night. He first sets the aidot_lamp to a gentler ambient level, switching its brightness to low at 07:36, and at 07:37 he changes its light_temp to warm so the room eases into a soft orange glow rather than the cold daylight it had been stuck on.
+
+He lingers in bed a few minutes, then at 07:49 he gets up and heads out toward the kitchen. Leaving his room empty, he switches the aidot_lamp off at 07:50.
+
+In the kitchen, coffee comes first. At 07:53 he powers the coffee machine by switching the tapo_socket on, and lets it brew while he steps into the adjoining shared living area. At 07:55 he flips the shelly_relais on to take the light chill off the room, and at 07:57 he turns the tuya_lamp on at low brightness for a soft, slow start to the shared space.
+
+At 08:01 he returns to the kitchen, pours his coffee, and at 08:02 switches the tapo_socket off now that the machine has done its job. He carries his cup into the living area to ease into the day.
+
+Around 08:12, Jana wakes in her own room. The cool overnight light is too stark for a relaxed weekend start, so at 08:14 she dims the tapo_lamp to low and at 08:15 shifts its light_temp to warm while she slowly gets up. At 08:26, dressed and ready to make breakfast, she leaves her room and switches the tapo_lamp off behind her.
+
+She joins Nils briefly in the living area, then steps into the kitchen. At 08:31 she switches the tapo_socket on to boil the kettle for tea and breakfast, and at 08:36 turns it off once the kettle has finished.
+
+By now the grey daylight has grown enough to fill the shared space, and the radiator has taken the edge off the cold. Tidying the common area as she likes to, Jana switches the shelly_relais off at 08:43 now that the room is comfortable, and at 08:45 turns the tuya_lamp off since the daylight suffices.
+
+Nils, finishing his coffee, decides it is time to study. At 08:52 he returns to his room and switches the aidot_lamp on, setting its brightness to high at 08:53 and its light_temp to cool at 08:54 for focused desk work.
+
+Jana settles into her own workspace to begin a bit of client work. At 09:00 she switches the tapo_lamp back on, brings its brightness to high, and sets its light_temp to cool for bright, alert task lighting.

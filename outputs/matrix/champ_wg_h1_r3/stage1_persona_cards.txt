@@ -1,0 +1,41 @@
+# Persona Memory Cards
+
+## Nils
+
+**Daily Schedule**
+- Wakes ~07:30, no commute (works from home as a graduate student)
+- Eases into the day with coffee in the kitchen/living area
+- Starts studying at his desk later in the morning
+
+**Smart-Home Habits**
+- Operates all devices himself
+- Turns on his `aidot_lamp` to get up; switches it to a brighter, cooler setting once he sits down to study
+- Uses the kitchen `tapo_socket` to make morning coffee
+- May switch on the living-area `shelly_relais` radiator to take the early chill off
+
+**Preferences**
+- Prefers a gentle start: low, warm light when first waking
+- Likes cool, high-brightness light at the desk for focused study work
+- Comfortable with light heating only — it's a mild October, not deep winter
+- Switches things off when no longer needed (energy-conscious in shared flat)
+
+---
+
+## Jana
+
+**Daily Schedule**
+- Wakes ~08:00, flexible morning (freelance designer, works from home)
+- Makes breakfast in the kitchen
+- Starts client work mid-morning at her small workspace
+
+**Smart-Home Habits**
+- Operates all devices herself
+- Uses her `tapo_lamp` to wake up and light her room/workspace
+- Shares the kitchen `tapo_socket` for coffee/kettle
+- Uses the living-area `tuya_lamp` and `shelly_relais` when in the shared space
+
+**Preferences**
+- Relaxed, unhurried morning routine that loosely overlaps with Nils's
+- Likes warm light while easing in, brighter light once working
+- Mindful of shared resources — modest heating, lights off in empty rooms
+- Comfortable with the mild October temperature; only light heating needed

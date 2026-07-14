@@ -1,0 +1,27 @@
+The house is dark and silent through the small hours; everyone sleeps and every device is off.
+
+Tom is the first to stir on this grey Saturday morning, sleeping in well past his weekday alarm. At 08:47 he switches the `bedroom_lamp` on at warm/low so as not to wake Lena, who has a night shift ahead and will sleep late. He dresses unhurriedly and at 08:58 turns the `bedroom_lamp` off as he leaves the room.
+
+At 09:03 he flicks the `hallway_lamp` on briefly as he passes, then off at 09:05 once he reaches the living area. The room is chilly, so at 09:07 he turns the `heating` on. At 09:11 he switches the `kitchen_lamp` on at high and sets the coffee going with the `coffee_socket` on at 09:13. By 09:17 the brew is done and he turns the `coffee_socket` off.
+
+With his coffee, Tom decides to tackle the weekend chores. At 09:41 he starts the `robot_vacuum` for a ground-floor clean and settles at the kitchen table. At 10:23 the vacuum finishes its run and he switches the `robot_vacuum` off. By now the living area has warmed up, and at 10:29 he turns the `heating` off. At 10:34 he turns the `kitchen_lamp` off, the morning daylight being just enough, and relaxes.
+
+Mia sleeps in as teenagers do on weekends and surfaces late morning. At 11:18 she switches her `mia_lamp` on at warm/low while she wakes properly. At 11:31 she heads to the bathroom, turning the `bathroom_lamp` on, and off again at 11:42. Back in her room she leaves the `mia_lamp` on at warm/low for a while, then at 12:09, drifting downstairs, turns it off.
+
+Around midday Lena gets up, knowing she has a night shift tonight and an afternoon nap planned. At 12:14 she switches the `bedroom_lamp` on at cool/high to feel alert, then at 12:26 turns it off as she heads out. She uses the bathroom, `bathroom_lamp` on at 12:28 and off at 12:37.
+
+In the kitchen, Lena makes a late, leisurely breakfast. At 12:41 she turns the `kitchen_lamp` on (low) and at 12:43 starts her own brew with the `coffee_socket` on, switching it off at 12:47 once it's done. Mia grabs a snack alongside her. At 13:14 Lena finishes in the kitchen and turns the `kitchen_lamp` off.
+
+The grey afternoon light fades early. At 14:22 Lena turns the `living_lamp` on at low as the family lingers in the living area. Mia drifts back to her room and at 14:36 switches the `mia_lamp` on at cool/high to do a bit of homework. Lena, conscious of her overnight shift, takes her planned afternoon nap: at 15:02 she switches the `living_lamp` off as she leaves the empty side of the room (Tom remaining) — in fact Tom stays, so she leaves the `living_lamp` on at low and heads up; at 15:04 she turns the `bedroom_lamp` on at warm/low, and at 15:07 off to sleep.
+
+As dusk deepens, at 16:11 Tom raises the `living_lamp` to high. The room cools again and at 16:18 he turns the `heating` on. At 16:39 Mia finishes her homework and switches her `mia_lamp` to warm/low to relax.
+
+Lena wakes from her nap refreshed for the night ahead. At 17:48 she turns the `bedroom_lamp` on at cool/high, dresses for work, and at 18:02 turns it off. She comes down to cook an early dinner for the family before she leaves. At 18:07 she turns the `kitchen_lamp` on at high and prepares the meal. Tom turns the `tv_socket` on at 18:24 for some evening viewing while dinner cooks. Mia joins them, leaving her `mia_lamp` on at warm/low upstairs — at 18:31 she nips up and turns it off.
+
+The family eats together. At 19:23 Lena finishes cleaning the kitchen and turns the `kitchen_lamp` off. She gathers her things for the night shift. At 20:21 she flicks the `hallway_lamp` on as she puts on her coat, calls her goodbyes, and at 20:24 turns the `hallway_lamp` off behind her as she leaves for the hospital.
+
+Tom and Mia settle in for the evening. Mia watches with her father for a while in front of the TV. At 21:46 Mia heads up to bed; she turns her `mia_lamp` on at warm/low at 21:49 to wind down and off at 22:08 as she settles to sleep.
+
+Tom keeps the TV on into the night. At 22:53 he turns the `tv_socket` off and begins the overnight shut-down. At 22:56 he turns the `heating` off. He steps into the kitchen for a glass of water, `kitchen_lamp` on at 22:58 and off at 23:01. At 23:03 he turns the `living_lamp` off, plunging the ground floor into darkness.
+
+At 23:06 he turns the `bedroom_lamp` on at warm/low to undress, then off at 23:14. The house is dark and quiet, every device off, with Lena away on her night shift until morning.

@@ -1,0 +1,31 @@
+# Persona Memory Card
+
+## Mara
+
+**Profile:** Single professional, lives alone in a compact two-room apartment in Germany. Operates all devices herself. Winter mornings are dark and chilly, so the routine is short and centered on warming up and getting ready efficiently before an early commute.
+
+### Daily Schedule (typical weekday morning)
+- **06:30** — Wakes up in the bedroom.
+- **06:30–07:00** — Gets dressed, washes up.
+- **07:00–07:30** — Quick breakfast and morning drink in the kitchen / living area.
+- **07:30–08:00** — Final preparations, gathers things.
+- **08:00** — Leaves the apartment via the hallway for her commute.
+
+### Smart-Home Habits
+- **Wake-up (bedroom):** Turns on the `aidot_lamp` to get up and dress in the dark — `brightness: high`, `light_temp: cool` for an alerting start. Switches it off when leaving the bedroom dressed (~06:48).
+- **Heating first:** Switches the `shelly_relais` (living-area radiator) **on** early (shortly after waking) to warm the chilly room, and **off** (~07:46) before leaving for the empty day.
+- **Breakfast drink (kitchen):** Powers the `tapo_socket` (coffee machine) **on** briefly to prepare her morning drink, then **off** once ready (~5 min cycle).
+- **Living/work area:** Uses the `tuya_lamp` (main ceiling, `high`) for general illumination while moving around, off once settled. Adds the `tapo_lamp` (reading/floor lamp) at `low`/`warm` for a cozy corner while having coffee.
+- **On leaving:** Switches off all lights and the radiator on the way out, leaving the apartment dark and powered down for the day.
+
+### Preferences
+- Values **efficiency** — short, purposeful routine with minimal fuss.
+- Prefers **cool, bright light** when waking and getting ready (alertness); **warm, dim light** for a brief cozy coffee moment.
+- Conscious of **heating** in a cold winter apartment — warms early, but never leaves the radiator running when away.
+- Single occupant: full brightness in the morning is fine.
+
+## World state at end of window
+- (all devices off / default)
+
+## Active events
+- none

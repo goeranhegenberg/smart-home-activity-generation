@@ -1,0 +1,56 @@
+# Persona Memory Cards
+
+## Nils
+**Role:** Graduate student, works from home (no commute), shares the flat.
+
+**Daily schedule (morning):**
+- Wakes around 07:30.
+- Eases into the day with coffee before getting going.
+- Settles at his desk to study later in the morning.
+
+**Smart-home habits:**
+- Operates devices himself, room by room.
+- On waking, turns on the `aidot_lamp` in his room at low/warm to ease in.
+- Switches it to high and cool once he sits down to focus on studying at his desk (around 09:00).
+- Powers the kitchen `tapo_socket` for his morning coffee, then switches it off once brewed.
+- Turns on the shared `tuya_lamp` (low ambient) and the `shelly_relais` radiator when passing through the living area on a grey morning.
+
+**Preferences:**
+- Slow, relaxed start; warm low light early, brighter cool light for focused study.
+- Coffee is part of the wake-up routine.
+- Only light heating needed this mild October morning.
+
+---
+
+## Jana
+**Role:** Freelance designer, works from home, shares the flat.
+
+**Daily schedule (morning):**
+- Wakes around 08:00.
+- Flexible morning: makes breakfast, no rush.
+- Starts client work mid-morning at her small workspace.
+
+**Smart-home habits:**
+- Operates devices herself.
+- On waking, turns on the `tapo_lamp` warm/low, then raises to high to get going; switches it off when leaving the empty room.
+- Uses the kitchen `tapo_socket` for kettle/tea during breakfast; switches it off afterwards.
+- Shares the living-area `tuya_lamp` and `shelly_relais` radiator; turns the radiator off once the room feels warm enough.
+
+**Preferences:**
+- Relaxed, unhurried mornings overlapping loosely with Nils.
+- Warm, comfortable lighting while easing in; brighter light to get going and for design work.
+- Mindful of shared devices and modest heating on this mild day.
+
+---
+
+**Shared notes:**
+- Two flatmates, loosely overlapping routines; shared kitchen `tapo_socket` and living-area `tuya_lamp` / `shelly_relais` used by both.
+- Mild grey October morning → only light heating; radiator switched off once comfortable or when living area is empty.
+- Nils tends to start the heating/ambient living-area light early; Jana commonly turns the radiator off once comfortable.
+
+## World state at end of window
+- aidot_lamp (Nils's Room): on, brightness high, light_temp cool
+- tuya_lamp (Shared Living Area): on, brightness low
+
+## Active events
+- none

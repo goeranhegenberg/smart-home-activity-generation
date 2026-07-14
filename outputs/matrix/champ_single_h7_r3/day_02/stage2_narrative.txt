@@ -1,0 +1,15 @@
+At 06:33 Mara stirred awake in the dark bedroom and reached for the bedside switch, turning the aidot_lamp on at high brightness with a cool light temperature to shake off the winter grogginess and see clearly while she dressed.
+
+By 06:46 she had pulled on her clothes for the office. At 06:48 she switched the aidot_lamp off as she stepped out of the bedroom, leaving it dark behind her.
+
+Crossing into the living area, at 06:50 she turned the shelly_relais on to start warming the cold radiator before she settled into breakfast. A moment later, at 06:52, she flicked the tuya_lamp on at high brightness for strong general light across the open-plan room.
+
+At 06:57 she stepped into the kitchen and switched the tapo_socket on to power the coffee machine. While it brewed over the next few minutes, she set out a quick breakfast.
+
+At 07:11, with her coffee poured and the room beginning to warm, she shifted to a cozier mood: she turned the tapo_lamp on in the reading corner at low brightness and a warm light temperature. At 07:13 she switched off the tuya_lamp, killing the harsh ceiling light so she could eat by the soft glow of the corner lamp.
+
+At 07:36 she finished her coffee and breakfast and switched the tapo_socket off, cutting power to the coffee machine.
+
+As she gathered her things to head out, at 07:51 she switched the shelly_relais off so the radiator wouldn't run in an empty apartment. At 07:53 she turned the tapo_lamp off, leaving the living area dark.
+
+At 07:56 Mara stepped into the hallway and left the apartment for her commute, with every lamp, the socket, and the heater switched off behind her.

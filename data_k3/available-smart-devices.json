@@ -1,0 +1,37 @@
+[
+  {
+    "device": "aidot_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"],
+      "light_temp": ["warm", "cool"]
+    }
+  },
+  {
+    "device": "tapo_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"],
+      "light_temp": ["warm", "cool"]
+    }
+  },
+  {
+    "device": "tuya_lamp",
+    "allowed_values": {
+      "status": ["on", "off"],
+      "brightness": ["high", "low"]
+    }
+  },
+  {
+    "device": "tapo_socket",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  },
+  {
+    "device": "shelly_relais",
+    "allowed_values": {
+      "status": ["on", "off"]
+    }
+  }
+]

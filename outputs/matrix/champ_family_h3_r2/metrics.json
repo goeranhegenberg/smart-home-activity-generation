@@ -1,0 +1,208 @@
+{
+  "run": "champ_family_h3_r2",
+  "n_days": 3,
+  "validity": {
+    "days_passed": 3,
+    "days_with_repair": 3,
+    "total_repairs": 3,
+    "pct_valid": 100.0
+  },
+  "actions_per_day": {
+    "values": [
+      18,
+      18,
+      18
+    ],
+    "mean": 18,
+    "stdev": 0.0,
+    "min": 18,
+    "max": 18
+  },
+  "drift": {
+    "world_state_churn_per_transition": [
+      0,
+      0
+    ],
+    "mean_churn": 0,
+    "card_len_first": 2443,
+    "card_len_last": 2487,
+    "card_len_growth_pct": 1.8
+  },
+  "variation": {
+    "consecutive_jaccard": [
+      1.0,
+      0.882
+    ],
+    "mean_jaccard": 0.941
+  },
+  "realism_rulebased": {
+    "device_action_coverage": 1.0,
+    "used_device_action_pairs": 10,
+    "allowed_device_action_pairs": 10
+  },
+  "judge_layer": {
+    "judge_model": "openai/gpt-5.4",
+    "votes_per_day": 1,
+    "days_judged": 3,
+    "env_inconsistent_days": 0,
+    "routine_drift_days": 2,
+    "unparseable_days": 0,
+    "per_day": [
+      {
+        "day": 1,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      },
+      {
+        "day": 2,
+        "env_consistent": true,
+        "routine_drift": true,
+        "violations": [],
+        "notes": "Compared with the previous day, Bob and Charlie shift their ~07:15 breakfast from the living area to the kitchen without any stated reason."
+      },
+      {
+        "day": 3,
+        "env_consistent": true,
+        "routine_drift": true,
+        "violations": [],
+        "notes": "The narrative introduces the unexplained change that the living-area tuya_lamp was already on at 06:15 despite the previous day ending with Alice still home and no mention of it being left on overnight."
+      }
+    ],
+    "note": "Separate semantische Ebene (unkalibriert); nicht in error_score/acceptance eingerechnet."
+  },
+  "error_score": {
+    "weights": {
+      "hoch": 3,
+      "mittel": 2
+    },
+    "thresholds": {
+      "max_formal": 0,
+      "max_high": 0,
+      "max_content_per_day": 2,
+      "max_mean_content_per_day": 1.0
+    },
+    "formal_total": 0,
+    "content_weight_total": 2,
+    "high_severity_total": 0,
+    "mean_content_per_day": 0.67,
+    "max_content_per_day": 0,
+    "by_code": {
+      "MISSING_VARIATION": 1
+    },
+    "by_severity": {
+      "mittel": 1
+    },
+    "per_day": {},
+    "acceptance": {
+      "formal_ok": true,
+      "high_ok": true,
+      "per_day_ok": true,
+      "mean_ok": true,
+      "verdict": "PASS",
+      "reasons": [
+        "alle Schranken eingehalten"
+      ]
+    },
+    "errors": [
+      {
+        "code": "MISSING_VARIATION",
+        "severity": "mittel",
+        "label": "Fehlende Variation",
+        "weight": 2,
+        "day": null,
+        "detail": "Tag 1->2: Jaccard 1.00 (>= 0.95, nahezu identische Tage)."
+      }
+    ]
+  },
+  "quality_curve": [
+    {
+      "day_num": 1,
+      "n_actions": 18,
+      "passed": true,
+      "repairs": 1,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": null
+    },
+    {
+      "day_num": 2,
+      "n_actions": 18,
+      "passed": true,
+      "repairs": 1,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 1.0
+    },
+    {
+      "day_num": 3,
+      "n_actions": 18,
+      "passed": true,
+      "repairs": 1,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 0.882
+    }
+  ],
+  "breakpoint": {
+    "first_invalid_day": null,
+    "first_content_exceed_day": null,
+    "first_identical_day": 2,
+    "breaks_at_day": 2,
+    "note": "breaks_at_day = erster Tag mit formalem Fehler, Überschreitung der Inhalts-Score-Schranke/Tag oder nahezu identischer Wiederholung; null = über den ganzen Lauf stabil."
+  },
+  "per_day": [
+    {
+      "day": "day_01",
+      "day_num": 1,
+      "n_actions": 18,
+      "passed": true,
+      "repairs": 1,
+      "world_state": {
+        "tuya_lamp": "on, brightness high",
+        "shelly_relais": "on (radiator heating Living Area)"
+      },
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 2443
+    },
+    {
+      "day": "day_02",
+      "day_num": 2,
+      "n_actions": 18,
+      "passed": true,
+      "repairs": 1,
+      "world_state": {
+        "tuya_lamp": "on, brightness high",
+        "shelly_relais": "on (radiator heating Living Area)"
+      },
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 2405
+    },
+    {
+      "day": "day_03",
+      "day_num": 3,
+      "n_actions": 18,
+      "passed": true,
+      "repairs": 1,
+      "world_state": {
+        "tuya_lamp": "on, brightness high",
+        "shelly_relais": "on (radiator heating Living Area)"
+      },
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 2487
+    }
+  ],
+  "matrix": {
+    "constellation": "family",
+    "horizon_days": 3,
+    "repeat": 2,
+    "judged": true
+  }
+}

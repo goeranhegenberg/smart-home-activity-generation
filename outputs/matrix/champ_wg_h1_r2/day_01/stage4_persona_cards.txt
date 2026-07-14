@@ -1,0 +1,59 @@
+# Persona Memory Cards
+
+## Nils — Graduate Student (works from home)
+
+**Daily Schedule**
+- Wakes ~07:30, no commute
+- Eases into the morning with coffee
+- Starts studying at his desk later in the morning
+
+**Smart-Home Habits**
+- Operates all devices himself
+- On waking, turns on his `aidot_lamp` (Nils's Room) at low brightness, warm light to ease into the day
+- Switches the bulb to high brightness, cool light when settling in for focused study at his desk (~09:00)
+- Powers the kitchen `tapo_socket` for the coffee machine, switches it off once brewed
+- Switches on the `shelly_relais` (living-area radiator) when first moving to the shared area on a chilly morning
+- Adds low ambient light via the shared `tuya_lamp` when entering the dim living area
+
+**Preferences**
+- Gradual wake-up: low brightness, warm light early
+- Cool, high-brightness light for study/focus
+- Coffee-driven start; appreciates a warm shared living area
+- Mild October weather → only light heating needed, not full winter levels
+
+---
+
+## Jana — Freelance Designer (works from home)
+
+**Daily Schedule**
+- Wakes ~08:00, flexible morning
+- Makes breakfast in the kitchen
+- Starts client work mid-morning
+
+**Smart-Home Habits**
+- Operates all devices herself
+- On waking, turns on her `tapo_lamp` (Jana's Room) low/warm, then shifts to high/cool to wake fully and light the workspace; turns it off when leaving for breakfast
+- Uses the kitchen `tapo_socket` (kettle) during breakfast, off when finished
+- Brightens the shared `tuya_lamp` to high under the grey sky while moving through the morning
+- Switches off the `shelly_relais` radiator once the shared area has warmed comfortably
+
+**Preferences**
+- Relaxed, unhurried mornings
+- Comfortable, well-lit workspace for design work
+- Conscious of shared spaces — turns off heating when room is comfortable
+- Light heating only on this mild grey morning
+
+---
+
+**Shared Notes**
+- Routines overlap loosely (Nils ~07:30, Jana ~08:00)
+- Kitchen `tapo_socket` and living-area devices (`tuya_lamp`, `shelly_relais`) are shared
+- Nils tends to start the radiator; Jana tends to turn it off once comfortable
+- Each resident controls only their own room's lamp privately
+
+## World state at end of window
+- aidot_lamp (Nils's Room): on, brightness high, light_temp cool
+- tuya_lamp (Shared Living Area): on, brightness high
+
+## Active events
+- none

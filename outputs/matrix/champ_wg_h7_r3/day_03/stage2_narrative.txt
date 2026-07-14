@@ -1,0 +1,19 @@
+At 07:34, Nils wakes and reaches for the bulb in his room, switching the aidot_lamp on at low brightness with warm light to ease gently into the grey morning.
+
+At 07:41, still moving slowly, he heads out toward the shared living area. At 07:43 he flips the shelly_relais on so the radiator can take the chill off the common space while the morning gets going.
+
+At 07:46, Nils notices the room is still dim, so he turns on the tuya_lamp at low brightness for soft general light.
+
+At 07:49 he steps into the kitchen and switches the tapo_socket on to power the coffee machine. At 07:53, with the coffee brewed, he switches the tapo_socket off, energy-conscious as ever, and carries his cup back toward his room.
+
+At 08:06, Jana wakes in her own room and turns on her tapo_lamp at low brightness with warm light to start her flexible morning comfortably.
+
+At 08:19, Jana comes through to the living area and kitchen for breakfast. The tuya_lamp is already glowing low from Nils's earlier visit, which suits her perfectly, so she leaves it as is. At 08:21 she switches the tapo_socket on to boil the kettle for tea.
+
+At 08:25 she switches the tapo_socket off again once the kettle has finished, and settles in to eat.
+
+At 08:38, Nils returns to his desk and prepares to begin studying. At 08:40 he switches his aidot_lamp to high brightness and cool light for focused work.
+
+At 08:47, Jana finishes breakfast and tidies the kitchen. At 08:49, leaving the shared space empty as she heads back to her room, she turns the tuya_lamp off. The shelly_relais stays on, keeping the living area warm for later shared use.
+
+At 08:58, back at her small workspace and ready to start client design work, Jana switches her tapo_lamp to high brightness and cool light for a clear, focused setting.

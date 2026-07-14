@@ -1,0 +1,39 @@
+Overnight from 00:00 the house is dark and quiet, all devices off, the family asleep.
+
+At 05:38 Tom's alarm pulls him out of bed. He switches the **bedroom_lamp** on at low brightness, warm temperature, enough light to dress without waking Lena. By 05:49 he is dressed and turns the **bedroom_lamp** off as he leaves the room.
+
+At 05:52 he steps into the bathroom and flicks the **bathroom_lamp** on. At 05:58 he switches it off and heads downstairs.
+
+At 06:01 Tom turns the **kitchen_lamp** on high — it is fully dark outside — and at 06:03 he flips the **coffee_socket** on to brew. While the coffee runs he steps into the living area and at 06:06 turns the **heating** on to take the morning chill off the room. At 06:08 the brew finishes and he switches the **coffee_socket** off. He drinks his coffee at the kitchen counter.
+
+At 06:44 Mia's morning starts. She switches her **mia_lamp** on bright and cool to wake up. At 06:51 she crosses to the bathroom, turns the **bathroom_lamp** on, and at 07:02 turns it off again.
+
+At 07:14 Tom switches the **kitchen_lamp** off as he finishes in the kitchen; daylight is still weak but he is done eating. At 07:18 he turns the **heating** off, gathers his things, and at 07:21 turns the **hallway_lamp** on to find his coat. At 07:24 he switches the **hallway_lamp** off and leaves for the office.
+
+At 07:33 Mia grabs a quick breakfast: she turns the **kitchen_lamp** on high at 07:34, and off again at 07:46 once she has eaten. At 07:49 she turns her **mia_lamp** off, then at 07:51 turns the **hallway_lamp** on to put on her shoes. At 07:54 she switches the **hallway_lamp** off and leaves for school.
+
+The house sits empty and quiet through the morning. Lena, on a late shift, sleeps in.
+
+At 09:47 Lena gets up. She does not need the bedroom lamp — daylight is up — and goes to the bathroom at 09:50, turning the **bathroom_lamp** on, then off at 10:01. At 10:05 she goes downstairs and turns the **kitchen_lamp** on low to make breakfast. At 10:09 she switches the **heating** on, as the living area is cold. At 10:24 she finishes eating and turns the **kitchen_lamp** off, then settles on the sofa and turns the **living_lamp** on low at 10:26 to read with her coffee.
+
+At 11:42 Lena turns the **heating** off — the room has warmed comfortably. At 12:08 she finishes reading and turns the **living_lamp** off. She goes upstairs to change into her work clothes.
+
+At 12:41 she returns down, turns the **hallway_lamp** on at 12:43 to find her keys and coat, and at 12:46 switches it off as she leaves for her late shift. The house is empty again, all devices off.
+
+At 15:33 Mia returns home from school. At 15:34 she turns the **hallway_lamp** on, and off at 15:36. At 15:38 she pops into the kitchen, turns the **kitchen_lamp** on high for an afternoon snack, and off at 15:47. At 15:49 she goes up to her room and turns the **mia_lamp** on, bright and cool, to start homework. With dusk closing in by 16:30 the bright light is welcome.
+
+At 17:52 Mia finishes the bulk of her homework and leaves the **mia_lamp** on, as she stays at her desk reading.
+
+At 18:11 Tom arrives home. At 18:12 he turns the **hallway_lamp** on, off at 18:14. At 18:16 he turns the **heating** on against the evening cold, and at 18:18 turns the **living_lamp** on low. At 18:23 he turns the **kitchen_lamp** on high to start dinner.
+
+At 18:31 Mia comes down for dinner. At 19:04 dinner is ready and the two eat together. At 19:38 Tom finishes in the kitchen and turns the **kitchen_lamp** off.
+
+At 19:43 Tom turns the **tv_socket** on and settles in front of the living-room TV. Mia joins him for a while. At 20:02 she raises the **living_lamp** to high brightness so they can see better, then at 20:55 she heads up to her room.
+
+At 21:06 Mia switches her **mia_lamp** down to warm, low to wind down for the night. At 21:48 she goes to brush her teeth, turning the **bathroom_lamp** on at 21:49 and off at 21:57. At 22:02 she turns the **mia_lamp** off and goes to sleep.
+
+At 22:14 Lena arrives home from her late shift. At 22:15 she turns the **hallway_lamp** on, off at 22:17. She joins Tom briefly in the living area. At 22:38 she goes up; at 22:40 she turns the **bedroom_lamp** on low, warm to read a little before sleep, and at 22:41 turns the **bathroom_lamp** on, off at 22:49 after washing up. At 23:08 she turns the **bedroom_lamp** off and goes to sleep.
+
+At 23:01 Tom turns the **tv_socket** off, then at 23:03 turns the **living_lamp** off. At 23:05 he turns the **heating** off for the night. At 23:07 he goes upstairs in the dark hallway, slips into the bedroom quietly without the lamp, and is asleep by 23:20.
+
+From then the house is dark and quiet, all devices off through to the end of the day.

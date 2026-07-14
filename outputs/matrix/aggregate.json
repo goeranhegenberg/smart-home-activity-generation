@@ -1,0 +1,516 @@
+{
+  "n_cells": 10,
+  "n_runs": 30,
+  "cells": [
+    {
+      "constellation": "family",
+      "horizon": 1,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 0.0,
+      "content_per_day_stdev": 0.0,
+      "mean_jaccard": 0.0,
+      "actions_per_day": 18.667,
+      "coverage": 1.0,
+      "verdict_pass": 3,
+      "verdict_warn": 0,
+      "verdict_fail": 0,
+      "breaks_runs": 0,
+      "breaks_earliest": null,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.667,
+          "mean_jaccard_to_prev": null
+        }
+      ]
+    },
+    {
+      "constellation": "family",
+      "horizon": 3,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 0.67,
+      "content_per_day_stdev": 0.0,
+      "mean_jaccard": 0.949,
+      "actions_per_day": 18.8,
+      "coverage": 1.0,
+      "verdict_pass": 3,
+      "verdict_warn": 0,
+      "verdict_fail": 0,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 19.333,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.667,
+          "mean_jaccard_to_prev": 0.958
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.333,
+          "mean_jaccard_to_prev": 0.94
+        }
+      ]
+    },
+    {
+      "constellation": "family",
+      "horizon": 7,
+      "n_repeats": 3,
+      "pct_valid_mean": 95.233,
+      "pct_valid_stdev": 6.741,
+      "pct_valid_min": 85.7,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0.333,
+      "high_total_mean": 0,
+      "content_per_day_mean": 1.143,
+      "content_per_day_stdev": 0.233,
+      "mean_jaccard": 0.961,
+      "actions_per_day": 18.933,
+      "coverage": 1.0,
+      "verdict_pass": 1,
+      "verdict_warn": 1,
+      "verdict_fail": 1,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 19,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0.333,
+          "mean_actions": 19,
+          "mean_jaccard_to_prev": 0.961
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 19.667,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 4,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 20.333,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 5,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 19.667,
+          "mean_jaccard_to_prev": 0.961
+        },
+        {
+          "day_num": 6,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.333,
+          "mean_jaccard_to_prev": 0.914
+        },
+        {
+          "day_num": 7,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 16.667,
+          "mean_jaccard_to_prev": 0.933
+        }
+      ]
+    },
+    {
+      "constellation": "fullday",
+      "horizon": 7,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 1.05,
+      "content_per_day_stdev": 0.269,
+      "mean_jaccard": 0.959,
+      "actions_per_day": 64.133,
+      "coverage": 1.0,
+      "verdict_pass": 2,
+      "verdict_warn": 1,
+      "verdict_fail": 0,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 61.333,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 62,
+          "mean_jaccard_to_prev": 0.989
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 66.667,
+          "mean_jaccard_to_prev": 0.915
+        },
+        {
+          "day_num": 4,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 66.667,
+          "mean_jaccard_to_prev": 0.935
+        },
+        {
+          "day_num": 5,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 68,
+          "mean_jaccard_to_prev": 0.989
+        },
+        {
+          "day_num": 6,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 64.333,
+          "mean_jaccard_to_prev": 0.926
+        },
+        {
+          "day_num": 7,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 60,
+          "mean_jaccard_to_prev": 1.0
+        }
+      ]
+    },
+    {
+      "constellation": "single",
+      "horizon": 1,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 0.0,
+      "content_per_day_stdev": 0.0,
+      "mean_jaccard": 0.0,
+      "actions_per_day": 15.333,
+      "coverage": 1.0,
+      "verdict_pass": 3,
+      "verdict_warn": 0,
+      "verdict_fail": 0,
+      "breaks_runs": 0,
+      "breaks_earliest": null,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15.333,
+          "mean_jaccard_to_prev": null
+        }
+      ]
+    },
+    {
+      "constellation": "single",
+      "horizon": 3,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 1.33,
+      "content_per_day_stdev": 0.0,
+      "mean_jaccard": 1.0,
+      "actions_per_day": 15.667,
+      "coverage": 1.0,
+      "verdict_pass": 0,
+      "verdict_warn": 3,
+      "verdict_fail": 0,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15.667,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15.667,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15.667,
+          "mean_jaccard_to_prev": 1.0
+        }
+      ]
+    },
+    {
+      "constellation": "single",
+      "horizon": 7,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 1.523,
+      "content_per_day_stdev": 0.132,
+      "mean_jaccard": 0.987,
+      "actions_per_day": 15.3,
+      "coverage": 1.0,
+      "verdict_pass": 0,
+      "verdict_warn": 3,
+      "verdict_fail": 0,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 4,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 5,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 6,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 15.667,
+          "mean_jaccard_to_prev": 0.961
+        },
+        {
+          "day_num": 7,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 16.333,
+          "mean_jaccard_to_prev": 0.961
+        }
+      ]
+    },
+    {
+      "constellation": "wg",
+      "horizon": 1,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 0.0,
+      "content_per_day_stdev": 0.0,
+      "mean_jaccard": 0.0,
+      "actions_per_day": 20.333,
+      "coverage": 1.0,
+      "verdict_pass": 3,
+      "verdict_warn": 0,
+      "verdict_fail": 0,
+      "breaks_runs": 0,
+      "breaks_earliest": null,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 20.333,
+          "mean_jaccard_to_prev": null
+        }
+      ]
+    },
+    {
+      "constellation": "wg",
+      "horizon": 3,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 1.33,
+      "content_per_day_stdev": 0.0,
+      "mean_jaccard": 1.0,
+      "actions_per_day": 18.333,
+      "coverage": 1.0,
+      "verdict_pass": 0,
+      "verdict_warn": 3,
+      "verdict_fail": 0,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.333,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.333,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 18.333,
+          "mean_jaccard_to_prev": 1.0
+        }
+      ]
+    },
+    {
+      "constellation": "wg",
+      "horizon": 7,
+      "n_repeats": 3,
+      "pct_valid_mean": 100.0,
+      "pct_valid_stdev": 0.0,
+      "pct_valid_min": 100.0,
+      "pct_valid_max": 100.0,
+      "formal_total_mean": 0,
+      "high_total_mean": 0,
+      "content_per_day_mean": 1.237,
+      "content_per_day_stdev": 0.485,
+      "mean_jaccard": 0.969,
+      "actions_per_day": 20.733,
+      "coverage": 1.0,
+      "verdict_pass": 1,
+      "verdict_warn": 2,
+      "verdict_fail": 0,
+      "breaks_runs": 3,
+      "breaks_earliest": 2,
+      "drift_curve": [
+        {
+          "day_num": 1,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 20.667,
+          "mean_jaccard_to_prev": null
+        },
+        {
+          "day_num": 2,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 21.333,
+          "mean_jaccard_to_prev": 0.982
+        },
+        {
+          "day_num": 3,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 21.333,
+          "mean_jaccard_to_prev": 1.0
+        },
+        {
+          "day_num": 4,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 21,
+          "mean_jaccard_to_prev": 0.979
+        },
+        {
+          "day_num": 5,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 21.333,
+          "mean_jaccard_to_prev": 0.979
+        },
+        {
+          "day_num": 6,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 19,
+          "mean_jaccard_to_prev": 0.937
+        },
+        {
+          "day_num": 7,
+          "mean_content_weight": 0,
+          "mean_formal_errors": 0,
+          "mean_actions": 20.667,
+          "mean_jaccard_to_prev": 0.937
+        }
+      ]
+    }
+  ]
+}

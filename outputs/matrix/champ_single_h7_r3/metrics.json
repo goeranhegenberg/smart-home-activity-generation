@@ -1,0 +1,360 @@
+{
+  "run": "champ_single_h7_r3",
+  "n_days": 7,
+  "validity": {
+    "days_passed": 7,
+    "days_with_repair": 1,
+    "total_repairs": 1,
+    "pct_valid": 100.0
+  },
+  "actions_per_day": {
+    "values": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      17
+    ],
+    "mean": 15.3,
+    "stdev": 0.7,
+    "min": 15,
+    "max": 17
+  },
+  "drift": {
+    "world_state_churn_per_transition": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean_churn": 0,
+    "card_len_first": 1748,
+    "card_len_last": 1907,
+    "card_len_growth_pct": 9.1
+  },
+  "variation": {
+    "consecutive_jaccard": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.882
+    ],
+    "mean_jaccard": 0.98
+  },
+  "realism_rulebased": {
+    "device_action_coverage": 1.0,
+    "used_device_action_pairs": 10,
+    "allowed_device_action_pairs": 10
+  },
+  "judge_layer": {
+    "judge_model": "openai/gpt-5.4",
+    "votes_per_day": 1,
+    "days_judged": 7,
+    "env_inconsistent_days": 2,
+    "routine_drift_days": 0,
+    "unparseable_days": 0,
+    "per_day": [
+      {
+        "day": 1,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      },
+      {
+        "day": 2,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      },
+      {
+        "day": 3,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      },
+      {
+        "day": 4,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      },
+      {
+        "day": 5,
+        "env_consistent": true,
+        "routine_drift": false,
+        "violations": [],
+        "notes": ""
+      },
+      {
+        "day": 6,
+        "env_consistent": false,
+        "routine_drift": false,
+        "violations": [
+          "The narrative says \"It being Saturday\" and \"Without a commute to rush for,\" but the fixed context specifies Mara's morning as an early office commute workday routine with departure by 08:00 within the 06:00–09:00 simulation window."
+        ],
+        "notes": ""
+      },
+      {
+        "day": 7,
+        "env_consistent": false,
+        "routine_drift": false,
+        "violations": [
+          "It says Mara reads 'well past the hour' and is still home after 09:00, which contradicts the persona's stated workday constraint of leaving by 08:00 in the fixed context.",
+          "The narrative extends device activity to 09:06, beyond the fixed time window of 06:00-09:00."
+        ],
+        "notes": ""
+      }
+    ],
+    "note": "Separate semantische Ebene (unkalibriert); nicht in error_score/acceptance eingerechnet."
+  },
+  "error_score": {
+    "weights": {
+      "hoch": 3,
+      "mittel": 2
+    },
+    "thresholds": {
+      "max_formal": 0,
+      "max_high": 0,
+      "max_content_per_day": 2,
+      "max_mean_content_per_day": 1.0
+    },
+    "formal_total": 0,
+    "content_weight_total": 10,
+    "high_severity_total": 0,
+    "mean_content_per_day": 1.43,
+    "max_content_per_day": 0,
+    "by_code": {
+      "MISSING_VARIATION": 5
+    },
+    "by_severity": {
+      "mittel": 5
+    },
+    "per_day": {},
+    "acceptance": {
+      "formal_ok": true,
+      "high_ok": true,
+      "per_day_ok": true,
+      "mean_ok": false,
+      "verdict": "WARN",
+      "reasons": [
+        "mittl. Inhalts-Score/Tag 1.43 (Schranke 1.0)"
+      ]
+    },
+    "errors": [
+      {
+        "code": "MISSING_VARIATION",
+        "severity": "mittel",
+        "label": "Fehlende Variation",
+        "weight": 2,
+        "day": null,
+        "detail": "Tag 1->2: Jaccard 1.00 (>= 0.95, nahezu identische Tage)."
+      },
+      {
+        "code": "MISSING_VARIATION",
+        "severity": "mittel",
+        "label": "Fehlende Variation",
+        "weight": 2,
+        "day": null,
+        "detail": "Tag 2->3: Jaccard 1.00 (>= 0.95, nahezu identische Tage)."
+      },
+      {
+        "code": "MISSING_VARIATION",
+        "severity": "mittel",
+        "label": "Fehlende Variation",
+        "weight": 2,
+        "day": null,
+        "detail": "Tag 3->4: Jaccard 1.00 (>= 0.95, nahezu identische Tage)."
+      },
+      {
+        "code": "MISSING_VARIATION",
+        "severity": "mittel",
+        "label": "Fehlende Variation",
+        "weight": 2,
+        "day": null,
+        "detail": "Tag 4->5: Jaccard 1.00 (>= 0.95, nahezu identische Tage)."
+      },
+      {
+        "code": "MISSING_VARIATION",
+        "severity": "mittel",
+        "label": "Fehlende Variation",
+        "weight": 2,
+        "day": null,
+        "detail": "Tag 5->6: Jaccard 1.00 (>= 0.95, nahezu identische Tage)."
+      }
+    ]
+  },
+  "quality_curve": [
+    {
+      "day_num": 1,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": null
+    },
+    {
+      "day_num": 2,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 1.0
+    },
+    {
+      "day_num": 3,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 1.0
+    },
+    {
+      "day_num": 4,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 1.0
+    },
+    {
+      "day_num": 5,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 1.0
+    },
+    {
+      "day_num": 6,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 1.0
+    },
+    {
+      "day_num": 7,
+      "n_actions": 17,
+      "passed": true,
+      "repairs": 1,
+      "formal_errors": 0,
+      "content_weight": 0,
+      "cumulative_content_weight": 0,
+      "jaccard_to_prev": 0.882
+    }
+  ],
+  "breakpoint": {
+    "first_invalid_day": null,
+    "first_content_exceed_day": null,
+    "first_identical_day": 2,
+    "breaks_at_day": 2,
+    "note": "breaks_at_day = erster Tag mit formalem Fehler, Überschreitung der Inhalts-Score-Schranke/Tag oder nahezu identischer Wiederholung; null = über den ganzen Lauf stabil."
+  },
+  "per_day": [
+    {
+      "day": "day_01",
+      "day_num": 1,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1748
+    },
+    {
+      "day": "day_02",
+      "day_num": 2,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1748
+    },
+    {
+      "day": "day_03",
+      "day_num": 3,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1748
+    },
+    {
+      "day": "day_04",
+      "day_num": 4,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1748
+    },
+    {
+      "day": "day_05",
+      "day_num": 5,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1744
+    },
+    {
+      "day": "day_06",
+      "day_num": 6,
+      "n_actions": 15,
+      "passed": true,
+      "repairs": 0,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1774
+    },
+    {
+      "day": "day_07",
+      "day_num": 7,
+      "n_actions": 17,
+      "passed": true,
+      "repairs": 1,
+      "world_state": {},
+      "events": [],
+      "n_active_events": 0,
+      "card_len": 1907
+    }
+  ],
+  "matrix": {
+    "constellation": "single",
+    "horizon_days": 7,
+    "repeat": 3,
+    "judged": true
+  }
+}

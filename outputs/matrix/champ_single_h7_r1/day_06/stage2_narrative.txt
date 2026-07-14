@@ -1,0 +1,25 @@
+It being Saturday, Mara lets herself sleep in past her usual weekday wake-up — there's no office commute to rush for. The apartment is dark and cold when she finally stirs.
+
+At 07:48 Mara wakes in the bedroom and switches on the `aidot_lamp` to break the winter darkness. Feeling no urgency this morning, she keeps it gentler than on a workday — `brightness: low`, `light_temp: warm` — for a softer start.
+
+At 07:53 she heads into the living area and switches the `shelly_relais` on to start warming the chilly room while she gets going.
+
+At 08:02 she returns to the bedroom to dress. Now that she's properly waking up, she bumps the `aidot_lamp` to `brightness: high` and `light_temp: cool` for better light while choosing clothes.
+
+At 08:14, dressed and washed up, she switches the `aidot_lamp` off and leaves the bedroom.
+
+At 08:17 she turns on the `tuya_lamp` at `brightness: high` for general illumination across the living and work area as she pads around.
+
+At 08:21 she steps into the kitchen and switches the `tapo_socket` on to brew her morning coffee.
+
+At 08:25 the coffee is ready, so she switches the `tapo_socket` off.
+
+At 08:28, settling into the reading corner with her drink, she turns on the `tapo_lamp` at `brightness: low`, `light_temp: warm` for a cozy weekend coffee moment.
+
+At 08:31, with the warm corner lit and the room now comfortable, she switches the `tuya_lamp` off — she doesn't need the bright ceiling light for a relaxed Saturday breakfast.
+
+At 08:33 the radiator has taken the edge off the cold, and since she's staying in the apartment she leaves it running; she switches the `shelly_relais` off only briefly is unnecessary, so it stays on.
+
+At 08:52, finished with her unhurried coffee, she switches the `tapo_lamp` off as she gets up from the corner.
+
+By 08:55 the living area is warm and bright daylight is starting to creep in, so Mara switches the `shelly_relais` off to stop the radiator now that the room holds its heat. The apartment is left with all lamps and the coffee machine off and only the warmed room remaining as she moves on into her relaxed weekend.

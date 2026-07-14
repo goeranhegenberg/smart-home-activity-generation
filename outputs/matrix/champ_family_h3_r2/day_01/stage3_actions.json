@@ -1,0 +1,146 @@
+[
+  {
+    "timestamp": "06:00",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Soft start in dark bedroom without disturbing sleeping Alice"
+  },
+  {
+    "timestamp": "06:00",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim light to avoid waking Alice"
+  },
+  {
+    "timestamp": "06:00",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy start to the morning"
+  },
+  {
+    "timestamp": "06:08",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "More light to finish getting ready"
+  },
+  {
+    "timestamp": "06:19",
+    "resident": "Bob",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Avoid leaving light on for sleeping Alice"
+  },
+  {
+    "timestamp": "06:22",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Boil kettle and start coffee machine for breakfast"
+  },
+  {
+    "timestamp": "06:26",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Gentle early light in living area"
+  },
+  {
+    "timestamp": "06:26",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Soft ambient light"
+  },
+  {
+    "timestamp": "06:29",
+    "resident": "Bob",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Warm the cold living area before everyone gathers"
+  },
+  {
+    "timestamp": "06:47",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Gentle wake-up for Charlie in the dark"
+  },
+  {
+    "timestamp": "06:47",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Soft light to wake Charlie gently"
+  },
+  {
+    "timestamp": "06:47",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy wake-up light for Charlie"
+  },
+  {
+    "timestamp": "06:51",
+    "resident": "Bob",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "More light as Charlie requested"
+  },
+  {
+    "timestamp": "07:02",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Light to get dressed"
+  },
+  {
+    "timestamp": "07:13",
+    "resident": "Alice",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turn off when leaving the bedroom"
+  },
+  {
+    "timestamp": "07:16",
+    "resident": "Bob",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Proper light now everyone is up for breakfast"
+  },
+  {
+    "timestamp": "07:41",
+    "resident": "Bob",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Breakfast drinks done"
+  },
+  {
+    "timestamp": "08:04",
+    "resident": "Alice",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Charlie's room now empty"
+  }
+]

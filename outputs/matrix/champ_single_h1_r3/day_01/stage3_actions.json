@@ -1,0 +1,130 @@
+[
+  {
+    "timestamp": "06:33",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Waking up in the dark, chilly bedroom."
+  },
+  {
+    "timestamp": "06:33",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Full output to ease into the early-morning gloom."
+  },
+  {
+    "timestamp": "06:33",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Gentler warm tone before fully waking."
+  },
+  {
+    "timestamp": "06:36",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Wanting more alertness while getting dressed."
+  },
+  {
+    "timestamp": "06:58",
+    "resident": "Mara",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving the bedroom dark and empty."
+  },
+  {
+    "timestamp": "07:01",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Starting the radiator to take the chill off the room."
+  },
+  {
+    "timestamp": "07:03",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Lighting the open-plan space while moving about."
+  },
+  {
+    "timestamp": "07:03",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Strong illumination for the living area."
+  },
+  {
+    "timestamp": "07:06",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Starting the coffee machine for breakfast drink."
+  },
+  {
+    "timestamp": "07:11",
+    "resident": "Mara",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Cutting power to the machine after coffee brewed."
+  },
+  {
+    "timestamp": "07:24",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Settling into the reading corner with coffee."
+  },
+  {
+    "timestamp": "07:24",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Softer pool of light for the reading corner."
+  },
+  {
+    "timestamp": "07:24",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm tone for a cozy reading moment."
+  },
+  {
+    "timestamp": "07:48",
+    "resident": "Mara",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Beginning final preparations to leave."
+  },
+  {
+    "timestamp": "07:57",
+    "resident": "Mara",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving the living area dark before heading out."
+  },
+  {
+    "timestamp": "07:59",
+    "resident": "Mara",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Shutting down the radiator so nothing heats the empty apartment."
+  }
+]

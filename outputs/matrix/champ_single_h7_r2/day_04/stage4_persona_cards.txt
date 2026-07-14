@@ -1,0 +1,32 @@
+# Persona Memory Card
+
+## Mara
+*Single professional, lives alone in a compact two-room apartment. Operates all devices herself.*
+
+### Daily Schedule (weekday morning)
+- **06:30** — Wakes up in the dark winter bedroom.
+- **06:30–07:00** — Gets up, dresses, washes.
+- **07:00–07:45** — Breakfast and coffee in the kitchen/living area.
+- **08:00** — Leaves the apartment via the hallway for her commute.
+- Routine is short and efficient — only one person, tight schedule.
+
+### Smart-Home Habits
+- **Wake-up:** Turns on `aidot_lamp` (bedroom) first thing (~06:36), then off after ~10 min once dressed and leaving the room.
+- **Heating:** Starts the `shelly_relais` (living-area radiator) early to warm the chilly flat; switches it off just before leaving (~07:54).
+- **Breakfast:** Briefly powers the `tapo_socket` (coffee machine) to brew, then off once ready (~3–5 min, ~07:02–07:06).
+- **Living area:** Uses bright `tuya_lamp` (ceiling) while still dark, switching it off as dawn arrives (~07:38); keeps a low, warm `tapo_lamp` reading corner going through breakfast.
+- **Leaving:** Turns all lights and powered devices off on the way out — no devices left running in an empty flat.
+
+### Preferences
+- **Bedroom light:** `high` brightness, **cool** temperature to wake up alert in the cold.
+- **Living/work light:** Bright `tuya_lamp` for general illumination; cozy **warm**, **low** `tapo_lamp` for the breakfast corner.
+- **Energy-aware:** Heating and appliances run only while she is home.
+- **Efficiency-driven:** Minimal device interactions, matched tightly to her compressed morning timeline.
+
+*Note: Lives alone — full-bright task lighting plus a low ambient reading lamp coexist; she layers light by purpose rather than avoiding low settings.*
+
+## World state at end of window
+- (all devices off / default)
+
+## Active events
+- none

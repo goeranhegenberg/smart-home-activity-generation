@@ -1,0 +1,17 @@
+It is Sunday, and Mara lets herself sleep in. The bedroom stays dark and quiet through the early hours, every device off, until she stirs well after the workday hour.
+
+At 07:38 Mara wakes in the dim bedroom. Reaching for the bedside switch, she turns on the aidot_lamp at high brightness with a cool light temperature, the bright daylight tone helping her shake off sleep against the dark winter morning.
+
+She lingers a little longer than on a workday, taking her time to dress. At 07:54, with no rush to commute, she softens the bedroom mood: she sets the aidot_lamp to a warm light temperature and lowers its brightness to low while she finishes tidying the wardrobe.
+
+At 08:01 Mara leaves the bedroom and switches the aidot_lamp off, leaving the room empty and dark.
+
+Stepping into the cold living area at 08:02, she turns on the shelly_relais to start the electric radiator and chase the chill out of the room. A moment later, at 08:04, she switches on the tuya_lamp ceiling light at high brightness for clear, general illumination while she moves about.
+
+At 08:07 she crosses into the galley kitchen and switches on the tapo_socket to power the coffee machine for her morning drink. While it heats, she puts together a relaxed weekend breakfast. At 08:11 the coffee is poured, and she switches the tapo_socket off.
+
+Carrying her coffee back into the living area, she settles in for an unhurried breakfast. At 08:14 she turns on the tapo_lamp in the reading corner, setting it to low brightness and a warm light temperature for a cozy atmosphere. At 08:16, with the corner lamp casting its soft glow, she switches off the harsh tuya_lamp ceiling light.
+
+By now the radiator has taken the edge off the cold. At 08:33, with the room comfortably warm, she switches the shelly_relais off to avoid wasting energy.
+
+Mara takes her time over the morning, reading in the warm corner light well past the hour. At 09:06, finished with breakfast and ready to start clearing up, she switches the tapo_lamp off, leaving the living area — and the whole apartment — dark and with every device off.

@@ -1,0 +1,43 @@
+{
+  "run": "champ_single_h3_r2",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Compared with the previous day, Mara turns on the tuya_lamp and tapo_lamp much earlier and before breakfast without any stated reason for that change in routine."
+      },
+      "votes": 1,
+      "day": 3
+    }
+  ]
+}

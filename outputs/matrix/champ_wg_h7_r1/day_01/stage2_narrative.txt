@@ -1,0 +1,33 @@
+At 07:34, Nils wakes in his room and reaches over to switch on his `aidot_lamp`, setting it to low brightness and warm light to ease gently into the grey morning.
+
+At 07:41, still half-awake, he pulls on clothes in the dim warm glow and pads out toward the kitchen.
+
+At 07:46, in the kitchen, Nils switches the `tapo_socket` on to power the coffee machine.
+
+At 07:48, while the machine warms up, he steps into the shared living area and notices the chill, so he switches the `shelly_relais` on to take the edge off the room. He also turns the `tuya_lamp` on at low brightness, since the morning light is still flat and grey.
+
+At 07:51, he returns to the kitchen, and the coffee finishes brewing.
+
+At 07:53, with his cup poured, Nils switches the `tapo_socket` off.
+
+At 07:55, he carries his coffee into the living area and settles on the sofa for a slow start, the radiator gradually warming the space.
+
+At 08:09, Jana wakes in her room and turns on her `tapo_lamp` at low brightness and warm light, getting up at her usual relaxed pace.
+
+At 08:21, she leaves her room to start breakfast, switching the `tapo_lamp` off behind her since the room will sit empty.
+
+At 08:24, passing through the living area, Jana finds it already pleasantly warm, so she switches the `shelly_relais` off — the chill is gone and no more heating is needed.
+
+At 08:26, in the kitchen, she switches the `tapo_socket` on to boil the kettle for tea and breakfast.
+
+At 08:31, her kettle done, Jana switches the `tapo_socket` off.
+
+At 08:33, Nils finishes his coffee and decides to start studying. He carries his empty cup to the kitchen, then heads back to his room.
+
+At 08:35, before leaving the living area, Nils switches the `tuya_lamp` off, since both flatmates are moving on and the daylight is enough.
+
+At 08:38, at his desk, Nils shifts his `aidot_lamp` to high brightness and cool light for focused study.
+
+At 08:44, Jana eats breakfast at the kitchen table, the daylight from the window enough for her relaxed meal.
+
+At 08:57, finished eating, Jana goes to her room to set up for client work and turns her `tapo_lamp` back on at high brightness and cool light for her workspace.

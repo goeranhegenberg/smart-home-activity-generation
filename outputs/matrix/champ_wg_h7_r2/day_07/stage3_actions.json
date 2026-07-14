@@ -1,0 +1,186 @@
+[
+  {
+    "timestamp": "07:48",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Easing into the day with a gentle light"
+  },
+  {
+    "timestamp": "07:48",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Gentle dim light to wake gradually"
+  },
+  {
+    "timestamp": "07:48",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Cozy orange glow to ease into the day"
+  },
+  {
+    "timestamp": "08:06",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving room dark and empty as he heads out"
+  },
+  {
+    "timestamp": "08:08",
+    "resident": "Nils",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Ambient light in the dim living area"
+  },
+  {
+    "timestamp": "08:08",
+    "resident": "Nils",
+    "device": "tuya_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Soft ambient lighting"
+  },
+  {
+    "timestamp": "08:10",
+    "resident": "Nils",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Take the morning chill off the living area"
+  },
+  {
+    "timestamp": "08:11",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Soft start to her morning"
+  },
+  {
+    "timestamp": "08:11",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dim light for a gentle wake-up"
+  },
+  {
+    "timestamp": "08:11",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm light for a soft start"
+  },
+  {
+    "timestamp": "08:13",
+    "resident": "Nils",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Run the coffee machine"
+  },
+  {
+    "timestamp": "08:17",
+    "resident": "Nils",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee poured, done brewing"
+  },
+  {
+    "timestamp": "08:24",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Heading out to the kitchen"
+  },
+  {
+    "timestamp": "08:26",
+    "resident": "Jana",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Heat water for morning tea"
+  },
+  {
+    "timestamp": "08:29",
+    "resident": "Jana",
+    "device": "tuya_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Daylight now sufficient"
+  },
+  {
+    "timestamp": "08:31",
+    "resident": "Jana",
+    "device": "tapo_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Tea has steeped"
+  },
+  {
+    "timestamp": "08:34",
+    "resident": "Nils",
+    "device": "shelly_relais",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Living area now comfortably warm"
+  },
+  {
+    "timestamp": "08:47",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Light desk for studying"
+  },
+  {
+    "timestamp": "08:47",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright light for focused desk work"
+  },
+  {
+    "timestamp": "08:47",
+    "resident": "Nils",
+    "device": "aidot_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool light for focused work"
+  },
+  {
+    "timestamp": "08:58",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Prepare for client work at her workspace"
+  },
+  {
+    "timestamp": "08:58",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright light for working"
+  },
+  {
+    "timestamp": "08:58",
+    "resident": "Jana",
+    "device": "tapo_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool light for focused work"
+  }
+]

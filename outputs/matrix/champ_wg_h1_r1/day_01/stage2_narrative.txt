@@ -1,0 +1,29 @@
+At 07:28, Nils stirred awake in his room and reached for the switch on his `aidot_lamp`, turning it on at `warm` light temperature and `low` brightness to ease gently into the grey morning without a jolt.
+
+At 07:36, after lying in bed a few minutes, he got up, pulled on a sweater, and padded out toward the kitchen. Since his room would sit empty while he made coffee, he turned his `aidot_lamp` off at 07:37 as he left.
+
+At 07:41, Nils arrived in the kitchen and switched the `tapo_socket` on to power the coffee machine.
+
+At 07:44, while the coffee brewed, he stepped into the adjoining living area and switched the `tuya_lamp` on at `low` brightness against the dull daylight.
+
+At 07:46, feeling the chill in the shared space, he turned the `shelly_relais` on to take the edge off the cool October air.
+
+At 07:49, back in the kitchen, his coffee was ready, so he switched the `tapo_socket` off.
+
+At 07:58, Nils carried his coffee into the living area and settled into the warming room, leaving the `tuya_lamp` on at `low` and the radiator running.
+
+At 08:06, Jana woke in her room and turned her `tapo_lamp` on at `warm` and `low` brightness, matching her slow, comfortable start.
+
+At 08:19, after waking up properly, she left her room to make breakfast. She switched her `tapo_lamp` off at 08:20 since the room would be empty.
+
+At 08:23, Jana entered the kitchen, exchanged a quiet good-morning with Nils, and switched the `tapo_socket` on to boil water for her own coffee and breakfast.
+
+At 08:31, the living area felt comfortably warm now, so Nils switched the `shelly_relais` off.
+
+At 08:38, Jana finished with the kettle and switched the `tapo_socket` off.
+
+At 08:47, Jana sat in the living area with her breakfast; with the grey light still flat, she bumped the `tuya_lamp` up from `low` to `high` for better visibility while she ate and planned her day.
+
+At 08:52, Nils decided to start studying. He went to his room and turned his `aidot_lamp` on, setting it to `cool` and `high` brightness for focused desk work.
+
+At 08:59, Jana finished her breakfast and headed to her own room to begin client design work, leaving the `tuya_lamp` on at `high` in the still-occupied living area only briefly — but since she was the last to leave it empty, she switched the `tuya_lamp` off at 09:00 on her way out.

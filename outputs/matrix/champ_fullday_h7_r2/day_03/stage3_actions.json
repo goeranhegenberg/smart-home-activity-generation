@@ -1,0 +1,634 @@
+[
+  {
+    "timestamp": "06:33",
+    "resident": "Tom",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Gentle start in the dark morning"
+  },
+  {
+    "timestamp": "06:33",
+    "resident": "Tom",
+    "device": "bedroom_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Gentle low light"
+  },
+  {
+    "timestamp": "06:33",
+    "resident": "Tom",
+    "device": "bedroom_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm relaxing light"
+  },
+  {
+    "timestamp": "06:42",
+    "resident": "Tom",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving the bedroom"
+  },
+  {
+    "timestamp": "06:44",
+    "resident": "Tom",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Washing up"
+  },
+  {
+    "timestamp": "06:51",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Getting up in the dark"
+  },
+  {
+    "timestamp": "06:51",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright light to get going"
+  },
+  {
+    "timestamp": "06:51",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool alert light"
+  },
+  {
+    "timestamp": "06:51",
+    "resident": "Tom",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Heading downstairs"
+  },
+  {
+    "timestamp": "06:53",
+    "resident": "Tom",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Light for the kitchen"
+  },
+  {
+    "timestamp": "06:53",
+    "resident": "Tom",
+    "device": "kitchen_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright kitchen light"
+  },
+  {
+    "timestamp": "06:54",
+    "resident": "Tom",
+    "device": "coffee_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Brewing morning coffee"
+  },
+  {
+    "timestamp": "06:55",
+    "resident": "Mia",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Using the bathroom"
+  },
+  {
+    "timestamp": "06:57",
+    "resident": "Tom",
+    "device": "heating",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Take chill off the cold morning"
+  },
+  {
+    "timestamp": "06:58",
+    "resident": "Tom",
+    "device": "coffee_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee brew finished"
+  },
+  {
+    "timestamp": "07:03",
+    "resident": "Mia",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished in the bathroom"
+  },
+  {
+    "timestamp": "07:38",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving her room"
+  },
+  {
+    "timestamp": "07:39",
+    "resident": "Mia",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Gathering her bag"
+  },
+  {
+    "timestamp": "07:41",
+    "resident": "Mia",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving for school"
+  },
+  {
+    "timestamp": "07:52",
+    "resident": "Tom",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished in the kitchen"
+  },
+  {
+    "timestamp": "07:56",
+    "resident": "Tom",
+    "device": "heating",
+    "action": "status",
+    "action_value": "off",
+    "intent": "About to leave"
+  },
+  {
+    "timestamp": "07:58",
+    "resident": "Tom",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Preparing to leave"
+  },
+  {
+    "timestamp": "08:01",
+    "resident": "Tom",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving for the office"
+  },
+  {
+    "timestamp": "09:14",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Waking up properly"
+  },
+  {
+    "timestamp": "09:14",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright light to wake"
+  },
+  {
+    "timestamp": "09:14",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "light_temp",
+    "action_value": "cool",
+    "intent": "Cool alert light"
+  },
+  {
+    "timestamp": "09:26",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving the bedroom"
+  },
+  {
+    "timestamp": "09:28",
+    "resident": "Lena",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Morning wash"
+  },
+  {
+    "timestamp": "09:39",
+    "resident": "Lena",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished in the bathroom"
+  },
+  {
+    "timestamp": "09:42",
+    "resident": "Lena",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Late breakfast"
+  },
+  {
+    "timestamp": "09:44",
+    "resident": "Lena",
+    "device": "coffee_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Brewing coffee"
+  },
+  {
+    "timestamp": "09:47",
+    "resident": "Lena",
+    "device": "coffee_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Coffee ready"
+  },
+  {
+    "timestamp": "09:51",
+    "resident": "Lena",
+    "device": "heating",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Warming the cold morning room"
+  },
+  {
+    "timestamp": "10:23",
+    "resident": "Lena",
+    "device": "robot_vacuum",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Cleaning run across living area"
+  },
+  {
+    "timestamp": "10:24",
+    "resident": "Lena",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Daylight enough for kitchen"
+  },
+  {
+    "timestamp": "11:06",
+    "resident": "Lena",
+    "device": "robot_vacuum",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Vacuum finished run"
+  },
+  {
+    "timestamp": "11:31",
+    "resident": "Lena",
+    "device": "heating",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Living area warm enough"
+  },
+  {
+    "timestamp": "11:38",
+    "resident": "Lena",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Preparing to leave for errands"
+  },
+  {
+    "timestamp": "11:40",
+    "resident": "Lena",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving the house"
+  },
+  {
+    "timestamp": "13:53",
+    "resident": "Lena",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Returning home"
+  },
+  {
+    "timestamp": "13:54",
+    "resident": "Lena",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Entered the house"
+  },
+  {
+    "timestamp": "13:57",
+    "resident": "Lena",
+    "device": "heating",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Afternoon turned colder"
+  },
+  {
+    "timestamp": "14:02",
+    "resident": "Lena",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Making late lunch"
+  },
+  {
+    "timestamp": "14:31",
+    "resident": "Lena",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished lunch"
+  },
+  {
+    "timestamp": "15:34",
+    "resident": "Mia",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Arriving home from school"
+  },
+  {
+    "timestamp": "15:35",
+    "resident": "Mia",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Heading to her room"
+  },
+  {
+    "timestamp": "15:37",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Homework focus"
+  },
+  {
+    "timestamp": "15:48",
+    "resident": "Lena",
+    "device": "living_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Reading as afternoon fades"
+  },
+  {
+    "timestamp": "15:48",
+    "resident": "Lena",
+    "device": "living_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Bright light for reading"
+  },
+  {
+    "timestamp": "16:41",
+    "resident": "Lena",
+    "device": "living_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dimming to relax"
+  },
+  {
+    "timestamp": "18:10",
+    "resident": "Tom",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Arriving home"
+  },
+  {
+    "timestamp": "18:11",
+    "resident": "Tom",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Entered the house"
+  },
+  {
+    "timestamp": "18:16",
+    "resident": "Tom",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Starting dinner"
+  },
+  {
+    "timestamp": "18:43",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Dinner break"
+  },
+  {
+    "timestamp": "19:11",
+    "resident": "Tom",
+    "device": "kitchen_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Kitchen cleared"
+  },
+  {
+    "timestamp": "19:18",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Finishing homework"
+  },
+  {
+    "timestamp": "19:24",
+    "resident": "Tom",
+    "device": "tv_socket",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Watching TV"
+  },
+  {
+    "timestamp": "19:26",
+    "resident": "Lena",
+    "device": "living_lamp",
+    "action": "brightness",
+    "action_value": "high",
+    "intent": "Finishing post needs more light"
+  },
+  {
+    "timestamp": "19:48",
+    "resident": "Lena",
+    "device": "living_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Dimming to settle beside Tom"
+  },
+  {
+    "timestamp": "21:13",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Going to bed"
+  },
+  {
+    "timestamp": "21:13",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Low evening light"
+  },
+  {
+    "timestamp": "21:13",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Warm relaxing light"
+  },
+  {
+    "timestamp": "21:16",
+    "resident": "Lena",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Brief wash"
+  },
+  {
+    "timestamp": "21:22",
+    "resident": "Lena",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished washing"
+  },
+  {
+    "timestamp": "21:44",
+    "resident": "Lena",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Going to sleep"
+  },
+  {
+    "timestamp": "21:53",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "light_temp",
+    "action_value": "warm",
+    "intent": "Winding down to relax"
+  },
+  {
+    "timestamp": "21:53",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "brightness",
+    "action_value": "low",
+    "intent": "Low relaxing light"
+  },
+  {
+    "timestamp": "21:58",
+    "resident": "Mia",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Using the bathroom"
+  },
+  {
+    "timestamp": "22:05",
+    "resident": "Mia",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished in bathroom"
+  },
+  {
+    "timestamp": "22:11",
+    "resident": "Mia",
+    "device": "mia_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Going to sleep"
+  },
+  {
+    "timestamp": "22:54",
+    "resident": "Tom",
+    "device": "tv_socket",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished watching TV"
+  },
+  {
+    "timestamp": "22:56",
+    "resident": "Tom",
+    "device": "heating",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Turning off heating for the night"
+  },
+  {
+    "timestamp": "22:57",
+    "resident": "Tom",
+    "device": "living_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Leaving the living area"
+  },
+  {
+    "timestamp": "22:59",
+    "resident": "Tom",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Crossing to the stairs"
+  },
+  {
+    "timestamp": "23:00",
+    "resident": "Tom",
+    "device": "hallway_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Reached the stairs"
+  },
+  {
+    "timestamp": "23:02",
+    "resident": "Tom",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Final wash"
+  },
+  {
+    "timestamp": "23:09",
+    "resident": "Tom",
+    "device": "bathroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Finished washing"
+  },
+  {
+    "timestamp": "23:11",
+    "resident": "Tom",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "on",
+    "intent": "Reading before sleep"
+  },
+  {
+    "timestamp": "23:21",
+    "resident": "Tom",
+    "device": "bedroom_lamp",
+    "action": "status",
+    "action_value": "off",
+    "intent": "Going to sleep"
+  }
+]

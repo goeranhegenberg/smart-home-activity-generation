@@ -1,0 +1,47 @@
+# Persona Memory Cards
+
+## Nils
+
+**Daily Schedule**
+- Wakes around 07:30, no commute (works from home).
+- Eases into the morning with coffee before getting productive.
+- Settles at his desk to study later in the morning.
+
+**Smart-Home Habits**
+- Turns on his `aidot_lamp` after waking to light his room.
+- Uses the kitchen `tapo_socket` early to power the coffee machine/kettle.
+- May switch on the living-area `shelly_relais` (radiator) to take the morning chill off the shared space.
+- Operates all devices himself; no automation reliance.
+
+**Preferences**
+- Prefers `warm` light early on while easing into the day; switches his `aidot_lamp` to `cool` + `high` brightness for focused study at the desk.
+- Comfortable with only light heating on this mild grey October morning — radiator on briefly, off once comfortable.
+- Mindful of shared spaces; turns shared devices off when not needed.
+
+---
+
+## Jana
+
+**Daily Schedule**
+- Wakes around 08:00, flexible start (works from home).
+- Relaxed morning: makes breakfast in the shared kitchen.
+- Begins client design work mid-morning.
+
+**Smart-Home Habits**
+- Turns on her `tapo_lamp` to wake up and light her room.
+- Uses the kitchen `tapo_socket` for coffee/breakfast (shared with Nils).
+- Adjusts the living-area `tuya_lamp` when in the shared space; may toggle the `shelly_relais` for warmth.
+- Operates devices herself, hands-on.
+
+**Preferences**
+- Likes `warm`, comfortable light in her room during the slow morning; favors brighter, more neutral light once design work begins.
+- Sensitive to good lighting for visual/design work.
+- Keeps shared heating light on the mild October morning; switches radiator off once the room feels comfortable.
+- Loosely shares kitchen and living-area routines with Nils, coordinating without strict timing.
+
+---
+
+**Shared Context Notes**
+- Both work from home; overlapping but unsynchronized morning routines.
+- Shared devices (`tapo_socket`, `tuya_lamp`, `shelly_relais`) used by whoever is present first.
+- Mild grey October day → minimal heating, lights useful against the grey daylight.

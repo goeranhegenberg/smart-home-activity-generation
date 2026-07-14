@@ -1,0 +1,19 @@
+It is a slow grey Sunday morning, and both flatmates sleep in later than on a workday.
+
+Nils stirs first. At 07:48 he reaches over and switches on his `aidot_lamp`, but sets it to low brightness and warm light — a gentle, orange glow to ease into the day rather than jolt himself awake. He lies in bed a while, then gets up slowly.
+
+At 08:06, on his way out toward the kitchen, Nils switches his `aidot_lamp` off, leaving his room dark and empty.
+
+Passing through the shared living area at 08:08, the October light outside is still dim, so he turns on the `tuya_lamp` at low brightness for some ambient light. At 08:10 he switches on the `shelly_relais` to take the morning chill off the living area — just light heating, since it is a mild day.
+
+He continues into the kitchen, and at 08:13 powers on the `tapo_socket` to run the coffee machine. While it brews he leans in the doorway between kitchen and living area. At 08:17, once his coffee is poured, he switches the `tapo_socket` off.
+
+Meanwhile Jana wakes a little after eight. At 08:11 she switches on her `tapo_lamp`, dimming it to low brightness and warm light for a soft start. She takes her time, then at 08:24 turns her `tapo_lamp` off as she heads out to the kitchen.
+
+At 08:26 Jana powers the `tapo_socket` back on to heat water for her morning tea. By now daylight has crept up enough in the living area that, at 08:29, she switches the `tuya_lamp` off — the grey light through the windows is sufficient. At 08:31 she switches the `tapo_socket` off once her tea has steeped, and settles at the kitchen table for a relaxed breakfast.
+
+At 08:34 Nils, finding the living area comfortably warm now, switches the `shelly_relais` off.
+
+He heads back to his room to begin studying. At 08:47 he switches his `aidot_lamp` on, this time at high brightness and cool light for focused desk work.
+
+Jana lingers over breakfast, then goes to her room to prepare for client work. At 08:58 she switches her `tapo_lamp` on at high brightness and cool light, settling in at her small workspace as the morning settles into a quiet working rhythm.

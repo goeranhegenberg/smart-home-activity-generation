@@ -1,0 +1,55 @@
+# Persona Memory Cards
+
+## Nils
+
+**Daily Schedule**
+- Wakes around 07:30, no commute (works from home).
+- Eases into the morning with coffee before getting productive.
+- Settles at his desk to study later in the morning.
+
+**Smart-Home Habits**
+- Operates all devices himself.
+- On waking, switches on the `aidot_lamp` low/warm to ease in gently; turns it off if the room sits empty.
+- Returns the `aidot_lamp` to high/cool once he sits down to study.
+- Powers the coffee machine via the kitchen `tapo_socket`, switching it off when done.
+- Switches on the living-area `shelly_relais` radiator and `tuya_lamp` (low/ambient) for a slow shared-space start; turns the `tuya_lamp` off once daylight suffices.
+
+**Preferences**
+- Prefers a gentle, warm-lit start before transitioning to bright, cool light for concentration.
+- Coffee-first morning routine.
+- Mild October mornings need only light heating — comfortable, not deep-winter warm.
+
+---
+
+## Jana
+
+**Daily Schedule**
+- Wakes around 08:00, flexible morning (works from home, freelance).
+- Makes breakfast at a relaxed pace.
+- Starts client work mid-morning at her small workspace.
+
+**Smart-Home Habits**
+- Operates all devices herself.
+- On waking, turns the `tapo_lamp` on low/warm while getting up, then off when leaving the room.
+- Re-brightens the `tapo_lamp` to high/cool when client work begins.
+- Uses the kitchen `tapo_socket` briefly for kettle/breakfast; turns it off when done.
+- Switches off the shared `shelly_relais` once the living area is warm enough.
+
+**Preferences**
+- Likes a cozy, warm-lit wake-up before transitioning to brighter, cooler task lighting.
+- Relaxed, unhurried morning that loosely overlaps with Nils's routine.
+- Keeps shared spaces only lightly heated on mild mornings; turns off the radiator once the chill is gone or the room is empty.
+
+---
+
+**Shared Notes**
+- Kitchen `tapo_socket` (coffee/kettle) and living-area devices (`tuya_lamp`, `shelly_relais`) are common — either flatmate may operate them.
+- Private lamps stay each resident's own: `aidot_lamp` (Nils), `tapo_lamp` (Jana).
+- Mild grey October morning: light heating only, routines overlap loosely with no rush.
+
+## World state at end of window
+- aidot_lamp: on, brightness high, light_temp cool
+- tapo_lamp: on, brightness high, light_temp cool
+
+## Active events
+- none

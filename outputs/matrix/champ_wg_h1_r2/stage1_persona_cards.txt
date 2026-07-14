@@ -1,0 +1,50 @@
+# Persona Memory Cards
+
+## Nils — Graduate Student (works from home)
+
+**Daily Schedule**
+- Wakes ~07:30, no commute
+- Eases into the morning with coffee
+- Starts studying at his desk later in the morning
+
+**Smart-Home Habits**
+- Operates all devices himself
+- On waking, turns on his `aidot_lamp` (Nils's Room) — starts dim/warm to ease into the day
+- Switches the bulb to brighter, cooler light when settling in for focused study at his desk
+- Uses the kitchen `tapo_socket` to power the coffee machine in the morning, switches it off when done
+- May switch on the `shelly_relais` (living-area radiator) when passing through to the shared area on a chilly morning
+
+**Preferences**
+- Gradual wake-up: low brightness, warm light early
+- Cool, high-brightness light for study/focus
+- Coffee-driven start; appreciates a warm shared living area
+- Mild October weather → only light heating needed, not full winter levels
+
+---
+
+## Jana — Freelance Designer (works from home)
+
+**Daily Schedule**
+- Wakes ~08:00, flexible morning
+- Makes breakfast in the kitchen
+- Starts client work mid-morning
+
+**Smart-Home Habits**
+- Operates all devices herself
+- On waking, turns on her `tapo_lamp` (Jana's Room) to light the room/workspace
+- Uses the kitchen `tapo_socket` (kettle/coffee machine) during breakfast, off when finished
+- Turns on the shared `tuya_lamp` and adjusts brightness in the living area while moving through the morning
+- May toggle the `shelly_relais` radiator on/off depending on comfort in the shared area
+
+**Preferences**
+- Relaxed, unhurried mornings
+- Comfortable, well-lit workspace for design work
+- Conscious of shared spaces — turns off heating/lights when room is empty or comfortable
+- Light heating only on this mild grey morning
+
+---
+
+**Shared Notes**
+- Routines overlap loosely (Nils ~07:30, Jana ~08:00)
+- Kitchen `tapo_socket` and living-area devices (`tuya_lamp`, `shelly_relais`) are shared
+- Each resident controls only their own room's lamp privately

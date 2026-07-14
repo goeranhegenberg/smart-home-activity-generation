@@ -1,0 +1,19 @@
+At 06:00 Bob wakes in the dark bedroom. At 06:02 he switches the `aidot_lamp` on at low brightness with warm light, just enough to find his clothes without rousing Alice. By 06:09 he is dressed, and at 06:10 he turns the `aidot_lamp` back off to leave Alice sleeping in the dark.
+
+At 06:14 Bob steps into the living area and switches the `shelly_relais` on to start warming the chilly room before the family gathers. He notices the `tuya_lamp` is already glowing at high brightness — left on from the night before — and decides to keep it on since he is about to eat breakfast here under it.
+
+At 06:18 Bob goes into the kitchen and switches the `tapo_socket` on to boil water for his coffee. At 06:22 the coffee is ready and he switches the `tapo_socket` off again. He eats a quick breakfast in the warming living area.
+
+At 06:47 Bob enters Charlie's room and switches the `tapo_lamp` on at low brightness with warm light to wake him gently. At 06:51, once Charlie is stirring, he raises the `tapo_lamp` to high brightness to get the boy moving and out of bed.
+
+At 07:03 Alice wakes. At 07:05 she switches the bedroom `aidot_lamp` on at high brightness with cool light to shake off the dark-morning grogginess. She dresses, and at 07:16 she turns the `aidot_lamp` off as she leaves the empty bedroom.
+
+At 07:18 Bob and Charlie sit down to breakfast together in the living area, still lit by the `tuya_lamp` and warmed by the `shelly_relais`. At 07:21 Bob switches the kitchen `tapo_socket` on again to make a second round of tea, then switches it off at 07:24.
+
+At 07:38 Alice takes Charlie back to his room to help him get dressed; the `tapo_lamp` is already on high, which suits the task perfectly. At 07:54, with Charlie dressed and ready, Alice switches the `tapo_lamp` off as they leave the room empty.
+
+At 08:29 Bob and Charlie head out through the hallway for the commute and school drop-off. The living area `shelly_relais` stays on, since Alice remains home and wants the room warm for her workday.
+
+After they leave, Alice exercises indoors in the living area. At 08:48 she steps into the kitchen and switches the `tapo_socket` on to brew fresh coffee before settling in to work. At 08:52 the coffee is ready and she switches the `tapo_socket` off.
+
+At 08:55 Alice settles at her desk in the living area to start work, the `tuya_lamp` still at high brightness over her and the `shelly_relais` keeping the room warm.

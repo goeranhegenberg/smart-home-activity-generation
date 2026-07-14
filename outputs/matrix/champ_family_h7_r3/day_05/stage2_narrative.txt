@@ -1,0 +1,33 @@
+06:02 — Bob wakes in the dark bedroom and switches the bedside `aidot_lamp` on at **low** brightness and **warm** light_temp, enough to find his clothes without disturbing Alice.
+
+06:11 — Dressed, Bob switches the bedroom `aidot_lamp` off, leaving the room dark for Alice.
+
+06:14 — Bob moves into the living area and turns on the `shelly_relais` to start the radiator warming the chilly room.
+
+06:16 — He switches the living-area `tuya_lamp` on at **low** brightness for a quiet solo start.
+
+06:19 — In the kitchen, Bob powers the `tapo_socket` on to brew his coffee.
+
+06:23 — Coffee ready, he switches the `tapo_socket` off.
+
+06:47 — Bob steps into Charlie's room and turns the `tapo_lamp` on at **low** brightness, **warm** light_temp to gently wake him.
+
+06:53 — With Charlie stirring, Bob raises the `tapo_lamp` to **high** brightness so the room is bright enough to wake fully.
+
+07:04 — Alice wakes a little later than usual; she switches the bedroom `aidot_lamp` on at **low** brightness, **warm** light_temp for a soft start.
+
+07:13 — Bob raises the living-area `tuya_lamp` to **high** brightness for the shared breakfast table.
+
+07:14 — Bob powers the kitchen `tapo_socket` on again to heat water for breakfast.
+
+07:17 — Charlie joins Bob at the table for breakfast; Bob switches the `tapo_socket` off once the water is done.
+
+07:22 — Alice gets up and switches the bedroom `aidot_lamp` off, leaving the empty room dark.
+
+07:48 — Breakfast finished, Alice takes Charlie into his room to get dressed; the `tapo_lamp` is already at **high**, bright enough for dressing.
+
+07:58 — Charlie is dressed, so Alice switches Charlie's `tapo_lamp` off as they leave the room.
+
+08:29 — Bob and Charlie head out through the hallway for the commute and school drop-off.
+
+08:41 — Alice finishes a short indoor exercise session and settles at her desk in the living area; the `tuya_lamp` stays **high** and the `shelly_relais` radiator stays **on** to keep her work corner warm and well-lit for the workday.

@@ -1,0 +1,25 @@
+At 07:34, Nils stirred awake in his room and reached over to switch his aidot_lamp on, setting it to low brightness with a warm light_temp to ease gently into the grey morning.
+
+At 07:41, after lying in bed a few minutes, Nils got up and crossed into the living area. The room held a slight chill, so at 07:43 he switched on the shelly_relais to take the edge off. He then turned on the tuya_lamp at low brightness for soft ambient light while he shuffled around.
+
+At 07:47, Nils moved into the kitchen and switched the tapo_socket on to start the coffee machine. While it brewed, he leaned against the counter waiting.
+
+At 07:51, with his coffee poured, Nils switched the tapo_socket off again, mindful of the shared plug. He carried his mug back into the living area to sit for a while.
+
+At 08:06, Jana woke in her room and turned on her tapo_lamp, choosing low brightness and a warm light_temp for an unhurried start.
+
+At 08:19, Nils finished his coffee in the living area and decided to settle into study. Since he was heading to his desk, at 08:20 he turned off the tuya_lamp, leaving the living area unlit. He left the shelly_relais on, as Jana would soon be using the shared space and the room was still taking the chill off.
+
+At 08:22, Nils returned to his room. He adjusted his aidot_lamp to high brightness and a cool light_temp for focused work at his desk, then opened his books.
+
+At 08:31, Jana got up and brightened her tapo_lamp to high while staying on warm light, then gathered herself for breakfast.
+
+At 08:38, Jana left her room for the kitchen and switched her tapo_lamp off, leaving her room dark and empty.
+
+At 08:40, Jana switched on the tuya_lamp in the living area at high brightness for the morning, glad the radiator on the shelly_relais had already warmed the space.
+
+At 08:43, in the kitchen, Jana switched the tapo_socket on to boil water for her breakfast.
+
+At 08:47, with the kettle done, she switched the tapo_socket off.
+
+At 09:00, Jana sat in the warmed living area with her breakfast under the bright tuya_lamp, the shelly_relais still running gently, while Nils studied at his desk under his cool, high aidot_lamp.

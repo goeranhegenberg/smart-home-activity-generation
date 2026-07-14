@@ -1,0 +1,25 @@
+It is a grey, mild Saturday morning, and the flat is quiet and slowly easing toward the weekend. Two lamps glowed through the night: Nils's aidot_lamp in his room and Jana's tapo_lamp in hers, both left on high and cool from the day before.
+
+At 07:34 Nils stirs and reaches for his nightstand. Rather than waking fully into the harsh cool light still burning overhead, he dials his aidot_lamp down to low brightness and warm light_temp, softening the room for a slow start.
+
+At 07:46 he gets up, stretches, and heads out toward the kitchen. As he leaves his room empty, at 07:47 he switches the aidot_lamp off.
+
+Passing through the shared living area at 07:49, he turns the tuya_lamp on at low brightness to take the gloom off the grey morning. The room carries a slight chill, so at 07:51 he switches on the shelly_relais to warm the radiator.
+
+At 07:53 he steps into the kitchen and powers the tapo_socket on for the coffee machine. He lets it brew while he leans against the counter, and at 07:58 he switches the tapo_socket off once his coffee is poured.
+
+Nils carries his coffee back to the living area, settling in with it for a while. By 08:36 the room feels comfortably warm, so he switches the shelly_relais off.
+
+Meanwhile, at 08:09 Jana wakes in her own room. Her tapo_lamp is still burning bright and cool from overnight, so she eases it back to low brightness and warm light_temp to match her slow waking.
+
+At 08:21 she rises and leaves her room for the kitchen, switching the tapo_lamp off at 08:22 as she goes.
+
+In the kitchen at 08:24 she powers the tapo_socket on to boil water for tea, and at 08:28 she switches it off once the water is ready. She fixes a light breakfast and joins the shared living area, where she and Nils overlap loosely over coffee and tea.
+
+By 08:43 the daylight, though grey, has brightened enough that the ceiling light feels unnecessary; Jana switches the tuya_lamp off.
+
+At 08:47 Nils returns to his own room to settle in for study. He turns his aidot_lamp back on at high brightness and cool light_temp for focused desk work.
+
+Shortly after, at 08:56 Jana heads back to her room to begin her client design work. She switches her tapo_lamp on at high brightness and cool light_temp for the focused task ahead.
+
+By 09:00 both flatmates are at their desks: the shared living area and kitchen are quiet with the tuya_lamp off, the shelly_relais off, and the tapo_socket off, while each private room is lit bright and cool for the working day.

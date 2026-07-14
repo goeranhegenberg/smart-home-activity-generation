@@ -1,0 +1,17 @@
+It is a grey Saturday morning, and the apartment is quiet well past dawn. Nils's `aidot_lamp` was left on overnight at low brightness and warm light, casting a faint orange glow over his desk while he slept.
+
+At 07:38, Nils stirs and sits up. Noticing his `aidot_lamp` still glowing low and warm from the night before, he leaves it as it is for now — the soft warm light suits this easing-in part of the morning perfectly.
+
+At 07:46, he shuffles into the dim shared living area and switches on the `tuya_lamp` at low brightness for some gentle general light. A moment later, at 07:49, feeling the October chill in the room, he turns on the `shelly_relais` to take the edge off with the radiator.
+
+At 07:53, Nils moves into the kitchen and switches the `tapo_socket` on to power the coffee machine. He waits while it brews, and at 07:57 he switches the `tapo_socket` off again now that his coffee is poured, mindful not to leave it drawing power.
+
+He carries his coffee back toward the living area and settles in to drink it slowly. At 08:11, Jana wakes in her room and turns on her `tapo_lamp` at low brightness and warm light to ease into her own morning.
+
+At 08:24, Jana comes through to the kitchen to make breakfast. She switches the `tapo_socket` on at 08:26 to boil the kettle for tea, and once it has boiled she turns the `tapo_socket` off again at 08:30.
+
+Around this time Nils finishes his coffee and decides to start studying. At 08:41, he returns to his room. Since the living area is now occupied by Jana having her breakfast, he leaves the `tuya_lamp` on at low brightness and the `shelly_relais` running for her comfort. At 08:43, settling in at his desk, he switches his `aidot_lamp` to high brightness and cool light for focused work.
+
+Jana eats her breakfast in the softly lit living area, in no hurry. At 08:54, she finishes and tidies up. As she leaves the shared space empty, she switches off the `tuya_lamp` at 08:56, keeping the shared lighting modest. She leaves the `shelly_relais` radiator on, since the room still holds a slight chill and will be used again later.
+
+At 09:00, back in her room and ready to begin her client design work, Jana switches her `tapo_lamp` to high brightness and cool light for a brighter, focused workspace.

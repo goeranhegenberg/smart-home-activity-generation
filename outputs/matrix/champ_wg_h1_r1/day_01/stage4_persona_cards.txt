@@ -1,0 +1,53 @@
+# Persona Memory Cards
+
+## Nils
+
+**Daily Schedule**
+- Wakes around 07:30, no commute (works from home).
+- Eases into the morning with coffee before getting productive.
+- Settles at his desk to study later in the morning (around 08:50).
+
+**Smart-Home Habits**
+- Turns on his `aidot_lamp` after waking, then off when leaving the room empty.
+- Powers the kitchen `tapo_socket` for coffee, switching it off once ready.
+- Lights the shared `tuya_lamp` and briefly runs the `shelly_relais` radiator on arrival in the living area.
+- Operates all devices himself; no automation reliance.
+
+**Preferences**
+- `Warm` + `low` light when first waking to ease in; switches `aidot_lamp` to `cool` + `high` for focused desk study.
+- Comfortable with only light heating on this mild grey October morning — radiator on briefly, off once comfortable.
+- Mindful of shared spaces; turns shared devices off when not needed.
+
+---
+
+## Jana
+
+**Daily Schedule**
+- Wakes around 08:00, flexible start (works from home).
+- Relaxed morning: makes breakfast in the shared kitchen.
+- Begins client design work mid-morning.
+
+**Smart-Home Habits**
+- Turns on her `tapo_lamp` to wake, off when leaving her room empty.
+- Uses the kitchen `tapo_socket` for coffee/breakfast, off when done.
+- Brightens the living-area `tuya_lamp` for breakfast/planning; turns it off when last to leave.
+- Operates devices herself, hands-on.
+
+**Preferences**
+- Likes `warm` + `low` light in her room during the slow morning; favors brighter light (`high`) in shared areas for eating and planning.
+- Sensitive to good lighting for visual/design work.
+- Keeps shared heating light on the mild October morning.
+- Loosely shares kitchen and living-area routines with Nils, coordinating without strict timing.
+
+---
+
+**Shared Context Notes**
+- Both work from home; overlapping but unsynchronized morning routines.
+- Shared devices (`tapo_socket`, `tuya_lamp`, `shelly_relais`) used by whoever is present first; Nils typically arrives first and handles them, Jana follows.
+- Mild grey October day → minimal heating, lights useful against the grey daylight.
+
+## World state at end of window
+- aidot_lamp: on, cool, high
+
+## Active events
+- none

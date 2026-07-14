@@ -1,0 +1,19 @@
+{
+  "_comment": "Maps each Stage-3 device ID to its TTDAS app package and click-recording basenames. Reconstructed because the lab's ttdas_devices.json was not in our course-GitLab clone. Per slide 16 each device has ONE toggle recording '<device>_on_off' that flips its power; 'status' (on AND off) therefore maps to that single recording. Per slide 15 the TTDAS setup uses only simple click recordings (warm/cool, not 2700-6500K), so brightness/light_temp have NO recording here and are skipped by the exporter (logged). App packages for shelly_relais and tuya_lamp are taken verbatim from slide 16; the others are best-guesses to be confirmed against the lab's real ttdas_devices.json (see '_guessed_app').",
+  "aidot_lamp":    {"app": "com.aidot.aidot",          "recordings": {"status": "aidot_lamp_on_off"},    "_guessed_app": true},
+  "tapo_lamp":     {"app": "com.tplink.kasa_android",  "recordings": {"status": "tapo_lamp_on_off"},     "_guessed_app": true},
+  "tuya_lamp":     {"app": "com.tuya.smart",           "recordings": {"status": "tuya_lamp_on_off"}},
+  "tapo_socket":   {"app": "com.tplink.kasa_android",  "recordings": {"status": "tapo_socket_on_off"},   "_guessed_app": true},
+  "shelly_relais": {"app": "cloud.shelly.smartcontrol","recordings": {"status": "shelly_relais_on_off"}},
+
+  "bedroom_lamp":  {"app": "com.tuya.smart",           "recordings": {"status": "bedroom_lamp_on_off"},  "_guessed_app": true},
+  "mia_lamp":      {"app": "com.tuya.smart",           "recordings": {"status": "mia_lamp_on_off"},      "_guessed_app": true},
+  "living_lamp":   {"app": "com.tuya.smart",           "recordings": {"status": "living_lamp_on_off"},   "_guessed_app": true},
+  "kitchen_lamp":  {"app": "com.tuya.smart",           "recordings": {"status": "kitchen_lamp_on_off"},  "_guessed_app": true},
+  "bathroom_lamp": {"app": "com.tuya.smart",           "recordings": {"status": "bathroom_lamp_on_off"}, "_guessed_app": true},
+  "hallway_lamp":  {"app": "com.tuya.smart",           "recordings": {"status": "hallway_lamp_on_off"},  "_guessed_app": true},
+  "coffee_socket": {"app": "com.tplink.kasa_android",  "recordings": {"status": "coffee_socket_on_off"}, "_guessed_app": true},
+  "tv_socket":     {"app": "com.tplink.kasa_android",  "recordings": {"status": "tv_socket_on_off"},     "_guessed_app": true},
+  "robot_vacuum":  {"app": "com.roborock.smart",       "recordings": {"status": "robot_vacuum_on_off"},  "_guessed_app": true},
+  "heating":       {"app": "cloud.shelly.smartcontrol","recordings": {"status": "heating_on_off"},       "_guessed_app": true}
+}

@@ -1,0 +1,19 @@
+It is Saturday, and the family sleeps in — no school run and no office commute to chase. The living-area `tuya_lamp` is still glowing at brightness `high` and the `shelly_relais` radiator is still running, both left on from the previous evening.
+
+At 07:22 Bob wakes first, later than his weekday alarm. In the dark bedroom he sets the `aidot_lamp` to `on` with brightness `low` and `light_temp` `warm`, so he can dress quietly without disturbing Alice. By 07:31 he is dressed and leaves the bedroom, switching the `aidot_lamp` off as he goes, leaving the room dark for Alice.
+
+At 07:34 Bob walks into the living area and finds the `tuya_lamp` blazing at `high` from last night. For a slow Saturday morning he prefers something softer, so he dims the `tuya_lamp` to brightness `low`. The radiator on the `shelly_relais` is already taking the chill off the room, so he leaves it `on`.
+
+At 07:38 Bob steps into the kitchen and powers the `tapo_socket` on to brew his coffee. At 07:42, his cup poured, he switches the `tapo_socket` off again.
+
+At 07:53 Alice wakes. She turns the bedroom `aidot_lamp` `on`, brightness `high`, `light_temp` `warm` to get dressed in the dark winter morning. At 08:04, dressed and ready, she switches the `aidot_lamp` off and leaves the empty bedroom.
+
+Charlie sleeps later on a weekend, but stirs around 08:09 and calls for Bob. At 08:11 Bob goes into Charlie's room and switches the `tapo_lamp` `on`, brightness `low`, `light_temp` `warm` to wake him gently. At 08:15, once Charlie is sitting up, Bob raises the `tapo_lamp` brightness to `high` so Charlie can find his weekend clothes. Charlie gets dressed with Alice's help.
+
+At 08:24, with Charlie dressed, Alice switches the `tapo_lamp` off as everyone heads out of the room toward the living area for a relaxed family breakfast.
+
+At 08:33 Alice goes into the kitchen and powers the `tapo_socket` on to heat water for tea and to warm milk for Charlie. At 08:37 she switches the `tapo_socket` off once the kettle has done its work.
+
+The family settles in the living area. At 08:46, finding Bob's `low` setting too dim for the gray morning and her own liking, Alice raises the `tuya_lamp` back to brightness `high` for a bright, comfortable shared space. The `shelly_relais` radiator stays `on`, keeping the living area warm since everyone is home for the weekend and nobody is leaving for work or school.
+
+By 09:00 the morning has settled into an easy Saturday: the bedroom `aidot_lamp` is off, Charlie's `tapo_lamp` is off, the kitchen `tapo_socket` is off, the living-area `tuya_lamp` is on at brightness `high`, and the `shelly_relais` radiator continues running to keep the occupied living area warm.

@@ -1,0 +1,19 @@
+At 07:34, Nils stirred awake in his room. The grey October light barely filtered through the curtains, so he reached over and switched on the `aidot_lamp` to status on, brightness low, light_temp warm — a soft, cozy glow to ease himself into the day.
+
+At 07:46, after lying in bed a few minutes scrolling on his phone, Nils got up and dressed. At 07:52, on his way out to start his coffee-first routine, he switched the `aidot_lamp` off, leaving his room dark and empty.
+
+At 07:55, Nils stepped into the kitchen and switched the `tapo_socket` on to power the coffee machine. While it brewed, at 07:57 he moved into the adjoining living area and switched on the `shelly_relais` to take the morning chill off the room — only light heating needed on this mild day. At 07:59 he also switched the `tuya_lamp` on at brightness low for a gentle ambient start to the shared space.
+
+At 08:02, Nils returned to the kitchen, poured his coffee, and at 08:03 switched the `tapo_socket` off now that the machine had done its job.
+
+At 08:09, Jana woke in her own room. She turned the `tapo_lamp` on to status on, brightness low, light_temp warm, enjoying the soft light while she slowly got out of bed.
+
+At 08:21, dressed and ready to start her morning, Jana switched the `tapo_lamp` off as she left her room.
+
+At 08:24, Jana came into the kitchen, greeting Nils who was nursing his coffee in the living area. She switched the `tapo_socket` on to boil the kettle for tea and breakfast. At 08:33, with the kettle done and her breakfast underway, she switched the `tapo_socket` off.
+
+At 08:41, sitting in the now-comfortable living area, Jana noticed the radiator had done its work and the room was warm enough. She switched the `shelly_relais` off. At 08:43, with the grey daylight slowly strengthening enough to see by, she also switched the `tuya_lamp` off to keep the shared space tidy and unfussy.
+
+At 08:52, Nils carried the last of his coffee back to his room to settle in for studying. He switched the `aidot_lamp` back on, this time at brightness high, light_temp cool, for focused, alert concentration at his desk.
+
+At 08:58, Jana moved to her small workspace to begin her client work. She switched the `tapo_lamp` on at brightness high, light_temp cool, bright and crisp for the task ahead.

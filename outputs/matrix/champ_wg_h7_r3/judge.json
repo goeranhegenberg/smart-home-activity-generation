@@ -1,0 +1,95 @@
+{
+  "run": "champ_wg_h7_r3",
+  "judge_model": "openai/gpt-5.4",
+  "votes": 1,
+  "per_day": [
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 1
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 2
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Compared with the previous day, Nils newly turns on the shared tuya_lamp at 07:46 instead of leaving it off, without any clear motivating change beyond a thin statement that the room is dim."
+      },
+      "votes": 1,
+      "day": 3
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "The narrative says the living-area radiator (`shelly_relais`) was already running from the previous evening, but the fixed time window is a morning simulation and the previous day ended with the radiator left on for later shared use that morning, not from the previous evening."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Nils no longer switches on the living-area radiator in the morning because it is described as already on from the previous evening, which is a changed routine without support from the established context."
+      },
+      "votes": 1,
+      "day": 4
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Compared with the previous day, the living-area radiator was turned on anew at 07:53 instead of being noted as already running from the previous evening, with no in-narrative reason given for that change."
+      },
+      "votes": 1,
+      "day": 5
+    },
+    {
+      "env": {
+        "consistent": true,
+        "violations": []
+      },
+      "drift": {
+        "unmotivated_change": true,
+        "notes": "Nils’s aidot_lamp being left on overnight is a new change from the previous day with no in-narrative reason, and the living-area radiator is left on after the space is emptied despite the previous day framing heating as only for comfort while occupied."
+      },
+      "votes": 1,
+      "day": 6
+    },
+    {
+      "env": {
+        "consistent": false,
+        "violations": [
+          "Jana is described as settling at the kitchen table with her tea and breakfast, but the fixed room/device context defines no kitchen table and says she uses the shared living area while having breakfast."
+        ]
+      },
+      "drift": {
+        "unmotivated_change": false,
+        "notes": ""
+      },
+      "votes": 1,
+      "day": 7
+    }
+  ]
+}

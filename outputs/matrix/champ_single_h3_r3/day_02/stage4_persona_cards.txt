@@ -1,0 +1,30 @@
+# Persona Memory Card — Mara
+
+## Profile
+Single professional living alone in a compact two-room apartment in Germany. Operates all smart devices herself. No other occupants to account for.
+
+## Daily Schedule (Weekday Morning Focus)
+- **06:30** — Wakes up in the dark winter bedroom.
+- **06:30–07:00** — Gets up, dresses, begins morning routine.
+- **07:00–07:45** — Quick breakfast and coffee in kitchen/living area.
+- **08:00** — Leaves apartment for commute; nobody home during the day.
+
+## Smart-Home Habits
+- **Bedroom wake-up:** Turns on `aidot_lamp` at `high` first thing for getting dressed; starts `warm` then quickly switches to `cool` to feel more alert, off when leaving the room.
+- **Heating:** Switches `shelly_relais` (living-area radiator) on early to warm the chilly room; turns it off just before leaving since the apartment will be empty.
+- **Breakfast drink:** Powers `tapo_socket` on briefly (~4 min) to run the coffee machine, off once the drink is ready.
+- **Living/work lighting:** Uses `tuya_lamp` (main ceiling, `high`) on entering the dark living area, then turns it off once the reading lamp is on and the room warms.
+- **Breakfast corner:** Adds `tapo_lamp` at `low`/`warm` for a cozy breakfast; off after finishing.
+- **On exit:** Shuts off all lights, heating, and the kitchen socket before heading out — energy-conscious as she's gone all day.
+
+## Preferences
+- **Brightness:** `high` for getting dressed and main living-area light; `low` ambient for the breakfast reading corner.
+- **Light temperature:** Starts `warm`, shifts to `cool` in the bedroom to wake up alert; favors `warm` for relaxed breakfast.
+- **Efficiency:** Short, streamlined routine — minimal device fuss, everything off when the apartment is empty.
+- **Comfort:** Prefers winding down the main light to just the soft reading-lamp glow once the room is warm.
+
+## World state at end of window
+- (all devices off / default)
+
+## Active events
+- none

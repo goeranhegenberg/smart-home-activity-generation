@@ -1,0 +1,29 @@
+At 07:34, Nils wakes in his room without any rush. Reaching over, he turns on the `aidot_lamp`, setting its status to on with brightness low and light_temp warm — a soft, cozy glow to ease into the grey October morning.
+
+At 07:41, he pulls on a sweater and shuffles out toward the kitchen. Passing through the shared living area, he feels the morning chill and at 07:43 switches on the `shelly_relais` to take the edge off the radiator-cold room.
+
+At 07:46, in the kitchen, he turns on the `tapo_socket` to power the coffee machine. The machine brews while he leans against the counter, still waking up.
+
+At 07:50, with his coffee poured, he switches the `tapo_socket` back off.
+
+At 07:52, mug in hand, he carries his coffee back through the living area. The room is already feeling warmer, so at 07:53 he switches the `shelly_relais` off, satisfied with the brief warm-up.
+
+At 07:55, back in his own room, Nils sips his coffee at the desk but isn't ready to focus yet, leaving the `aidot_lamp` dim and warm while he reads on his phone.
+
+At 08:06, Jana wakes in her room. She turns on the `tapo_lamp`, setting status to on with brightness high and light_temp cool — bright daylight to shake off sleep.
+
+At 08:18, she heads out for breakfast. Before leaving her room empty, at 08:19 she switches the `tapo_lamp` off.
+
+At 08:20, moving through the shared living area, she turns on the `tuya_lamp` to brightness high so she can see while she sorts out breakfast.
+
+At 08:23, in the kitchen, Jana switches the `tapo_socket` on to boil the kettle for tea and warm up the appliance for her breakfast.
+
+At 08:31, finished with the kettle, she turns the `tapo_socket` off.
+
+At 08:38, she settles at the kitchen table with breakfast, the `tuya_lamp` still lighting the adjoining living area where she'll set up her workspace.
+
+Meanwhile, at 08:44, Nils has finished his coffee and is ready to study. At his desk he adjusts the `aidot_lamp`, switching brightness to high and light_temp to cool for focused work.
+
+At 08:57, Jana finishes breakfast and moves into the living area to begin organizing her client work for the day. She leaves the `tuya_lamp` on at brightness high, since she is now occupying the room and needs the light for her design work.
+
+By 09:00, Nils is studying under cool, bright light in his room with the `aidot_lamp` on, Jana is working in the lit living area under the `tuya_lamp`, the `tapo_lamp` in Jana's room is off, the radiator `shelly_relais` is off, and the kitchen `tapo_socket` is off.
