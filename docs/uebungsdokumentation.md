@@ -72,7 +72,8 @@ python examples/ttdas_5min.py
 
 ## Evaluation (Querschnitt)
 
-Zweistufiges Fehlermodell (`src/errors.py`): **formal** (hart, Self-Repair → 0) vs.
+Zweistufiges Fehlermodell (`src/errors.py`): **formal** (hart; Self-Repair drückt
+sie auf nahezu null, ein Restfehler in den 30 finalen Läufen) vs.
 **inhaltlich** (gewichtet, hoch=3/mittel=2). Gewichtete Fehlerbepunktung mit
 PASS/WARN/FAIL gegen Schranken (`config.json`). Der **LLM-as-Judge** (Umwelt-/
 Kontext-Konsistenz, Routine-Drift; andere Modellfamilie) wird als separate,

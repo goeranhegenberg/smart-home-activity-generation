@@ -12,7 +12,7 @@ evaluation harness and a JSON→TTDAS exporter. Framing: Design Science Research
 1. **Stage 1** — persona memory cards from residents / environment / device schema / rooms
 2. **Stage 2** — time-windowed narrative with exact timestamps and explicit device state
 3. **Stage 3** — structured-output extraction to an action JSON, validated, with a
-   self-repair loop (`config.max_repairs`, default 1) that re-prompts with the validator's messages
+   self-repair loop (`config.max_repairs`; the paper runs used 1) that re-prompts with the validator's messages
 4. **Stage 4** — memory update: rewrite cards from observed actions, carry the device
    world-state and active multi-day events into the next day
 
@@ -67,6 +67,8 @@ sent twice. `client.USAGE` accumulates prompt/cached/output tokens + cost per pr
   vs. content (weighted hoch=3/mittel=2).
 - `src/rooms.py` — parse `rooms.md` into a device→accessible-residents map (caregiver
   rule: a dependent's room stays accessible to all).
+- `src/context.py` — shared constellation loader (`load_context`: devices, window,
+  access map, resident names) + `resolve_data_dir`; used by every CLI and the matrix.
 - `src/evaluate.py` — metrics (validity, drift/churn, card growth, variation Jaccard,
   coverage), weighted error score, per-day `quality_curve` (D3 drift over days) and
   `breakpoint` (D5: first day quality breaks).
@@ -77,8 +79,9 @@ sent twice. `client.USAGE` accumulates prompt/cached/output tokens + cost per pr
   PASS/WARN/FAIL verdict (uncalibrated, single cross-family vote) — this mirrors the
   paper's error-catalog table. `src/aggregate.py` renders the layer into
   `outputs/matrix/JUDGE_SUMMARY.md` (env/drift rates by day number). Key judge
-  finding: env-inconsistency is horizon-dependent and spikes at day 6 (model invents
-  a "weekend" vs. the fixed schedule).
+  finding: env-inconsistency spikes at day 6 — a specification artifact, not model
+  drift: the Stage-2 prompt explicitly requests weekend routine shifts while the
+  morning personas encode weekday-only routines, so the judge flags the conflict.
 - `run_matrix.py` — runs the grid: constellations (family/single/wg/fullday) x
   horizons (1/3/7) x K repeats; pipeline → judge → evaluate per cell, writes a
   matrix-tagged `metrics.json` + `manifest.json`. Idempotent (skips existing cells),

@@ -47,9 +47,13 @@ smart-home-activity-generation/
 ├── data_k3/                    # constellation K3 (shared flat / WG)
 ├── data_day/                   # full-day flagship (00:00-24:00, 10 devices, shift-work family)
 ├── examples/                   # generated TTDAS scripts (Aufgabe 3) + sample input
+├── docs/                       # Übungsdokumentation (Aufgaben 1-3) + Aufgabe-1-Analyse (German)
+├── vorgehensweise.md           # development/process documentation (German)
 ├── src/
+│   ├── cli.py                  # argparse CLI behind main.py
 │   ├── pipeline.py             # 4-stage orchestration + self-repair
 │   ├── client.py               # OpenAI-compatible client (OpenRouter) + prompt caching
+│   ├── context.py              # shared constellation loader + data-dir resolution
 │   ├── validator.py            # structured per-action validation (formal checks)
 │   ├── errors.py               # error taxonomy + weighted scoring (Fehlerbepunktung)
 │   ├── rooms.py                # rooms.md -> device accessibility map
@@ -104,13 +108,14 @@ python -m src.aggregate --subdir matrix
 The error catalog is split into two tiers (see `src/errors.py` for the full
 taxonomy with codes, severities and German labels).
 
-**Formal errors (must not occur — driven to zero by the Stage-3 self-repair loop, `src/validator.py`):**
-invalid JSON / not a list / empty day / item not an object / missing field;
-unknown device, invalid action, value out of range; non-singular or unknown
-resident; invalid / non-monotonic / out-of-window timestamp; non-atomic action;
-persona inaccessibility (a resident operating a device in a room they cannot
-reach, derived from `rooms.md` with a caregiver rule so a child's room stays
-accessible); continuity re-assertion.
+**Formal errors (must not occur — driven to near zero by the Stage-3 self-repair
+loop, `src/validator.py`; one residual formal error remained across the 30 paper
+runs):** invalid JSON / not a list / empty day or run / item not an object /
+missing field; unknown device, invalid action, value out of range; non-singular,
+unknown or wrongly-typed resident; invalid / non-monotonic / out-of-window
+timestamp; non-atomic action; persona inaccessibility (a resident operating a
+device in a room they cannot reach, derived from `rooms.md` with a caregiver
+rule so a child's room stays accessible); continuity re-assertion.
 
 **Content errors (weighted — `hoch`=3, `mittel`=2):**
 state accumulation (`mittel`, weight scales with streak length, only scored on
@@ -118,9 +123,10 @@ full-day windows) and missing variation (`mittel`, consecutive-day Jaccard ≥ 0
 
 **Judge layer (separate, NOT in the verdicts):** environment/context
 inconsistency (`hoch`) and routine drift (`mittel`) via the cross-family
-LLM-as-judge (`src/judge.py`). Uncalibrated single vote per day; `evaluate.py`
-reports it as `judge_layer` alongside — deliberately outside — the error score,
-mirroring the paper's error-catalog table.
+LLM-as-judge (`src/judge.py`). Uncalibrated; the paper runs used one vote per
+day (k-vote majority via `--votes` is supported). `evaluate.py` reports it as
+`judge_layer` alongside — deliberately outside — the error score, mirroring the
+paper's error-catalog table.
 
 `evaluate.py` computes the rule-based metrics, re-validates each day's final
 actions, derives the content errors, and emits a **weighted error score** with a

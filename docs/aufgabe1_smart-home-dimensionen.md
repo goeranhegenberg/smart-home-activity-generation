@@ -16,7 +16,7 @@ entworfen und im Repo implementiert (`data*/`-Ordner):
 | **Beschäftigung** | Homeoffice + Büro + Schule | **Rotierende Schicht** (Pflege) + Büro + Schule | Büro / Pendeln | Homeoffice (beide) |
 | **Zeitraum** | Morgen (06:00–09:00) | **Ganzer Tag (00:00–24:00), 1 Woche** | Morgen | Morgen |
 | **Geräte & Automatisierung** | 5 Geräte, manuell | **10 Geräte** (mehrere Räume), manuell | 5 Geräte, manuell | 5 Geräte, manuell |
-| **Umwelt** | Wohnung, DE, Winter | Haus, DE, November | 2-Zi-Wohnung, DE, Januar | Altbau-WG, DE, Oktober |
+| **Umwelt** | Wohnung, DE, Winter | Haus, DE, November | 2-Zi-Wohnung, DE, Winter | Altbau-WG, DE, Oktober |
 
 K1 (`data_day`) ist die gerätereiche Ganztags-Konstellation mit Schicht-/Wochenend-
 Variation; K2/K3 variieren Soziale Struktur und Beschäftigung gegenüber der Referenz.
